@@ -1,0 +1,23 @@
+{
+  "master_database": "database/leads.json",
+  "duplicate_priority": [
+    "exact source URL",
+    "exact job/post URL",
+    "exact original opportunity URL",
+    "same company + same job title + same source",
+    "same company + same opportunity description + same source",
+    "same contact + same opportunity",
+    "same public professional email + same opportunity",
+    "same duplicate_key"
+  ],
+  "normalization": [
+    "Trim whitespace.",
+    "Compare URLs without insignificant trailing slashes where appropriate.",
+    "Compare company names case-insensitively.",
+    "Compare job titles case-insensitively.",
+    "Treat obvious URL tracking parameters as non-essential when they do not change the underlying page."
+  ],
+  "important_distinction": "The same company can have multiple distinct opportunities. Do not merge separate jobs or projects merely because the company is the same.",
+  "duplicate_action": "Skip the duplicate opportunity. If the existing record has new useful information, update that existing record instead.",
+  "historical_action": "Never delete historical leads merely because they became expired, closed, or irrelevant."
+}

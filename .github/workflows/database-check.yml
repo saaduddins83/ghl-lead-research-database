@@ -1,0 +1,68 @@
+name: Validate Lead Database
+
+on:
+  push:
+    paths:
+      - "database/**"
+      - "config/**"
+      - "research/**"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = [
+              "database/leads.json",
+              "database/companies.json",
+              "config/search-rules.json",
+              "config/duplicate-rules.json",
+              "config/statuses.json",
+              "research/search-history.json",
+              "research/search-sources.json",
+          ]
+
+          for file in files:
+              path = Path(file)
+              with path.open("r", encoding="utf-8") as f:
+                  json.load(f)
+              print(f"VALID JSON: {file}")
+          PY
+
+      - name: Validate CSV synchronization
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          import json
+
+          with open("database/leads.json", "r", encoding="utf-8") as f:
+              leads = json.load(f)
+
+          with open("database/leads.csv", "r", encoding="utf-8", newline="") as f:
+              rows = list(csv.DictReader(f))
+
+          if len(leads) != len(rows):
+              raise SystemExit(
+                  f"CSV/JSON mismatch: leads.json={len(leads)}, leads.csv={len(rows)}"
+              )
+
+          json_ids = {lead["lead_id"] for lead in leads}
+          csv_ids = {row["lead_id"] for row in rows}
+
+          if json_ids != csv_ids:
+              raise SystemExit("CSV/JSON Lead ID mismatch")
+
+          print(f"CSV synchronized: {len(leads)} lead(s)")
+          PY

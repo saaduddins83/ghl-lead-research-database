@@ -1,0 +1,27 @@
+{
+  "lead_statuses": [
+    "HOT",
+    "WARM",
+    "POTENTIAL",
+    "CONTACTED",
+    "REPLIED",
+    "CLOSED",
+    "EXPIRED",
+    "NOT_RELEVANT"
+  ],
+  "company_statuses": [
+    "ACTIVE",
+    "INACTIVE",
+    "UNKNOWN"
+  ],
+  "status_guidance": {
+    "HOT": "Strong current need, clear buying intent, relevant scope, and a realistic path to contact or apply.",
+    "WARM": "Relevant opportunity with meaningful buying intent, but less immediate or less clearly qualified than HOT.",
+    "POTENTIAL": "Potentially useful prospect or problem signal, but buying intent or fit needs further validation.",
+    "CONTACTED": "Outreach or application has been sent by the user outside this database.",
+    "REPLIED": "The lead has replied to the user's outreach or application.",
+    "CLOSED": "The opportunity is no longer active because it was won, filled, completed, or otherwise closed.",
+    "EXPIRED": "The specific opportunity is no longer active or its deadline has passed.",
+    "NOT_RELEVANT": "Research determined that the opportunity does not fit the user's actual skill profile or objective."
+  }
+}

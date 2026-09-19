@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "name": "LinkedIn",
+      "type": "social/professional",
+      "active": true
+    },
+    {
+      "name": "Upwork",
+      "type": "freelance marketplace",
+      "active": true
+    },
+    {
+      "name": "Indeed",
+      "type": "job board",
+      "active": true
+    },
+    {
+      "name": "Glassdoor",
+      "type": "job board",
+      "active": true
+    },
+    {
+      "name": "Wellfound",
+      "type": "startup/jobs",
+      "active": true
+    },
+    {
+      "name": "PeoplePerHour",
+      "type": "freelance marketplace",
+      "active": true
+    },
+    {
+      "name": "Freelancer",
+      "type": "freelance marketplace",
+      "active": true
+    },
+    {
+      "name": "Fiverr",
+      "type": "freelance marketplace",
+      "active": true
+    },
+    {
+      "name": "Reddit",
+      "type": "community",
+      "active": true
+    },
+    {
+      "name": "Facebook",
+      "type": "social/community",
+      "active": true
+    },
+    {
+      "name": "Google",
+      "type": "search engine",
+      "active": true
+    },
+    {
+      "name": "Agency websites",
+      "type": "business website",
+      "active": true
+    },
+    {
+      "name": "Company career pages",
+      "type": "hiring",
+      "active": true
+    },
+    {
+      "name": "Remote job boards",
+      "type": "job board",
+      "active": true
+    },
+    {
+      "name": "CRM/automation communities",
+      "type": "community",
+      "active": true
+    }
+  ]
+}
