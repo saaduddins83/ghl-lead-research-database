@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "research_id": "SEARCH-0001",
+    "date": "2026-09-19",
+    "search_area": "Initial baseline research session — database was completely empty (first-ever run). Covered job boards, freelance marketplaces, recruiting platforms, and community/problem-based signals globally.",
+    "keywords": [
+      "GoHighLevel Specialist",
+      "GHL Automation Specialist",
+      "CRM Automation Specialist",
+      "site:upwork.com/freelance-jobs GoHighLevel",
+      "GoHighLevel hiring agency contractor",
+      "site:linkedin.com/jobs GoHighLevel",
+      "reddit GoHighLevel need help / looking for automation workflow",
+      "GHL agency white label / subcontractor / backend support hiring",
+      "need automation / manual follow up CRM small business reddit",
+      "marketing agency hiring GoHighLevel remote contractor site:indeed.com OR site:ziprecruiter.com",
+      "Mill Creek Marketing GoHighLevel ziprecruiter",
+      "EverestX GoHighLevel Specialist jobs remote apply",
+      "CRM & Marketing Automation Specialist Exquisite Hair Junkies",
+      "Radco Business Systems Specialist remote CRM automation",
+      "GoHighLevel Expert / GHL Implementation Specialist upwork contract to hire"
+    ],
+    "sources": [
+      "Indeed (via Indeed job-search tool)",
+      "Upwork (via web search only — direct fetch blocked)",
+      "LinkedIn (via web search only — direct fetch blocked)",
+      "Glassdoor (via web search only — direct fetch blocked)",
+      "ZipRecruiter (via web search only — direct fetch blocked)",
+      "Google/web search",
+      "Reddit (attempted — no genuine subreddit threads surfaced)",
+      "GHL agency/vendor websites (GHL Prime, E2M Solutions, Fusemate, GHL Engine, Certified GoHighLevel Developers)"
+    ],
+    "results_found": 30,
+    "new_leads": 6,
+    "duplicates_skipped": 0,
+    "updated_leads": 0,
+    "notes": "First research session; database, company list, and search history were all empty prior to this run. Direct WebFetch access to linkedin.com, www.upwork.com, to.indeed.com (Indeed's own redirect domain), www.ziprecruiter.com, and www.glassdoor.com is blocked by this environment's network egress proxy, so verification for those sources relied on web-search-engine indexing/snippets rather than live page fetches — flagged explicitly in every affected lead's notes and should be re-verified by the user directly before applying. The Indeed job-search tool itself worked and returned live results, but ~14 of 15 were irrelevant general marketing/ops/sales roles; only 1 (Exquisite Hair Junkies, GHL-0004) was CRM/automation-relevant. Excluded from the database as stale/likely expired: 6 Upwork fixed-price gigs found via search with posting ages from 7 weeks to 6+ months old (Viber/WhatsApp follow-up $100, cleaning-business setup $100, phone system/round-robin $200, Eventbrite webhook $50, WhatsApp AI bot $400) — Upwork fixed-price gigs typically close within days, so presenting these as current would violate the freshness rule. Also excluded: two Nigeria-restricted LinkedIn listings (Ferah Assist, Funnel Hike) with unclear remote eligibility, an unpaid volunteer GHL funnel-building post (Inclusive Inc.), a BruntWork GoHighLevel Sales Representative role in South Asia (skill mismatch — sales, not automation/specialist work), a Mill Creek Marketing Media Buyer/Paid Ads role (skill mismatch — paid media buying isn't in the user's profile, GHL only mentioned as 'valuable'), and a Radco 'Business Systems Specialist' role that could not be confirmed as CRM/automation-related after a follow-up search. Noted but not added as leads (no hiring evidence, just vendor/competitor presence): GHL Prime, E2M Solutions, Fusemate, GHL Engine, Certified GoHighLevel Developers, Extendly — worth periodic monitoring for subcontractor openings in future sessions. Gaps for next session: Facebook groups, PeoplePerHour, Freelancer.com, Wellfound, Fiverr buyer requests, and non-US/UK markets (Canada, Australia, Middle East, EU) were not yet covered; also worth trying more targeted subreddit search (e.g. r/gohighlevel, r/agency, r/smallbusiness) since general reddit search returned no genuine threads this session."
+  }
+]

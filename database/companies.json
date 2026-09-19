@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "company_id": "CO-0001",
+    "company_name": "BruntWork",
+    "website": "https://www.bruntwork.co",
+    "industry": "BPO / remote staffing",
+    "location": "Global (BPO, APAC-heavy placements)",
+    "company_type": "Staffing/BPO agency",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0001); recurring GHL-related hiring signal worth periodic re-checking."
+  },
+  {
+    "company_id": "CO-0002",
+    "company_name": "Jobgether",
+    "website": "https://jobgether.com",
+    "industry": "Recruiting platform",
+    "location": "Remote/EU-based platform; posting shown on UK LinkedIn",
+    "company_type": "Recruiting/staffing platform",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0002)."
+  },
+  {
+    "company_id": "CO-0003",
+    "company_name": "Huzzle.com",
+    "website": "https://huzzle.com",
+    "industry": "Recruiting/job-matching platform",
+    "location": "Posting shown on South Africa LinkedIn domain",
+    "company_type": "Recruiting platform",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Posted a GoHighLevel Marketing Automation Specialist role for an undisclosed client (see GHL-0003)."
+  },
+  {
+    "company_id": "CO-0004",
+    "company_name": "Exquisite Hair Junkies LLC",
+    "website": "",
+    "industry": "Hair salon / beauty services (hair extensions, lashes)",
+    "location": "Houston, TX, USA",
+    "company_type": "Small local business",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Real Houston-based hair-extension salon (confirmed via Yelp, 3411 Fondren Rd). Posted a CRM & Marketing Automation Specialist role on Indeed with an experience requirement (7–9 yrs) that looks mismatched for the business's size — needs validation (see GHL-0004)."
+  },
+  {
+    "company_id": "CO-0005",
+    "company_name": "EverestX",
+    "website": "https://www.everestx.com",
+    "industry": "Talent placement / staffing platform",
+    "location": "Remote (places into US/CA/UK/AU)",
+    "company_type": "Staffing/placement platform",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0005). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing."
+  }
+]
