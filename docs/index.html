@@ -1,0 +1,399 @@
+<!doctype html>
+<!--
+Design plan
+Color: --ink #12161c (deep navy-black dark ground) / --paper #f6f5f1 (warm neutral light ground, not cream)
+  --accent #1f6f5c (deep teal-emerald - "growth/pipeline" hue, not a purple gradient)
+  --hot #c1443a (terracotta-red, urgency) --warm #c98a2c (amber) --potential #5b6b7a (slate)
+Type: display/numbers "Fraunces" (serif, characterful) · body "IBM Plex Sans" · data/ids/urls "IBM Plex Mono"
+Layout: sticky compact header (title + tabular stat tiles + status filter chips + search) above
+  status-grouped card sections; each card carries company/title in Fraunces, a meta-chip row,
+  pay/freshness line, notes, and a verification badge + apply link footer.
+
+Standalone file (opens directly in a browser or via GitHub Pages) — not wrapped by the Artifact tool.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GHL Lead Pipeline</title>
+<meta name="description" content="Visual dashboard of GHL lead research findings, grouped by status with source links and verification status.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12161c; --ink-soft:#4b5563; --ink-faint:#8b95a3;
+    --paper:#f6f5f1; --surface:#ffffff; --surface-2:#eeece5; --border:#dcd8cd;
+    --accent:#1f6f5c; --accent-soft:#dbeae5; --accent-ink:#12352c;
+    --hot:#b6402f; --hot-soft:#f7e1dc;
+    --warm:#a8681c; --warm-soft:#f5e6cd;
+    --potential:#4d5b6b; --potential-soft:#e4e8ec;
+    --focus:#1f6f5c;
+    color-scheme: light;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#eef1f4; --ink-soft:#b7c0cb; --ink-faint:#7c8794;
+      --paper:#10141a; --surface:#171c24; --surface-2:#1e242e; --border:#2b323d;
+      --accent:#4fb59a; --accent-soft:#173229; --accent-ink:#bdeadd;
+      --hot:#e2897b; --hot-soft:#3a201d;
+      --warm:#e0b56e; --warm-soft:#3a2f18;
+      --potential:#a7b3c1; --potential-soft:#232a33;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#eef1f4; --ink-soft:#b7c0cb; --ink-faint:#7c8794;
+    --paper:#10141a; --surface:#171c24; --surface-2:#1e242e; --border:#2b323d;
+    --accent:#4fb59a; --accent-soft:#173229; --accent-ink:#bdeadd;
+    --hot:#e2897b; --hot-soft:#3a201d;
+    --warm:#e0b56e; --warm-soft:#3a2f18;
+    --potential:#a7b3c1; --potential-soft:#232a33;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{ margin:0; }
+  img{max-width:100%;}
+  [hidden]{ display:none !important; }
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    padding-inline:16px; max-width:1180px; margin-inline:auto;
+  }
+  h1,h2,.num,.company{ font-family:"Fraunces", Georgia, serif; text-wrap:balance; }
+  .mono, .lead-id, .meta-chip, time{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+  header.page{
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:5;
+    background:var(--paper); padding-block:18px 12px; border-bottom:1px solid var(--border);
+    display:flex; flex-direction:column; gap:14px;
+  }
+  .titlebar{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .titlebar h1{ font-size:1.65rem; font-weight:600; margin:0; letter-spacing:-0.01em; }
+  .titlebar .subtitle{ color:var(--ink-soft); font-size:0.85rem; margin-top:2px; }
+  .titlebar .updated{ color:var(--ink-faint); font-size:0.78rem; white-space:nowrap; }
+
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit, minmax(108px,1fr)); gap:10px; }
+  .stat{
+    background:var(--surface); border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; display:flex; flex-direction:column; gap:2px;
+  }
+  .stat .num{ font-size:1.55rem; font-weight:600; line-height:1; }
+  .stat .label{ font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-faint); }
+  .stat.hot .num{ color:var(--hot); } .stat.warm .num{ color:var(--warm); } .stat.potential .num{ color:var(--potential); }
+
+  .toolbar{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
+  .filters{ display:flex; gap:8px; flex-wrap:wrap; }
+  .chip{
+    border:1px solid var(--border); background:var(--surface); color:var(--ink-soft);
+    padding:6px 13px; border-radius:999px; font-size:0.8rem; cursor:pointer; font-weight:500;
+    transition:background .15s, color .15s, border-color .15s;
+  }
+  .chip:hover{ border-color:var(--accent); }
+  .chip:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+  .chip[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:var(--surface); }
+
+  .search-wrap{ position:relative; flex:1 1 220px; max-width:320px; }
+  .search-wrap svg{ position:absolute; left:10px; top:50%; transform:translateY(-50%); opacity:.55; pointer-events:none; }
+  #searchInput{
+    width:100%; padding:8px 12px 8px 32px; border-radius:999px; border:1px solid var(--border);
+    background:var(--surface); color:var(--ink); font-size:0.85rem; font-family:inherit;
+  }
+  #searchInput:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; }
+  #searchInput::placeholder{ color:var(--ink-faint); }
+
+  main{ padding-block:20px 40px; display:flex; flex-direction:column; gap:28px; }
+  section.group h2{
+    font-size:1.05rem; font-weight:600; margin:0 0 12px; display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+  }
+  .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
+  .dot.hot{ background:var(--hot); } .dot.warm{ background:var(--warm); } .dot.potential{ background:var(--potential); }
+  .count-badge{ font-size:0.78rem; color:var(--ink-faint); font-weight:400; }
+
+  .cards{ display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:14px; }
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:16px; display:flex; flex-direction:column; gap:10px;
+  }
+  .card .top{ display:flex; justify-content:space-between; align-items:flex-start; gap:8px; }
+  .card .company{ font-size:1.05rem; font-weight:600; line-height:1.3; }
+  .card .job-title{ font-size:0.88rem; color:var(--ink-soft); line-height:1.35; margin-top:2px; }
+  .status-pill{
+    flex:none; font-size:0.68rem; font-weight:600; letter-spacing:0.04em; text-transform:uppercase;
+    padding:3px 9px; border-radius:999px;
+  }
+  .status-pill.hot{ background:var(--hot-soft); color:var(--hot); }
+  .status-pill.warm{ background:var(--warm-soft); color:var(--warm); }
+  .status-pill.potential{ background:var(--potential-soft); color:var(--potential); }
+
+  .meta-row{ display:flex; flex-wrap:wrap; gap:6px; }
+  .meta-chip{
+    font-size:0.72rem; background:var(--surface-2); color:var(--ink-soft);
+    border-radius:6px; padding:3px 7px;
+  }
+
+  .notes{ font-size:0.83rem; color:var(--ink-soft); line-height:1.5; }
+  .notes strong{ color:var(--ink); }
+
+  .verify{
+    display:flex; align-items:center; gap:6px; font-size:0.74rem; padding:6px 9px; border-radius:8px;
+  }
+  .verify.ok{ background:var(--accent-soft); color:var(--accent-ink); }
+  .verify.pending{ background:var(--surface-2); color:var(--ink-faint); }
+  .verify .mark{ font-weight:700; }
+
+  .card-footer{
+    margin-top:auto; padding-top:10px; border-top:1px solid var(--border);
+    display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+  }
+  .lead-id{ font-size:0.74rem; color:var(--ink-faint); }
+  .apply-link{
+    font-size:0.82rem; font-weight:600; color:var(--accent); text-decoration:none;
+    border:1px solid var(--accent); border-radius:8px; padding:5px 12px;
+    display:inline-flex; align-items:center; gap:5px;
+  }
+  .apply-link:hover{ background:var(--accent); color:var(--surface); }
+  .apply-link:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+
+  #emptyState{ text-align:center; padding-block:30px; }
+
+  footer.legend{
+    border-top:1px solid var(--border); padding-block:16px 28px; color:var(--ink-faint); font-size:0.78rem;
+    line-height:1.6;
+  }
+  footer.legend b{ color:var(--ink-soft); }
+
+  @media (max-width:480px){
+    .titlebar{ flex-direction:column; align-items:flex-start; }
+    .cards{ grid-template-columns:1fr; }
+    .search-wrap{ max-width:none; flex-basis:100%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="page">
+  <div class="titlebar">
+    <div>
+      <h1>GHL Lead Pipeline</h1>
+      <div class="subtitle">GoHighLevel &amp; CRM automation opportunities · ghl-lead-research-database</div>
+    </div>
+    <div class="updated">Research session SEARCH-0001 · <time datetime="2026-09-19">Sep 19, 2026</time></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><span class="num" id="statTotal">6</span><span class="label">Total leads</span></div>
+    <div class="stat hot"><span class="num" id="statHot">1</span><span class="label">Hot</span></div>
+    <div class="stat warm"><span class="num" id="statWarm">0</span><span class="label">Warm</span></div>
+    <div class="stat potential"><span class="num" id="statPotential">5</span><span class="label">Potential</span></div>
+    <div class="stat"><span class="num">6</span><span class="label">Companies</span></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="filters" role="group" aria-label="Filter by status">
+      <button class="chip" data-filter="all" aria-pressed="true">All (6)</button>
+      <button class="chip" data-filter="hot" aria-pressed="false">Hot (1)</button>
+      <button class="chip" data-filter="warm" aria-pressed="false">Warm (0)</button>
+      <button class="chip" data-filter="potential" aria-pressed="false">Potential (5)</button>
+    </div>
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <label for="searchInput" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search leads</label>
+      <input type="search" id="searchInput" placeholder="Search company or role…" autocomplete="off">
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="group" data-status-group="hot">
+    <h2><span class="dot hot"></span>Hot leads <span class="count-badge">clear buying intent, realistic path to apply</span></h2>
+    <div class="cards">
+
+      <article class="card" data-status="hot" data-search="up close inspections gohighlevel ghl automation crm systems specialist">
+        <div class="top">
+          <div>
+            <div class="company">Up Close Inspections</div>
+            <div class="job-title">GoHighLevel (GHL) Automation &amp; CRM Systems Specialist</div>
+          </div>
+          <span class="status-pill hot">Hot</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">Indeed</span>
+          <span class="meta-chip">Contract</span>
+          <span class="meta-chip">Remote · US/CA</span>
+          <span class="meta-chip">$500–1,500/mo</span>
+          <span class="meta-chip">Posted Sep 16, 2026</span>
+        </div>
+        <p class="notes">Maintain an existing GHL CRM setup (pipelines, workflows, calendars, forms) for a property-inspection business, plus <strong>n8n</strong> automations including a Spectora-to-GHL integration. Hands-on n8n experience required — adjacent to, not identical to, the Zapier/webhook skill set, so worth a quick self-check before applying.</p>
+        <div class="verify ok"><span class="mark">✓</span> Verified via Indeed job-details API — full description &amp; screening questions confirmed</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0001</span>
+          <a class="apply-link" href="https://to.indeed.com/aa7m88v7xh8d" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="group" data-status-group="potential">
+    <h2><span class="dot potential"></span>Potential leads <span class="count-badge">strong title match, currency &amp; details unverified</span></h2>
+    <div class="cards">
+
+      <article class="card" data-status="potential" data-search="hireboost gohighlevel automation integration specialist">
+        <div class="top">
+          <div>
+            <div class="company">HireBoost</div>
+            <div class="job-title">GoHighLevel Automation &amp; Integration Specialist</div>
+          </div>
+          <span class="status-pill potential">Potential</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">LinkedIn</span>
+          <span class="meta-chip">Location unknown</span>
+        </div>
+        <p class="notes">Direct title match for GHL automation/integration work. Only a search-result snippet was available — posting date and full requirements unconfirmed.</p>
+        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0002</span>
+          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-automation-integration-specialist-at-hireboost-4394483938" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+      <article class="card" data-status="potential" data-search="unknown hvac saas agency upwork gohighlevel fulfillment va onboarding builds">
+        <div class="top">
+          <div>
+            <div class="company">Unknown HVAC SaaS agency (Upwork client)</div>
+            <div class="job-title">GoHighLevel Fulfillment VA — Onboarding Builds</div>
+          </div>
+          <span class="status-pill potential">Potential</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">Upwork</span>
+          <span class="meta-chip">Freelance/Contract</span>
+          <span class="meta-chip">Agency fulfillment</span>
+        </div>
+        <p class="notes">A SaaS agency serving HVAC contractors needs GHL onboarding builds — a strong fit for agency-fulfillment work. Client identity, budget and currency not disclosed in the indexed snippet.</p>
+        <div class="verify pending"><span class="mark">△</span> Needs manual check — upwork.com blocked to automated fetch</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0003</span>
+          <a class="apply-link" href="https://upwork.com/freelance-jobs/apply/GoHighLevel-Fulfillment-HVAC-SaaS-Agency-Onboarding-Builds_~022069818388369876458" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+      <article class="card" data-status="potential" data-search="transportvibes gohighlevel expert full crm funnel automation setup">
+        <div class="top">
+          <div>
+            <div class="company">TransportVibes</div>
+            <div class="job-title">GoHighLevel Expert — Full CRM, Funnel &amp; Automation Setup</div>
+          </div>
+          <span class="status-pill potential">Potential</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">LinkedIn</span>
+          <span class="meta-chip">Transportation industry</span>
+        </div>
+        <p class="notes">Full-build scope (CRM + funnel + automation) directly matches the skill profile. Posting date and current status unconfirmed beyond the search snippet.</p>
+        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0004</span>
+          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-expert-for-full-crm-funnel-automation-setup-at-transportvibes-4347959770" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+      <article class="card" data-status="potential" data-search="paired gohighlevel expert usa clients remote">
+        <div class="top">
+          <div>
+            <div class="company">Paired</div>
+            <div class="job-title">GoHighLevel Expert for USA Clients (Remote)</div>
+          </div>
+          <span class="status-pill potential">Potential</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">LinkedIn</span>
+          <span class="meta-chip">Staffing platform</span>
+          <span class="meta-chip">Remote · USA clients</span>
+        </div>
+        <p class="notes">Paired is a remote-staffing platform placing contractors with US-based clients — a possible recurring source of GHL placements, not a single one-off posting.</p>
+        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0005</span>
+          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-expert-for-usa-clients-remote-at-paired-4397065343" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+      <article class="card" data-status="potential" data-search="huzzle gohighlevel ghl marketing automation specialist">
+        <div class="top">
+          <div>
+            <div class="company">Huzzle</div>
+            <div class="job-title">GoHighLevel (GHL) Marketing Automation Specialist</div>
+          </div>
+          <span class="status-pill potential">Potential</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-chip">LinkedIn</span>
+          <span class="meta-chip">Recruiting platform</span>
+          <span class="meta-chip">~1 month old</span>
+        </div>
+        <p class="notes">Search snippet placed this posting roughly a month before the research date (~mid-August 2026) — aging but not yet stale. Full details unconfirmed.</p>
+        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
+        <div class="card-footer">
+          <span class="lead-id">GHL-0006</span>
+          <a class="apply-link" href="https://za.linkedin.com/jobs/view/gohighlevel-ghl-marketing-automation-specialist-at-huzzle-com-4457520780" target="_blank" rel="noopener">View listing ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <p id="emptyState" class="notes" hidden>No leads match this filter/search.</p>
+</main>
+
+<footer class="legend">
+  <div><b>Source:</b> database/leads.json in ghl-lead-research-database (branch claude/nice-wozniak-wxttmh), research session SEARCH-0001, Sep 19 2026.</div>
+  <div><b>Verification:</b> Indeed-sourced leads are pulled through Indeed's job-details API and fully verified. LinkedIn and Upwork leads are logged from search-engine-indexed snippets only, since those domains are blocked to automated fetch in this research environment — treat them as leads worth checking directly, not confirmed-current postings.</div>
+</footer>
+
+<script>
+(function(){
+  try{
+    var chips = document.querySelectorAll('.chip');
+    var groups = document.querySelectorAll('.group');
+    var empty = document.getElementById('emptyState');
+    var searchInput = document.getElementById('searchInput');
+    var currentFilter = 'all';
+
+    function applyFilters(){
+      var q = (searchInput.value || '').trim().toLowerCase();
+      var anyVisible = false;
+      groups.forEach(function(g){
+        var groupHasVisible = false;
+        g.querySelectorAll('.card').forEach(function(c){
+          var statusMatch = currentFilter === 'all' || c.getAttribute('data-status') === currentFilter;
+          var textMatch = !q || (c.getAttribute('data-search') || '').indexOf(q) !== -1;
+          var match = statusMatch && textMatch;
+          c.hidden = !match;
+          if(match){ groupHasVisible = true; anyVisible = true; }
+        });
+        g.hidden = !groupHasVisible;
+      });
+      empty.hidden = anyVisible;
+    }
+
+    chips.forEach(function(chip){
+      chip.addEventListener('click', function(){
+        chips.forEach(function(c){ c.setAttribute('aria-pressed','false'); });
+        chip.setAttribute('aria-pressed','true');
+        currentFilter = chip.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    searchInput.addEventListener('input', applyFilters);
+  }catch(e){ /* filtering is a convenience; page still reads fine without it */ }
+})();
+</script>
+
+</body>
+</html>
