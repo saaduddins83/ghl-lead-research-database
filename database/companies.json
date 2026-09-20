@@ -106,5 +106,41 @@
     "last_checked": "2026-09-19",
     "status": "ACTIVE",
     "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing."
+  },
+  {
+    "company_id": "COMP-0010",
+    "company_name": "Unknown (UK learner-recruitment company, PeoplePerHour client)",
+    "website": "Unknown",
+    "industry": "Learner/course recruitment (education or training)",
+    "location": "England, UK",
+    "company_type": "Direct client",
+    "first_found": "2026-09-20",
+    "last_checked": "2026-09-20",
+    "status": "UNKNOWN",
+    "notes": "Client identity not disclosed in the PeoplePerHour listing (GHL-0011). Needs verification directly on PeoplePerHour."
+  },
+  {
+    "company_id": "COMP-0011",
+    "company_name": "Unknown (security-industry company, PeoplePerHour client)",
+    "website": "Unknown",
+    "industry": "Security services",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-09-20",
+    "last_checked": "2026-09-20",
+    "status": "UNKNOWN",
+    "notes": "Client identity not disclosed in the PeoplePerHour listing (GHL-0012). Needs verification directly on PeoplePerHour."
+  },
+  {
+    "company_id": "COMP-0012",
+    "company_name": "Unknown (Freelancer.com client)",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-09-20",
+    "last_checked": "2026-09-20",
+    "status": "UNKNOWN",
+    "notes": "Client identity not disclosed in the Freelancer.com listing (GHL-0013). Needs verification directly on Freelancer.com."
   }
 ]
