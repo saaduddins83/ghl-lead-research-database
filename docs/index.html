@@ -210,7 +210,10 @@ new research run (new docs/data/leads.json etc.) shows up automatically on next 
       <h1>GHL Lead Pipeline</h1>
       <div class="subtitle">GoHighLevel &amp; CRM automation opportunities · ghl-lead-research-database</div>
     </div>
-    <div class="updated" id="lastUpdated">Loading…</div>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <div class="updated" id="lastUpdated">Loading…</div>
+      <button class="chip" id="triggerBtn" type="button" title="Opens a GitHub issue that fires a new Claude Code research session on this repo">↻ Run research now</button>
+    </div>
   </div>
 
   <div class="stats" id="statsRow">
@@ -471,6 +474,57 @@ new research run (new docs/data/leads.json etc.) shows up automatically on next 
       render();
     });
   }).catch(showError);
+})();
+</script>
+
+<script>
+(function(){
+  var btn = document.getElementById("triggerBtn");
+  if (!btn) return;
+
+  btn.addEventListener("click", function(){
+    var secret = window.localStorage ? localStorage.getItem("ghlTriggerSecret") : null;
+    if (!secret) {
+      secret = window.prompt("Enter the trigger passphrase (set as TRIGGER_SECRET in Vercel):");
+      if (!secret) return;
+      try { localStorage.setItem("ghlTriggerSecret", secret); } catch (e) {}
+    }
+
+    var originalText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Requesting…";
+
+    fetch("/api/trigger-research", {
+      method: "POST",
+      headers: { "X-Trigger-Secret": secret }
+    }).then(function(r){
+      return r.json().then(function(data){ return { ok: r.ok, status: r.status, data: data }; });
+    }).then(function(result){
+      if (result.ok) {
+        btn.textContent = "Requested ✓";
+        window.alert(
+          "Research requested — opened GitHub issue #" + result.data.issue_number + ".\n\n" +
+          "A new research session will start once the repo's Claude Code trigger picks it up, " +
+          "then commit new/updated leads. Refresh this page in a few minutes to see them.\n\n" +
+          result.data.issue_url
+        );
+        window.setTimeout(function(){ btn.disabled = false; btn.textContent = originalText; }, 4000);
+      } else {
+        btn.disabled = false;
+        btn.textContent = originalText;
+        if (result.status === 401) {
+          try { localStorage.removeItem("ghlTriggerSecret"); } catch (e) {}
+          window.alert("Wrong passphrase — try again.");
+        } else {
+          window.alert("Request failed (" + result.status + "): " + (result.data && result.data.error || "unknown error"));
+        }
+      }
+    }).catch(function(err){
+      btn.disabled = false;
+      btn.textContent = originalText;
+      window.alert("Request failed: " + err.message);
+    });
+  });
 })();
 </script>
 
