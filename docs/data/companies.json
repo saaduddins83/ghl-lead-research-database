@@ -70,5 +70,41 @@
     "last_checked": "2026-09-19",
     "status": "UNKNOWN",
     "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet."
+  },
+  {
+    "company_id": "COMP-0007",
+    "company_name": "BruntWork",
+    "website": "https://www.bruntwork.co",
+    "industry": "BPO / remote staffing",
+    "location": "Global (BPO, APAC-heavy placements)",
+    "company_type": "Staffing/BPO agency",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0007); recurring GHL-related hiring signal worth periodic re-checking."
+  },
+  {
+    "company_id": "COMP-0008",
+    "company_name": "Jobgether",
+    "website": "https://jobgether.com",
+    "industry": "Recruiting platform",
+    "location": "Remote/EU-based platform; posting shown on UK LinkedIn",
+    "company_type": "Recruiting/staffing platform",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0008)."
+  },
+  {
+    "company_id": "COMP-0009",
+    "company_name": "EverestX",
+    "website": "https://www.everestx.com",
+    "industry": "Talent placement / staffing platform",
+    "location": "Remote (places into US/CA/UK/AU)",
+    "company_type": "Staffing/placement platform",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing."
   }
 ]
