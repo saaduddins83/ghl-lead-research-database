@@ -1,0 +1,30 @@
+[
+  {
+    "research_id": "SEARCH-0001",
+    "date": "2026-09-19",
+    "search_area": "Initial baseline research session - database was completely empty. Searched GHL/CRM automation jobs, freelance work, and agency fulfillment opportunities across Indeed, LinkedIn, Upwork, Reddit, and general web search.",
+    "keywords": [
+      "GoHighLevel specialist",
+      "GHL automation",
+      "CRM automation specialist",
+      "GoHighLevel workflow builder",
+      "GoHighLevel hiring remote",
+      "GoHighLevel subcontractor / white label / agency fulfillment",
+      "CRM automation agency contractor",
+      "GHL contractor / freelance remote",
+      "lead follow up manual automation agency"
+    ],
+    "sources": [
+      "Indeed (via Indeed job-search API, queried US/CA/GB/AU)",
+      "LinkedIn (via general web search - direct fetch blocked in this environment)",
+      "Upwork (via general web search - direct fetch blocked in this environment)",
+      "Reddit (via general web search - no usable results returned)",
+      "General Google web search"
+    ],
+    "results_found": 20,
+    "new_leads": 6,
+    "duplicates_skipped": 0,
+    "updated_leads": 0,
+    "notes": "First-ever research session; database, companies, and search history were all empty before this run. Environment limitation: direct WebFetch to indeed.com, linkedin.com, and upwork.com is blocked by this environment's network egress proxy - only the dedicated Indeed job-search API tool returns fully verifiable structured data (used for GHL-0001). LinkedIn and Upwork leads (GHL-0002 through GHL-0006) are based on search-engine-indexed snippets only (title, company, URL) and are logged as POTENTIAL pending manual verification. Candidates researched and explicitly excluded: Exquisite Hair Junkies 'CRM & Marketing Automation Specialist' (Indeed) - requires Salesforce/SQL/JavaScript, no GoHighLevel mention, does not match the user's skill profile; Business Builders Co. 'GoHighLevel Specialist' (LinkedIn, posted ~May 2025) - too stale, likely expired; Lago 'GoHighLevel GHL Specialist' (LinkedIn, posted ~Oct 2025) - too stale, likely expired; U.S. Weed Channel 'GHL Contractor - Execution-Based' (LinkedIn, posted ~Feb 2026, ~7 months old) - likely stale, excluded pending fresher evidence. GitHub write access was unavailable during the original run attempt (GitHub App lacked Contents: Read/write permission); user reinstalled the app and access was restored before this write."
+  }
+]

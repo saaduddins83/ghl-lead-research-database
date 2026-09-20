@@ -1,0 +1,74 @@
+[
+  {
+    "company_id": "COMP-0001",
+    "company_name": "Up Close Inspections",
+    "website": "Unknown - multiple businesses share this name; not confirmed",
+    "industry": "Home / property inspection services",
+    "location": "Unknown (hires US/Canada remote contractors)",
+    "company_type": "Direct client (small business)",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "ACTIVE",
+    "notes": "Posted a contract GHL + n8n automation role (GHL-0001), $500-1,500/month, Sep 16 2026."
+  },
+  {
+    "company_id": "COMP-0002",
+    "company_name": "HireBoost",
+    "website": "Unknown",
+    "industry": "Unknown - likely staffing/recruiting or agency",
+    "location": "Unknown",
+    "company_type": "Unknown",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet."
+  },
+  {
+    "company_id": "COMP-0003",
+    "company_name": "Unknown HVAC SaaS Agency (Upwork client)",
+    "website": "Unknown",
+    "industry": "SaaS / agency serving HVAC contractors",
+    "location": "Unknown",
+    "company_type": "Agency (fulfillment client)",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "UNKNOWN",
+    "notes": "Client identity not disclosed in the Upwork listing title (GHL-0003). Needs verification directly on Upwork."
+  },
+  {
+    "company_id": "COMP-0004",
+    "company_name": "TransportVibes",
+    "website": "Unknown",
+    "industry": "Transportation (assumed from company name)",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet."
+  },
+  {
+    "company_id": "COMP-0005",
+    "company_name": "Paired",
+    "website": "Unknown",
+    "industry": "Remote staffing / talent platform",
+    "location": "Unknown",
+    "company_type": "Staffing agency",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0005 (GoHighLevel Expert for USA Clients, Remote) on LinkedIn. Potential recurring source of GHL placements - not independently verified beyond search snippet."
+  },
+  {
+    "company_id": "COMP-0006",
+    "company_name": "Huzzle",
+    "website": "Unknown",
+    "industry": "Recruiting / staffing",
+    "location": "Unknown",
+    "company_type": "Staffing agency",
+    "first_found": "2026-09-19",
+    "last_checked": "2026-09-19",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet."
+  }
+]
