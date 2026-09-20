@@ -1,22 +1,24 @@
 <!doctype html>
 <!--
-Design plan
+Design plan (unchanged from v1, now data-driven instead of hand-authored cards)
 Color: --ink #12161c (deep navy-black dark ground) / --paper #f6f5f1 (warm neutral light ground, not cream)
   --accent #1f6f5c (deep teal-emerald - "growth/pipeline" hue, not a purple gradient)
   --hot #c1443a (terracotta-red, urgency) --warm #c98a2c (amber) --potential #5b6b7a (slate)
 Type: display/numbers "Fraunces" (serif, characterful) · body "IBM Plex Sans" · data/ids/urls "IBM Plex Mono"
-Layout: sticky compact header (title + tabular stat tiles + status filter chips + search) above
-  status-grouped card sections; each card carries company/title in Fraunces, a meta-chip row,
-  pay/freshness line, notes, and a verification badge + apply link footer.
+Layout: sticky compact header (title + tabular stat tiles + status filter chips + run selector + search)
+  above status-grouped card sections, built at load time from docs/data/*.json (mirrors of
+  database/leads.json, database/companies.json and research/search-history.json). A collapsible
+  research-history panel lists every past run so new runs are visible without editing this file.
 
-Standalone file (opens directly in a browser or via GitHub Pages) — not wrapped by the Artifact tool.
+This file is static markup/CSS/JS; all lead content is fetched at runtime from ./data/*.json so each
+new research run (new docs/data/leads.json etc.) shows up automatically on next page load/refresh.
 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GHL Lead Pipeline</title>
-<meta name="description" content="Visual dashboard of GHL lead research findings, grouped by status with source links and verification status.">
+<meta name="description" content="Live dashboard of GHL lead research findings, built from the repo's JSON database, filterable by status and research run.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -28,6 +30,8 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
     --hot:#b6402f; --hot-soft:#f7e1dc;
     --warm:#a8681c; --warm-soft:#f5e6cd;
     --potential:#4d5b6b; --potential-soft:#e4e8ec;
+    --neutral:#6b6455; --neutral-soft:#eae6da;
+    --danger:#b6402f;
     --focus:#1f6f5c;
     color-scheme: light;
     padding-top: env(safe-area-inset-top, 0px);
@@ -41,6 +45,8 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
       --hot:#e2897b; --hot-soft:#3a201d;
       --warm:#e0b56e; --warm-soft:#3a2f18;
       --potential:#a7b3c1; --potential-soft:#232a33;
+      --neutral:#b9b1a0; --neutral-soft:#26241d;
+      --danger:#e2897b;
     }
   }
   :root[data-theme="dark"]{
@@ -50,6 +56,8 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
     --hot:#e2897b; --hot-soft:#3a201d;
     --warm:#e0b56e; --warm-soft:#3a2f18;
     --potential:#a7b3c1; --potential-soft:#232a33;
+    --neutral:#b9b1a0; --neutral-soft:#26241d;
+    --danger:#e2897b;
   }
 
   *{box-sizing:border-box;}
@@ -61,7 +69,7 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
     font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
     padding-inline:16px; max-width:1180px; margin-inline:auto;
   }
-  h1,h2,.num,.company{ font-family:"Fraunces", Georgia, serif; text-wrap:balance; }
+  h1,h2,h3,.num,.company{ font-family:"Fraunces", Georgia, serif; text-wrap:balance; }
   .mono, .lead-id, .meta-chip, time{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
 
   header.page{
@@ -84,7 +92,7 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
   .stat.hot .num{ color:var(--hot); } .stat.warm .num{ color:var(--warm); } .stat.potential .num{ color:var(--potential); }
 
   .toolbar{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
-  .filters{ display:flex; gap:8px; flex-wrap:wrap; }
+  .filters{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
   .chip{
     border:1px solid var(--border); background:var(--surface); color:var(--ink-soft);
     padding:6px 13px; border-radius:999px; font-size:0.8rem; cursor:pointer; font-weight:500;
@@ -94,21 +102,23 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
   .chip:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
   .chip[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:var(--surface); }
 
-  .search-wrap{ position:relative; flex:1 1 220px; max-width:320px; }
-  .search-wrap svg{ position:absolute; left:10px; top:50%; transform:translateY(-50%); opacity:.55; pointer-events:none; }
-  #searchInput{
-    width:100%; padding:8px 12px 8px 32px; border-radius:999px; border:1px solid var(--border);
-    background:var(--surface); color:var(--ink); font-size:0.85rem; font-family:inherit;
+  select, #searchInput{
+    border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--ink);
+    font-size:0.82rem; font-family:inherit; padding:7px 12px;
   }
-  #searchInput:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; }
+  select:focus-visible, #searchInput:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; }
+
+  .search-wrap{ position:relative; flex:1 1 220px; max-width:280px; }
+  .search-wrap svg{ position:absolute; left:10px; top:50%; transform:translateY(-50%); opacity:.55; pointer-events:none; }
+  #searchInput{ width:100%; padding-left:32px; }
   #searchInput::placeholder{ color:var(--ink-faint); }
 
-  main{ padding-block:20px 40px; display:flex; flex-direction:column; gap:28px; }
+  main{ padding-block:20px 16px; display:flex; flex-direction:column; gap:28px; }
   section.group h2{
     font-size:1.05rem; font-weight:600; margin:0 0 12px; display:flex; align-items:center; gap:9px; flex-wrap:wrap;
   }
   .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
-  .dot.hot{ background:var(--hot); } .dot.warm{ background:var(--warm); } .dot.potential{ background:var(--potential); }
+  .dot.hot{ background:var(--hot); } .dot.warm{ background:var(--warm); } .dot.potential{ background:var(--potential); } .dot.neutral{ background:var(--neutral); }
   .count-badge{ font-size:0.78rem; color:var(--ink-faint); font-weight:400; }
 
   .cards{ display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:14px; }
@@ -126,6 +136,7 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
   .status-pill.hot{ background:var(--hot-soft); color:var(--hot); }
   .status-pill.warm{ background:var(--warm-soft); color:var(--warm); }
   .status-pill.potential{ background:var(--potential-soft); color:var(--potential); }
+  .status-pill.neutral{ background:var(--neutral-soft); color:var(--neutral); }
 
   .meta-row{ display:flex; flex-wrap:wrap; gap:6px; }
   .meta-chip{
@@ -156,7 +167,27 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
   .apply-link:hover{ background:var(--accent); color:var(--surface); }
   .apply-link:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
 
-  #emptyState{ text-align:center; padding-block:30px; }
+  #emptyState, #loadingState{ text-align:center; padding-block:40px; color:var(--ink-faint); }
+  #errorState{
+    background:var(--hot-soft); color:var(--hot); border-radius:10px; padding:14px 16px;
+    font-size:0.85rem; line-height:1.6;
+  }
+  #errorState code{ background:var(--surface-2); padding:1px 5px; border-radius:4px; }
+
+  details.history{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:14px 16px;
+  }
+  details.history summary{ cursor:pointer; font-weight:600; font-size:0.95rem; list-style:none; display:flex; align-items:center; gap:8px; }
+  details.history summary::-webkit-details-marker{ display:none; }
+  details.history summary .chev{ transition:transform .15s; font-size:0.75rem; color:var(--ink-faint); }
+  details.history[open] summary .chev{ transform:rotate(90deg); }
+  .history-list{ display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+  .history-item{ border-top:1px solid var(--border); padding-top:10px; font-size:0.82rem; color:var(--ink-soft); line-height:1.55; }
+  .history-item:first-child{ border-top:none; padding-top:0; }
+  .history-item .hh{ display:flex; flex-wrap:wrap; gap:8px; align-items:baseline; margin-bottom:4px; }
+  .history-item .run-id{ color:var(--ink); font-weight:600; font-size:0.85rem; }
+  .history-item .run-date{ color:var(--ink-faint); }
+  .history-item .run-counts{ display:flex; gap:6px; flex-wrap:wrap; }
 
   footer.legend{
     border-top:1px solid var(--border); padding-block:16px 28px; color:var(--ink-faint); font-size:0.78rem;
@@ -179,219 +210,267 @@ Standalone file (opens directly in a browser or via GitHub Pages) — not wrappe
       <h1>GHL Lead Pipeline</h1>
       <div class="subtitle">GoHighLevel &amp; CRM automation opportunities · ghl-lead-research-database</div>
     </div>
-    <div class="updated">Research session SEARCH-0001 · <time datetime="2026-09-19">Sep 19, 2026</time></div>
+    <div class="updated" id="lastUpdated">Loading…</div>
   </div>
 
-  <div class="stats">
-    <div class="stat"><span class="num" id="statTotal">6</span><span class="label">Total leads</span></div>
-    <div class="stat hot"><span class="num" id="statHot">1</span><span class="label">Hot</span></div>
-    <div class="stat warm"><span class="num" id="statWarm">0</span><span class="label">Warm</span></div>
-    <div class="stat potential"><span class="num" id="statPotential">5</span><span class="label">Potential</span></div>
-    <div class="stat"><span class="num">6</span><span class="label">Companies</span></div>
+  <div class="stats" id="statsRow">
+    <div class="stat"><span class="num" id="statTotal">–</span><span class="label">Total leads</span></div>
+    <div class="stat hot"><span class="num" id="statHot">–</span><span class="label">Hot</span></div>
+    <div class="stat warm"><span class="num" id="statWarm">–</span><span class="label">Warm</span></div>
+    <div class="stat potential"><span class="num" id="statPotential">–</span><span class="label">Potential</span></div>
+    <div class="stat"><span class="num" id="statCompanies">–</span><span class="label">Companies</span></div>
   </div>
 
   <div class="toolbar">
-    <div class="filters" role="group" aria-label="Filter by status">
-      <button class="chip" data-filter="all" aria-pressed="true">All (6)</button>
-      <button class="chip" data-filter="hot" aria-pressed="false">Hot (1)</button>
-      <button class="chip" data-filter="warm" aria-pressed="false">Warm (0)</button>
-      <button class="chip" data-filter="potential" aria-pressed="false">Potential (5)</button>
+    <div class="filters" role="group" aria-label="Filter by status" id="statusFilters">
+      <button class="chip" data-filter="all" aria-pressed="true">All</button>
     </div>
-    <div class="search-wrap">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <label for="searchInput" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search leads</label>
-      <input type="search" id="searchInput" placeholder="Search company or role…" autocomplete="off">
+    <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+      <select id="runSelect" aria-label="Filter by research run / date found">
+        <option value="all">All runs</option>
+      </select>
+      <div class="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <label for="searchInput" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search leads</label>
+        <input type="search" id="searchInput" placeholder="Search company or role…" autocomplete="off">
+      </div>
     </div>
   </div>
 </header>
 
 <main id="main">
-
-  <section class="group" data-status-group="hot">
-    <h2><span class="dot hot"></span>Hot leads <span class="count-badge">clear buying intent, realistic path to apply</span></h2>
-    <div class="cards">
-
-      <article class="card" data-status="hot" data-search="up close inspections gohighlevel ghl automation crm systems specialist">
-        <div class="top">
-          <div>
-            <div class="company">Up Close Inspections</div>
-            <div class="job-title">GoHighLevel (GHL) Automation &amp; CRM Systems Specialist</div>
-          </div>
-          <span class="status-pill hot">Hot</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">Indeed</span>
-          <span class="meta-chip">Contract</span>
-          <span class="meta-chip">Remote · US/CA</span>
-          <span class="meta-chip">$500–1,500/mo</span>
-          <span class="meta-chip">Posted Sep 16, 2026</span>
-        </div>
-        <p class="notes">Maintain an existing GHL CRM setup (pipelines, workflows, calendars, forms) for a property-inspection business, plus <strong>n8n</strong> automations including a Spectora-to-GHL integration. Hands-on n8n experience required — adjacent to, not identical to, the Zapier/webhook skill set, so worth a quick self-check before applying.</p>
-        <div class="verify ok"><span class="mark">✓</span> Verified via Indeed job-details API — full description &amp; screening questions confirmed</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0001</span>
-          <a class="apply-link" href="https://to.indeed.com/aa7m88v7xh8d" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section class="group" data-status-group="potential">
-    <h2><span class="dot potential"></span>Potential leads <span class="count-badge">strong title match, currency &amp; details unverified</span></h2>
-    <div class="cards">
-
-      <article class="card" data-status="potential" data-search="hireboost gohighlevel automation integration specialist">
-        <div class="top">
-          <div>
-            <div class="company">HireBoost</div>
-            <div class="job-title">GoHighLevel Automation &amp; Integration Specialist</div>
-          </div>
-          <span class="status-pill potential">Potential</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">LinkedIn</span>
-          <span class="meta-chip">Location unknown</span>
-        </div>
-        <p class="notes">Direct title match for GHL automation/integration work. Only a search-result snippet was available — posting date and full requirements unconfirmed.</p>
-        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0002</span>
-          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-automation-integration-specialist-at-hireboost-4394483938" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-      <article class="card" data-status="potential" data-search="unknown hvac saas agency upwork gohighlevel fulfillment va onboarding builds">
-        <div class="top">
-          <div>
-            <div class="company">Unknown HVAC SaaS agency (Upwork client)</div>
-            <div class="job-title">GoHighLevel Fulfillment VA — Onboarding Builds</div>
-          </div>
-          <span class="status-pill potential">Potential</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">Upwork</span>
-          <span class="meta-chip">Freelance/Contract</span>
-          <span class="meta-chip">Agency fulfillment</span>
-        </div>
-        <p class="notes">A SaaS agency serving HVAC contractors needs GHL onboarding builds — a strong fit for agency-fulfillment work. Client identity, budget and currency not disclosed in the indexed snippet.</p>
-        <div class="verify pending"><span class="mark">△</span> Needs manual check — upwork.com blocked to automated fetch</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0003</span>
-          <a class="apply-link" href="https://upwork.com/freelance-jobs/apply/GoHighLevel-Fulfillment-HVAC-SaaS-Agency-Onboarding-Builds_~022069818388369876458" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-      <article class="card" data-status="potential" data-search="transportvibes gohighlevel expert full crm funnel automation setup">
-        <div class="top">
-          <div>
-            <div class="company">TransportVibes</div>
-            <div class="job-title">GoHighLevel Expert — Full CRM, Funnel &amp; Automation Setup</div>
-          </div>
-          <span class="status-pill potential">Potential</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">LinkedIn</span>
-          <span class="meta-chip">Transportation industry</span>
-        </div>
-        <p class="notes">Full-build scope (CRM + funnel + automation) directly matches the skill profile. Posting date and current status unconfirmed beyond the search snippet.</p>
-        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0004</span>
-          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-expert-for-full-crm-funnel-automation-setup-at-transportvibes-4347959770" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-      <article class="card" data-status="potential" data-search="paired gohighlevel expert usa clients remote">
-        <div class="top">
-          <div>
-            <div class="company">Paired</div>
-            <div class="job-title">GoHighLevel Expert for USA Clients (Remote)</div>
-          </div>
-          <span class="status-pill potential">Potential</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">LinkedIn</span>
-          <span class="meta-chip">Staffing platform</span>
-          <span class="meta-chip">Remote · USA clients</span>
-        </div>
-        <p class="notes">Paired is a remote-staffing platform placing contractors with US-based clients — a possible recurring source of GHL placements, not a single one-off posting.</p>
-        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0005</span>
-          <a class="apply-link" href="https://www.linkedin.com/jobs/view/gohighlevel-expert-for-usa-clients-remote-at-paired-4397065343" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-      <article class="card" data-status="potential" data-search="huzzle gohighlevel ghl marketing automation specialist">
-        <div class="top">
-          <div>
-            <div class="company">Huzzle</div>
-            <div class="job-title">GoHighLevel (GHL) Marketing Automation Specialist</div>
-          </div>
-          <span class="status-pill potential">Potential</span>
-        </div>
-        <div class="meta-row">
-          <span class="meta-chip">LinkedIn</span>
-          <span class="meta-chip">Recruiting platform</span>
-          <span class="meta-chip">~1 month old</span>
-        </div>
-        <p class="notes">Search snippet placed this posting roughly a month before the research date (~mid-August 2026) — aging but not yet stale. Full details unconfirmed.</p>
-        <div class="verify pending"><span class="mark">△</span> Needs manual check — linkedin.com blocked to automated fetch</div>
-        <div class="card-footer">
-          <span class="lead-id">GHL-0006</span>
-          <a class="apply-link" href="https://za.linkedin.com/jobs/view/gohighlevel-ghl-marketing-automation-specialist-at-huzzle-com-4457520780" target="_blank" rel="noopener">View listing ↗</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
+  <p id="loadingState">Loading leads from data/leads.json…</p>
+  <div id="errorState" hidden></div>
+  <div id="groupsRoot"></div>
   <p id="emptyState" class="notes" hidden>No leads match this filter/search.</p>
+
+  <details class="history" id="historyPanel" hidden>
+    <summary><span class="chev">▶</span> Research run history <span class="count-badge" id="historyCount"></span></summary>
+    <div class="history-list" id="historyList"></div>
+  </details>
 </main>
 
 <footer class="legend">
-  <div><b>Source:</b> database/leads.json in ghl-lead-research-database (branch claude/nice-wozniak-wxttmh), research session SEARCH-0001, Sep 19 2026.</div>
-  <div><b>Verification:</b> Indeed-sourced leads are pulled through Indeed's job-details API and fully verified. LinkedIn and Upwork leads are logged from search-engine-indexed snippets only, since those domains are blocked to automated fetch in this research environment — treat them as leads worth checking directly, not confirmed-current postings.</div>
+  <div><b>Source:</b> live-fetched from <code class="mono">data/leads.json</code>, <code class="mono">data/companies.json</code> and <code class="mono">data/search-history.json</code> in this repo (mirrored from <code class="mono">database/</code> and <code class="mono">research/</code> on every push) — refresh this page any time to see the latest research run.</div>
+  <div><b>Verification:</b> Indeed-sourced leads are pulled through Indeed's job-details API and fully verified. Leads from other sources are logged from search-engine-indexed snippets and need manual verification before outreach.</div>
 </footer>
 
 <script>
 (function(){
-  try{
-    var chips = document.querySelectorAll('.chip');
-    var groups = document.querySelectorAll('.group');
-    var empty = document.getElementById('emptyState');
-    var searchInput = document.getElementById('searchInput');
-    var currentFilter = 'all';
+  var STATUS_ORDER = ["HOT","WARM","POTENTIAL","CONTACTED","REPLIED","CLOSED","EXPIRED","NOT_RELEVANT"];
+  var STATUS_LABEL = {
+    HOT:"Hot leads", WARM:"Warm leads", POTENTIAL:"Potential leads",
+    CONTACTED:"Contacted", REPLIED:"Replied", CLOSED:"Closed",
+    EXPIRED:"Expired", NOT_RELEVANT:"Not relevant"
+  };
+  var STATUS_SUB = {
+    HOT:"clear buying intent, realistic path to apply",
+    WARM:"relevant, meaningful buying intent",
+    POTENTIAL:"strong signal, currency & details unverified",
+    CONTACTED:"outreach already sent",
+    REPLIED:"prospect has responded",
+    CLOSED:"opportunity won, filled, or completed",
+    EXPIRED:"no longer active",
+    NOT_RELEVANT:"researched and ruled out"
+  };
+  function styleClass(status){
+    if(status === "HOT") return "hot";
+    if(status === "WARM") return "warm";
+    if(status === "POTENTIAL") return "potential";
+    return "neutral";
+  }
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function fmtDate(d){
+    if(!d) return "";
+    try{
+      var dt = new Date(d + "T00:00:00");
+      return dt.toLocaleDateString(undefined, {year:"numeric", month:"short", day:"numeric"});
+    }catch(e){ return d; }
+  }
 
-    function applyFilters(){
-      var q = (searchInput.value || '').trim().toLowerCase();
-      var anyVisible = false;
-      groups.forEach(function(g){
-        var groupHasVisible = false;
-        g.querySelectorAll('.card').forEach(function(c){
-          var statusMatch = currentFilter === 'all' || c.getAttribute('data-status') === currentFilter;
-          var textMatch = !q || (c.getAttribute('data-search') || '').indexOf(q) !== -1;
-          var match = statusMatch && textMatch;
-          c.hidden = !match;
-          if(match){ groupHasVisible = true; anyVisible = true; }
-        });
-        g.hidden = !groupHasVisible;
-      });
-      empty.hidden = anyVisible;
-    }
+  var state = { leads: [], companies: [], history: [], filterStatus: "all", filterRun: "all", query: "" };
 
-    chips.forEach(function(chip){
-      chip.addEventListener('click', function(){
-        chips.forEach(function(c){ c.setAttribute('aria-pressed','false'); });
-        chip.setAttribute('aria-pressed','true');
-        currentFilter = chip.getAttribute('data-filter');
-        applyFilters();
+  function computeStats(leads, companies){
+    var counts = {};
+    leads.forEach(function(l){ counts[l.status] = (counts[l.status]||0) + 1; });
+    document.getElementById("statTotal").textContent = leads.length;
+    document.getElementById("statHot").textContent = counts.HOT || 0;
+    document.getElementById("statWarm").textContent = counts.WARM || 0;
+    document.getElementById("statPotential").textContent = counts.POTENTIAL || 0;
+    document.getElementById("statCompanies").textContent = companies.length;
+  }
+
+  function buildStatusChips(leads){
+    var present = STATUS_ORDER.filter(function(s){ return leads.some(function(l){ return l.status === s; }); });
+    var wrap = document.getElementById("statusFilters");
+    wrap.innerHTML = "";
+    var allBtn = document.createElement("button");
+    allBtn.className = "chip"; allBtn.setAttribute("data-filter","all"); allBtn.setAttribute("aria-pressed","true");
+    allBtn.textContent = "All (" + leads.length + ")";
+    wrap.appendChild(allBtn);
+    present.forEach(function(s){
+      var n = leads.filter(function(l){ return l.status === s; }).length;
+      var b = document.createElement("button");
+      b.className = "chip"; b.setAttribute("data-filter", s); b.setAttribute("aria-pressed","false");
+      b.textContent = (STATUS_LABEL[s] || s).replace(" leads","") + " (" + n + ")";
+      wrap.appendChild(b);
+    });
+    wrap.querySelectorAll(".chip").forEach(function(chip){
+      chip.addEventListener("click", function(){
+        wrap.querySelectorAll(".chip").forEach(function(c){ c.setAttribute("aria-pressed","false"); });
+        chip.setAttribute("aria-pressed","true");
+        state.filterStatus = chip.getAttribute("data-filter");
+        render();
       });
     });
+  }
 
-    searchInput.addEventListener('input', applyFilters);
-  }catch(e){ /* filtering is a convenience; page still reads fine without it */ }
+  function buildRunSelect(leads){
+    var dates = Array.from(new Set(leads.map(function(l){ return l.date_found; }).filter(Boolean)));
+    dates.sort().reverse();
+    var sel = document.getElementById("runSelect");
+    sel.innerHTML = '<option value="all">All runs</option>';
+    dates.forEach(function(d){
+      var n = leads.filter(function(l){ return l.date_found === d; }).length;
+      var opt = document.createElement("option");
+      opt.value = d;
+      opt.textContent = fmtDate(d) + " (" + n + " lead" + (n===1?"":"s") + ")";
+      sel.appendChild(opt);
+    });
+    sel.addEventListener("change", function(){ state.filterRun = sel.value; render(); });
+  }
+
+  function cardHtml(lead){
+    var cls = styleClass(lead.status);
+    var isIndeed = (lead.source || "").toLowerCase() === "indeed";
+    var verifyHtml = isIndeed
+      ? '<div class="verify ok"><span class="mark">&#10003;</span> Verified via Indeed job-details API</div>'
+      : '<div class="verify pending"><span class="mark">&#9651;</span> Needs manual check — sourced from ' + esc(lead.source || "an unverified source") + '</div>';
+    var metaBits = [lead.source, lead.job_type, lead.location, lead.date_found ? ("Found " + fmtDate(lead.date_found)) : null]
+      .filter(Boolean).map(function(m){ return '<span class="meta-chip">' + esc(m) + '</span>'; }).join("");
+    var link = lead.source_url && /^https?:\/\//i.test(lead.source_url)
+      ? '<a class="apply-link" href="' + esc(lead.source_url) + '" target="_blank" rel="noopener">View listing ↗</a>'
+      : '<span class="lead-id">No link available</span>';
+    var searchBlob = esc([lead.company, lead.job_title, lead.source, lead.opportunity_type].join(" ").toLowerCase());
+    return '' +
+      '<article class="card" data-status="' + esc(lead.status) + '" data-date="' + esc(lead.date_found||"") + '" data-search="' + searchBlob + '">' +
+        '<div class="top">' +
+          '<div>' +
+            '<div class="company">' + esc(lead.company) + '</div>' +
+            '<div class="job-title">' + esc(lead.job_title) + '</div>' +
+          '</div>' +
+          '<span class="status-pill ' + cls + '">' + esc(lead.status) + '</span>' +
+        '</div>' +
+        '<div class="meta-row">' + metaBits + '</div>' +
+        '<p class="notes">' + esc(lead.notes) + '</p>' +
+        verifyHtml +
+        '<div class="card-footer">' +
+          '<span class="lead-id">' + esc(lead.lead_id) + '</span>' +
+          link +
+        '</div>' +
+      '</article>';
+  }
+
+  function render(){
+    var root = document.getElementById("groupsRoot");
+    var q = state.query.trim().toLowerCase();
+    var visibleCount = 0;
+    root.innerHTML = "";
+
+    STATUS_ORDER.forEach(function(status){
+      var groupLeads = state.leads.filter(function(l){ return l.status === status; });
+      if(!groupLeads.length) return;
+
+      var filtered = groupLeads.filter(function(l){
+        var statusOk = state.filterStatus === "all" || state.filterStatus === status;
+        var runOk = state.filterRun === "all" || l.date_found === state.filterRun;
+        var blob = [l.company, l.job_title, l.source, l.opportunity_type].join(" ").toLowerCase();
+        var queryOk = !q || blob.indexOf(q) !== -1;
+        return statusOk && runOk && queryOk;
+      });
+      if(!filtered.length) return;
+
+      filtered.sort(function(a,b){ return (b.date_found||"").localeCompare(a.date_found||""); });
+      visibleCount += filtered.length;
+
+      var section = document.createElement("section");
+      section.className = "group";
+      section.innerHTML =
+        '<h2><span class="dot ' + styleClass(status) + '"></span>' + STATUS_LABEL[status] +
+        ' <span class="count-badge">' + STATUS_SUB[status] + '</span></h2>' +
+        '<div class="cards">' + filtered.map(cardHtml).join("") + '</div>';
+      root.appendChild(section);
+    });
+
+    document.getElementById("emptyState").hidden = visibleCount > 0;
+  }
+
+  function renderHistory(history){
+    if(!history.length) return;
+    var panel = document.getElementById("historyPanel");
+    panel.hidden = false;
+    document.getElementById("historyCount").textContent = "(" + history.length + " run" + (history.length===1?"":"s") + ")";
+    var list = document.getElementById("historyList");
+    var sorted = history.slice().sort(function(a,b){ return (b.date||"").localeCompare(a.date||"") || (b.research_id||"").localeCompare(a.research_id||""); });
+    list.innerHTML = sorted.map(function(h){
+      return '' +
+        '<div class="history-item">' +
+          '<div class="hh"><span class="run-id">' + esc(h.research_id) + '</span><span class="run-date">' + fmtDate(h.date) + '</span></div>' +
+          '<div class="run-counts">' +
+            '<span class="meta-chip">' + (h.new_leads||0) + ' new</span>' +
+            '<span class="meta-chip">' + (h.duplicates_skipped||0) + ' duplicates skipped</span>' +
+            '<span class="meta-chip">' + (h.updated_leads||0) + ' updated</span>' +
+          '</div>' +
+          (h.search_area ? '<div style="margin-top:6px;">' + esc(h.search_area) + '</div>' : '') +
+        '</div>';
+    }).join("");
+  }
+
+  function setLastUpdated(leads, history){
+    var dates = leads.map(function(l){ return l.last_checked || l.date_found; })
+      .concat(history.map(function(h){ return h.date; }))
+      .filter(Boolean).sort();
+    var latest = dates[dates.length - 1];
+    document.getElementById("lastUpdated").textContent = latest
+      ? "Last data update: " + fmtDate(latest)
+      : "";
+  }
+
+  function showError(err){
+    document.getElementById("loadingState").hidden = true;
+    var box = document.getElementById("errorState");
+    box.hidden = false;
+    box.innerHTML = "Could not load lead data (" + esc(err && err.message ? err.message : String(err)) + "). " +
+      "If you're viewing this file locally (double-clicked, <code>file://</code>), browsers block fetching local JSON — " +
+      "open the published GitHub Pages link instead, or run a local static server.";
+  }
+
+  Promise.all([
+    fetch("data/leads.json").then(function(r){ if(!r.ok) throw new Error("leads.json " + r.status); return r.json(); }),
+    fetch("data/companies.json").then(function(r){ if(!r.ok) throw new Error("companies.json " + r.status); return r.json(); }),
+    fetch("data/search-history.json").then(function(r){ if(!r.ok) throw new Error("search-history.json " + r.status); return r.json(); }).catch(function(){ return []; })
+  ]).then(function(results){
+    state.leads = results[0] || [];
+    state.companies = results[1] || [];
+    state.history = results[2] || [];
+
+    document.getElementById("loadingState").hidden = true;
+    computeStats(state.leads, state.companies);
+    buildStatusChips(state.leads);
+    buildRunSelect(state.leads);
+    renderHistory(state.history);
+    setLastUpdated(state.leads, state.history);
+    render();
+
+    document.getElementById("searchInput").addEventListener("input", function(e){
+      state.query = e.target.value;
+      render();
+    });
+  }).catch(showError);
 })();
 </script>
 
