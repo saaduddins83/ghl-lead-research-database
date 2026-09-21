@@ -74,6 +74,26 @@
       "name": "CRM/automation communities",
       "type": "community",
       "active": true
+    },
+    {
+      "name": "GHL Hire (ghlhire.com)",
+      "type": "niche job board (GoHighLevel-specific)",
+      "active": true
+    },
+    {
+      "name": "Built In",
+      "type": "job board (tech-focused)",
+      "active": true
+    },
+    {
+      "name": "ZipRecruiter",
+      "type": "job board",
+      "active": true
+    },
+    {
+      "name": "SimplyHired",
+      "type": "job board",
+      "active": true
     }
   ]
 }

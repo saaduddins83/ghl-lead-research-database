@@ -79,9 +79,9 @@
     "location": "Global (BPO, APAC-heavy placements)",
     "company_type": "Staffing/BPO agency",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-21",
     "status": "ACTIVE",
-    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0007); recurring GHL-related hiring signal worth periodic re-checking."
+    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0007); recurring GHL-related hiring signal worth periodic re-checking. Re-checked 2026-09-21: own careers portal currently lists several concurrent GHL-related openings, confirming this is an ongoing recurring source."
   },
   {
     "company_id": "COMP-0008",
@@ -91,9 +91,9 @@
     "location": "Remote/EU-based platform; posting shown on UK LinkedIn",
     "company_type": "Recruiting/staffing platform",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-21",
     "status": "ACTIVE",
-    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0008)."
+    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0008). Re-checked 2026-09-21: also found on Jobgether's own Lever-hosted posting board; underlying employer appears to be Luxembourg-based."
   },
   {
     "company_id": "COMP-0009",
@@ -141,6 +141,66 @@
     "first_found": "2026-09-20",
     "last_checked": "2026-09-20",
     "status": "UNKNOWN",
-    "notes": "Client identity not disclosed in the Freelancer.com listing (GHL-0013). Needs verification directly on Freelancer.com."
+    "notes": "Client identity not disclosed in the Freelancer.com listing (GHL-0013). Needs verification directly on Freelancer.com. UPDATE 2026-09-21: underlying listing (GHL-0013) confirmed posted April 27, 2026 (~5 months old) and reclassified EXPIRED - see leads.json notes."
+  },
+  {
+    "company_id": "COMP-0013",
+    "company_name": "UGCMA",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Wyoming, USA (registered); role is remote-only",
+    "company_type": "Direct client (small/growing company)",
+    "first_found": "2026-09-21",
+    "last_checked": "2026-09-21",
+    "status": "ACTIVE",
+    "notes": "Posted an IT and Automations Specialist role (GHL-0014) covering GoHighLevel and Close CRM among other internal platforms, found on Wellfound and posted ~4 days before discovery - one of the freshest leads found this session."
+  },
+  {
+    "company_id": "COMP-0014",
+    "company_name": "Grant Cardone Enterprises",
+    "website": "https://www.grantcardone.com",
+    "industry": "Business/sales coaching and training (10X Business Coaches)",
+    "location": "Aventura, FL",
+    "company_type": "Direct client (established company)",
+    "first_found": "2026-09-21",
+    "last_checked": "2026-09-21",
+    "status": "ACTIVE",
+    "notes": "Well-known Grant Cardone business coaching company; posted a GoHighLevel Specialist role (GHL-0015) to run its white-labeled GHL platform ('OMNI') for its coaches. Cross-posted on multiple job boards; company shown with 23 open roles as of a September 9, 2026 hiring snapshot, suggesting this and other roles remain active."
+  },
+  {
+    "company_id": "COMP-0015",
+    "company_name": "Honeytree Technologies (Honeytree Agency)",
+    "website": "honeytree.agency (unverified - direct fetch blocked)",
+    "industry": "Digital marketing agency",
+    "location": "United States (remote team)",
+    "company_type": "Agency (direct employer)",
+    "first_found": "2026-09-21",
+    "last_checked": "2026-09-21",
+    "status": "ACTIVE",
+    "notes": "Boutique digital agency posting a GoHighLevel Specialist role (GHL-0016) with a confirmed public application email (careers@honeytree.agency)."
+  },
+  {
+    "company_id": "COMP-0016",
+    "company_name": "Couture Clean New York",
+    "website": "Unknown",
+    "industry": "Cleaning services",
+    "location": "New York, NY",
+    "company_type": "Direct client (small business)",
+    "first_found": "2026-09-21",
+    "last_checked": "2026-09-21",
+    "status": "ACTIVE",
+    "notes": "NYC cleaning-services business posted a part-time, on-site (not remote) GoHighLevel Specialist role (GHL-0017), fully verified via Indeed's job-details API. Posted Sep 8, 2026."
+  },
+  {
+    "company_id": "COMP-0017",
+    "company_name": "Sphere Rocket VA",
+    "website": "https://www.spherejobs.ph",
+    "industry": "VA staffing/talent-pool platform",
+    "location": "Philippines (places VAs with US-based business owners)",
+    "company_type": "Staffing/VA placement platform",
+    "first_found": "2026-09-21",
+    "last_checked": "2026-09-21",
+    "status": "ACTIVE",
+    "notes": "Recruits GoHighLevel Web & Funnel Specialists (GHL-0018) into a talent pool matched with US client work - same category as EverestX (COMP-0009), a recurring source to monitor rather than a single verified opening."
   }
 ]
