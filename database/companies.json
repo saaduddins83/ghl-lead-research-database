@@ -202,5 +202,29 @@
     "last_checked": "2026-09-21",
     "status": "ACTIVE",
     "notes": "Recruits GoHighLevel Web & Funnel Specialists (GHL-0018) into a talent pool matched with US client work - same category as EverestX (COMP-0009), a recurring source to monitor rather than a single verified opening."
+  },
+  {
+    "company_id": "COMP-0018",
+    "company_name": "The FM Shift",
+    "website": "Unknown",
+    "industry": "Unknown (marketing/funnel operations business, inferred from role scope)",
+    "location": "Unknown (remote-first; pay quoted in USD)",
+    "company_type": "Direct client",
+    "first_found": "2026-09-23",
+    "last_checked": "2026-09-23",
+    "status": "ACTIVE",
+    "notes": "Posted a full-time remote GoHighLevel/Funnel/Marketing Tech Specialist role (GHL-0019), $55K-$65K/yr, posted ~Sep 17, 2026 - one of the freshest leads found in this session."
+  },
+  {
+    "company_id": "COMP-0019",
+    "company_name": "Gentask Virtual Assistance Services",
+    "website": "Unknown",
+    "industry": "Virtual assistance / staffing",
+    "location": "Unknown platform base; places candidates across US/Canada/Australia/UK",
+    "company_type": "Staffing/VA placement agency",
+    "first_found": "2026-09-23",
+    "last_checked": "2026-09-23",
+    "status": "ACTIVE",
+    "notes": "Recurring source of multiple concurrent GoHighLevel-related postings across job boards; posted GHL-0020 (GoHighLevel Specialist, US/CA/AU/UK base). A separate Gentask role (Instagram Prospecting & GoHighLevel Messaging Specialist) was investigated and excluded in SEARCH-0004 as a skill mismatch - kept distinct since it is a different opportunity."
   }
 ]
