@@ -202,5 +202,17 @@
     "last_checked": "2026-09-21",
     "status": "ACTIVE",
     "notes": "Recruits GoHighLevel Web & Funnel Specialists (GHL-0018) into a talent pool matched with US client work - same category as EverestX (COMP-0009), a recurring source to monitor rather than a single verified opening."
+  },
+  {
+    "company_id": "COMP-0018",
+    "company_name": "The Plum Tree Group",
+    "website": "https://plumtreegroup.jazz.co (career page - direct fetch blocked in this environment)",
+    "industry": "Interactive/digital agency (IT, BPO, marketing & communications, consulting for small/mid-size businesses)",
+    "location": "Chicago, IL (agency HQ); individual roles cross-posted remote and internationally",
+    "company_type": "Agency (direct employer)",
+    "first_found": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "status": "ACTIVE",
+    "notes": "Established agency (~93 employees, serving clients since 2006) currently running 4+ concurrent GoHighLevel-related listings on Built In: 'GoHighLevel Expert' (GHL-0019), 'Full Stack Developer - WordPress & GoHighLevel Specialist', 'GoHighLevel Marketing Specialist', and 'GoHighLevel Demo Specialist / Sales Representative', plus a 'Cold Caller - GHL Focused' role via Jobgether. Recurring multi-listing GHL employer worth periodic re-checking, similar to BruntWork/Jobgether. Full Stack Developer role requires 3-8 years advanced WordPress/full-stack dev experience (beyond user's documented basic PHP/HTML/CSS skill profile) - not added as a lead. GoHighLevel Marketing Specialist listing indexed with a Karachi, Pakistan location - not added as a lead pending confirmation of remote eligibility outside Pakistan. Demo Specialist/Sales Representative and Cold Caller roles are sales/demo positions, not a match to the user's documented skill profile - not added. builtin.com and the company's own career page are blocked to automated fetch in this environment; all detail is based on web-search indexing, which repeatedly blended content across the company's multiple listings - treat with extra caution and verify directly before outreach."
   }
 ]

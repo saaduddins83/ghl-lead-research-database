@@ -340,5 +340,24 @@
     "last_checked": "2026-09-21",
     "notes": "Sphere Rocket VA is a VA-connection/talent-pool platform, not a single direct employer - applicants join a talent pool to be matched with GHL work submitted by US-based web/funnel design business owners (same category of lead as EverestX/GHL-0009, i.e. a recurring source to monitor rather than an application-ready single opening). Role: design, optimize, and automate GHL workflows, funnels, and client onboarding; requires 2+ years GHL experience, strong CRM/sales-funnel understanding, and integration/troubleshooting skills - matches the user's core GHL skill set. Pay reported as PHP 50,000-200,000/month (~US $900-3,600), which is a wide range - vet actual terms before pursuing. careers-page.com and spherejobs.ph are blocked to automated fetch in this environment, so exact current openings could not be confirmed directly - based on web-search indexing only.",
     "duplicate_key": "sphere rocket va|gohighlevel (ghl) web & funnel specialist|company website"
+  },
+  {
+    "lead_id": "GHL-0019",
+    "company": "The Plum Tree Group",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "GoHighLevel Expert",
+    "source": "Built In",
+    "source_url": "https://builtin.com/job/gohighlevel-expert/2976117",
+    "company_website": "https://plumtreegroup.jazz.co",
+    "contact_email": "",
+    "location": "Unknown - remote status and country eligibility not confirmed",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "notes": "Distinct posting (unique Built In URL/ID) at The Plum Tree Group, an established Chicago-based interactive agency (~93 employees, serving clients since 2006) that is currently running several concurrent GoHighLevel-related listings - see COMP-0018. ACTIVE_UNCERTAIN: builtin.com is blocked to automated fetch in this environment, and repeated web searches for this specific listing's description kept surfacing/blending content from the company's other job postings (Marketing Specialist, Demo Specialist) rather than a clean, distinguishing description for this exact role - so job type, salary, exact requirements, location, and posted date could not be independently confirmed. The title alone ('GoHighLevel Expert') is a strong direct keyword match to the user's core skill set. Needs manual verification directly on Built In or the company's career page before outreach; do not treat as a confirmed active opening until verified.",
+    "duplicate_key": "the plum tree group|gohighlevel expert|built in"
   }
 ]
