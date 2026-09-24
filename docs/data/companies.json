@@ -105,7 +105,7 @@
     "first_found": "2026-09-19",
     "last_checked": "2026-09-19",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing."
   },
   {
     "company_id": "COMP-0010",
@@ -214,5 +214,29 @@
     "last_checked": "2026-09-22",
     "status": "ACTIVE",
     "notes": "Established agency (~93 employees, serving clients since 2006) currently running 4+ concurrent GoHighLevel-related listings on Built In: 'GoHighLevel Expert' (GHL-0019), 'Full Stack Developer - WordPress & GoHighLevel Specialist', 'GoHighLevel Marketing Specialist', and 'GoHighLevel Demo Specialist / Sales Representative', plus a 'Cold Caller - GHL Focused' role via Jobgether. Recurring multi-listing GHL employer worth periodic re-checking, similar to BruntWork/Jobgether. Full Stack Developer role requires 3-8 years advanced WordPress/full-stack dev experience (beyond user's documented basic PHP/HTML/CSS skill profile) - not added as a lead. GoHighLevel Marketing Specialist listing indexed with a Karachi, Pakistan location - not added as a lead pending confirmation of remote eligibility outside Pakistan. Demo Specialist/Sales Representative and Cold Caller roles are sales/demo positions, not a match to the user's documented skill profile - not added. builtin.com and the company's own career page are blocked to automated fetch in this environment; all detail is based on web-search indexing, which repeatedly blended content across the company's multiple listings - treat with extra caution and verify directly before outreach."
+  },
+  {
+    "company_id": "COMP-0019",
+    "company_name": "The FM Shift",
+    "website": "Unknown",
+    "industry": "Unknown (marketing/funnel operations business, inferred from role scope)",
+    "location": "Unknown (remote-first; pay quoted in USD)",
+    "company_type": "Direct client",
+    "first_found": "2026-09-23",
+    "last_checked": "2026-09-23",
+    "status": "ACTIVE",
+    "notes": "Posted a full-time remote GoHighLevel/Funnel/Marketing Tech Specialist role (GHL-0020), $55K-$65K/yr, posted ~Sep 17, 2026 - one of the freshest leads found in this session."
+  },
+  {
+    "company_id": "COMP-0020",
+    "company_name": "Gentask Virtual Assistance Services",
+    "website": "Unknown",
+    "industry": "Virtual assistance / staffing",
+    "location": "Unknown platform base; places candidates across US/Canada/Australia/UK",
+    "company_type": "Staffing/VA placement agency",
+    "first_found": "2026-09-23",
+    "last_checked": "2026-09-23",
+    "status": "ACTIVE",
+    "notes": "Recurring source of multiple concurrent GoHighLevel-related postings across job boards; posted GHL-0021 (GoHighLevel Specialist, US/CA/AU/UK base). A separate Gentask role (Instagram Prospecting & GoHighLevel Messaging Specialist) was investigated and excluded in SEARCH-0004 as a skill mismatch - kept distinct since it is a different opportunity."
   }
 ]
