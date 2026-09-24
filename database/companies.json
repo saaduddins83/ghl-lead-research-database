@@ -19,9 +19,9 @@
     "location": "Unknown",
     "company_type": "Unknown",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet."
+    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0003",
@@ -43,9 +43,9 @@
     "location": "Unknown",
     "company_type": "Direct client",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet."
+    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0005",
@@ -103,9 +103,9 @@
     "location": "Remote (places into US/CA/UK/AU)",
     "company_type": "Staffing/placement platform",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay."
   },
   {
     "company_id": "COMP-0010",
@@ -238,5 +238,29 @@
     "last_checked": "2026-09-23",
     "status": "ACTIVE",
     "notes": "Recurring source of multiple concurrent GoHighLevel-related postings across job boards; posted GHL-0021 (GoHighLevel Specialist, US/CA/AU/UK base). A separate Gentask role (Instagram Prospecting & GoHighLevel Messaging Specialist) was investigated and excluded in SEARCH-0004 as a skill mismatch - kept distinct since it is a different opportunity."
+  },
+  {
+    "company_id": "COMP-0021",
+    "company_name": "Human Intelligence",
+    "website": "Unknown - not independently confirmed beyond the Workable listing",
+    "industry": "Unknown (company describes itself as building AI-first CRM/business systems across Marketing, Sales, Customer Success, Events, Partnerships, Recruitment, and Customer Education)",
+    "location": "Unknown (remote, expanding globally per own description)",
+    "company_type": "Direct client",
+    "first_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "status": "UNKNOWN",
+    "notes": "Posted a GoHighLevel Automation Specialist role (GHL-0022) on its own Workable career page, originally ~July 30, 2026. Scope described as CRM-architect level rather than basic administration, with Zapier/n8n/AI components - verify seniority/skill fit before pursuing."
+  },
+  {
+    "company_id": "COMP-0022",
+    "company_name": "Near (Hire with Near)",
+    "website": "Unknown",
+    "industry": "Remote staffing / recruiting platform",
+    "location": "Unknown",
+    "company_type": "Staffing agency",
+    "first_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0023 (GoHighLevel Automation Specialist, Part-Time) on LinkedIn for an undisclosed client. Same recurring-staffing-platform category as Paired/Jobgether/BruntWork - not independently verified beyond search snippet."
   }
 ]

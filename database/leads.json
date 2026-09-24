@@ -33,8 +33,8 @@
     "job_type": "Unknown",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-19",
-    "notes": "Found via LinkedIn Jobs search snippet only - direct GHL automation/integration title match. Could not fetch the full posting or confirm posted date/current status: linkedin.com is blocked to automated fetch in this research environment. Needs manual verification before outreach.",
+    "last_checked": "2026-09-24",
+    "notes": "Found via LinkedIn Jobs search snippet only - direct GHL automation/integration title match. Could not fetch the full posting or confirm posted date/current status: linkedin.com is blocked to automated fetch in this research environment. Needs manual verification before outreach. Re-checked 2026-09-24: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged (POTENTIAL), now 5 days past original discovery.",
     "duplicate_key": "hireboost|gohighlevel automation & integration specialist|linkedin"
   },
   {
@@ -71,8 +71,8 @@
     "job_type": "Unknown",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-19",
-    "notes": "Found via LinkedIn Jobs search snippet only. Title suggests a transportation-industry business needs a full GHL CRM, funnel, and automation build - directly matches the skill profile. Could not fetch the full posting or confirm posted date/current status due to LinkedIn access restrictions in this environment. Needs manual verification.",
+    "last_checked": "2026-09-24",
+    "notes": "Found via LinkedIn Jobs search snippet only. Title suggests a transportation-industry business needs a full GHL CRM, funnel, and automation build - directly matches the skill profile. Could not fetch the full posting or confirm posted date/current status due to LinkedIn access restrictions in this environment. Needs manual verification. Re-checked 2026-09-24: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged (POTENTIAL), now 5 days past original discovery.",
     "duplicate_key": "transportvibes|gohighlevel expert for full crm, funnel & automation setup|linkedin"
   },
   {
@@ -166,8 +166,8 @@
     "job_type": "contract/placement",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-19",
-    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing.",
+    "last_checked": "2026-09-24",
+    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing. Re-checked 2026-09-24: EverestX's own site separately advertises client-facing billing rates of $10-16/hr for GoHighLevel specialist work (a different figure than the specialist pay range above, which appears to be specialist take-home compensation) - noted for clarity, does not resolve the legitimacy/terms caution.",
     "duplicate_key": "everestx|gohighlevel specialist (talent network placement)|company website"
   },
   {
@@ -397,5 +397,43 @@
     "last_checked": "2026-09-23",
     "notes": "Gentask is a virtual-assistance staffing company; role covers providing expert client support/guidance on GoHighLevel, setting up and optimizing client GHL accounts (automations, pipelines, integrations), ongoing troubleshooting, and staying current on GHL features - matches the user's core GHL setup/workflow/troubleshooting skills. Gentask shows multiple concurrent GHL-related postings across job boards (e.g. 'GHL Expert & Notion Workflow Specialist', 'Marketing Specialist (with GoHighLevel Experience)', 'Go HighLevel CRM Manager & Funnel Specialist'), the same recurring-source pattern already documented for BruntWork/EverestX/Sphere Rocket VA - treat as a source to monitor rather than a single verified opening. This role is distinct from a different Gentask posting ('Instagram Prospecting & GoHighLevel Messaging Specialist', $5/hr) that was investigated and excluded in SEARCH-0004 as a skill mismatch - not a duplicate of that exclusion. No verified pay or posting date found; careers-page.com has been consistently blocked to automated fetch in this environment in prior sessions (same restriction documented for GHL-0018/Sphere Rocket VA) - based on web-search snippet indexing only. Verify directly before applying.",
     "duplicate_key": "gentask virtual assistance services|gohighlevel specialist (us, canada, australia and uk base)|company career page"
+  },
+  {
+    "lead_id": "GHL-0022",
+    "company": "Human Intelligence",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "GoHighLevel Automation Specialist | CRM, Funnels & AI Systems",
+    "source": "Workable (company career page)",
+    "source_url": "https://apply.workable.com/humanintelligence/j/E08961ABAC/",
+    "company_website": "Unknown - not independently confirmed beyond the Workable listing",
+    "contact_email": "",
+    "location": "Remote (no explicit country/geographic restriction found; company describes itself as expanding globally)",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "notes": "Direct employer role to design, build, test, deploy, document, and optimize GoHighLevel automation systems across Marketing, Sales, Customer Success, Events, Partnerships, Recruitment, and Customer Education - directly matches the user's GHL workflows/automation skill set, plus mentions Zapier/n8n/AI tooling (n8n and AI are adjacent to, not core to, the documented skill profile - flag for the user's own assessment). Listing explicitly states this is not a traditional CRM administrator role but wants a 'CRM architect,' with career growth toward Senior Automation Architect / AI Solutions Architect tracks - the scope may run more senior/architectural than the user's documented experience level. Salary reported as $1,000-$1,500/month, which is low for the stated scope. Per search-indexed metadata, originally posted July 30, 2026 (~56 days old at time of this research - outside the tightest freshness window, but still actively surfaced in current search results with no evidence of closure). apply.workable.com is blocked to automated fetch in this environment, so the live posting, exact location requirements, and current open/closed status could not be independently verified - based on web-search indexing only. Verify directly before applying.",
+    "duplicate_key": "human intelligence|gohighlevel automation specialist | crm, funnels & ai systems|workable"
+  },
+  {
+    "lead_id": "GHL-0023",
+    "company": "Near (Hire with Near)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "staffing agency placement",
+    "job_title": "GoHighLevel Automation Specialist (Part-Time)",
+    "source": "LinkedIn",
+    "source_url": "https://www.linkedin.com/jobs/view/gohighlevel-automation-specialist-part-time-at-hire-with-near-4417766091",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Unknown",
+    "job_type": "Part-time",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "notes": "Near ('Hire with Near') is a remote-staffing/recruiting platform (same category as Paired/Jobgether/BruntWork) posting a part-time GoHighLevel Automation Specialist role for an undisclosed client - direct keyword match to the user's core GHL automation skill set. Per search-indexed metadata, listing appears to have been posted approximately 1 month before this research session. linkedin.com is blocked to automated fetch in this environment, so the live posting, client identity, pay, and exact current status could not be independently verified - based on web-search snippet indexing only. Needs manual verification before outreach.",
+    "duplicate_key": "near (hire with near)|gohighlevel automation specialist (part-time)|linkedin"
   }
 ]
