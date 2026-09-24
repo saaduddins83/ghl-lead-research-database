@@ -43,7 +43,7 @@
     "contact_name": "Unknown",
     "contact_role": "Unknown",
     "opportunity_type": "Agency fulfillment - GHL onboarding builds",
-    "job_title": "GoHighLevel Fulfillment VA – HVAC SaaS Agency – Onboarding Builds",
+    "job_title": "GoHighLevel Fulfillment VA \u2013 HVAC SaaS Agency \u2013 Onboarding Builds",
     "source": "Upwork",
     "source_url": "https://upwork.com/freelance-jobs/apply/GoHighLevel-Fulfillment-HVAC-SaaS-Agency-Onboarding-Builds_~022069818388369876458",
     "company_website": "Unknown",
@@ -54,7 +54,7 @@
     "date_found": "2026-09-19",
     "last_checked": "2026-09-19",
     "notes": "Found via web search snippet indexing an Upwork listing. Title indicates a SaaS agency serving HVAC contractors needs GHL fulfillment/onboarding builds - strong fit for agency-fulfillment skill set. Could not fetch the full Upwork posting (upwork.com is blocked to automated fetch in this environment) to confirm budget, client identity, or currency. Needs manual verification on Upwork before outreach.",
-    "duplicate_key": "unknown hvac saas agency (upwork client)|gohighlevel fulfillment va – hvac saas agency – onboarding builds|upwork"
+    "duplicate_key": "unknown hvac saas agency (upwork client)|gohighlevel fulfillment va \u2013 hvac saas agency \u2013 onboarding builds|upwork"
   },
   {
     "lead_id": "GHL-0004",
@@ -148,7 +148,7 @@
     "status": "WARM",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-21",
-    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly — based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck.",
+    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly \u2014 based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck.",
     "duplicate_key": "jobgether|gohighlevel crm & automation administrator|linkedin"
   },
   {
@@ -167,12 +167,12 @@
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-19",
-    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU — not a single verified employer opening. Quoted pay per its own site ($600–$1,200/month full-time, $300–$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing.",
+    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing.",
     "duplicate_key": "everestx|gohighlevel specialist (talent network placement)|company website"
   },
   {
     "lead_id": "GHL-0010",
-    "company": "Unknown (Upwork client — identity undisclosed until application)",
+    "company": "Unknown (Upwork client \u2014 identity undisclosed until application)",
     "contact_name": "",
     "contact_role": "",
     "opportunity_type": "freelance project",
@@ -186,7 +186,7 @@
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-19",
-    "notes": "Upwork listing for a GoHighLevel Expert / GHL Implementation Specialist, contract-to-hire, stated engagement length 'more than 6 months.' Per the cached description, the client requires personal completion of at least 25 full GoHighLevel sub-account buildouts — likely above the experience level documented in the user's current skill profile, so fit needs an honest self-assessment before applying. Client identity is withheld by Upwork until application. www.upwork.com is blocked by this environment's network egress proxy, so exact posting date and current open/closed status are unconfirmed — verify directly on Upwork before applying.",
+    "notes": "Upwork listing for a GoHighLevel Expert / GHL Implementation Specialist, contract-to-hire, stated engagement length 'more than 6 months.' Per the cached description, the client requires personal completion of at least 25 full GoHighLevel sub-account buildouts \u2014 likely above the experience level documented in the user's current skill profile, so fit needs an honest self-assessment before applying. Client identity is withheld by Upwork until application. www.upwork.com is blocked by this environment's network egress proxy, so exact posting date and current open/closed status are unconfirmed \u2014 verify directly on Upwork before applying.",
     "duplicate_key": "unknown upwork client|gohighlevel expert / ghl implementation specialist|upwork"
   },
   {
@@ -309,7 +309,7 @@
     "contact_name": "",
     "contact_role": "",
     "opportunity_type": "job",
-    "job_title": "GoHighLevel Specialist – Part-Time, On-Site",
+    "job_title": "GoHighLevel Specialist \u2013 Part-Time, On-Site",
     "source": "Indeed",
     "source_url": "https://to.indeed.com/aa6gym8w6zf4",
     "company_website": "Unknown",
@@ -320,7 +320,7 @@
     "date_found": "2026-09-21",
     "last_checked": "2026-09-21",
     "notes": "Fully verified via Indeed's job-details API (full description retrieved, not just a snippet). NYC-based cleaning-services business needs a hands-on GHL specialist to build/manage/improve CRM and automation systems: workflows, pipelines, opportunities, forms/surveys/calendars, SMS/email follow-up sequences, third-party integrations, and webhook/trigger troubleshooting - a strong direct match to the user's core GHL skill set. Pay $30-$40/hr. Posted September 8, 2026 (13 days old at time of research - within the freshness window). IMPORTANT: listing explicitly states 'This is an on-site position in New York City and is not remote' - only relevant if the user is able to work in person in NYC; flagged here rather than excluded so the user can make that call themselves.",
-    "duplicate_key": "couture clean new york|gohighlevel specialist – part-time, on-site|indeed"
+    "duplicate_key": "couture clean new york|gohighlevel specialist \u2013 part-time, on-site|indeed"
   },
   {
     "lead_id": "GHL-0018",
@@ -343,6 +343,25 @@
   },
   {
     "lead_id": "GHL-0019",
+    "company": "The Plum Tree Group",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "GoHighLevel Expert",
+    "source": "Built In",
+    "source_url": "https://builtin.com/job/gohighlevel-expert/2976117",
+    "company_website": "https://plumtreegroup.jazz.co",
+    "contact_email": "",
+    "location": "Unknown - remote status and country eligibility not confirmed",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-22",
+    "last_checked": "2026-09-22",
+    "notes": "Distinct posting (unique Built In URL/ID) at The Plum Tree Group, an established Chicago-based interactive agency (~93 employees, serving clients since 2006) that is currently running several concurrent GoHighLevel-related listings - see COMP-0018. ACTIVE_UNCERTAIN: builtin.com is blocked to automated fetch in this environment, and repeated web searches for this specific listing's description kept surfacing/blending content from the company's other job postings (Marketing Specialist, Demo Specialist) rather than a clean, distinguishing description for this exact role - so job type, salary, exact requirements, location, and posted date could not be independently confirmed. The title alone ('GoHighLevel Expert') is a strong direct keyword match to the user's core skill set. Needs manual verification directly on Built In or the company's career page before outreach; do not treat as a confirmed active opening until verified.",
+    "duplicate_key": "the plum tree group|gohighlevel expert|built in"
+  },
+  {
+    "lead_id": "GHL-0020",
     "company": "The FM Shift",
     "contact_name": "",
     "contact_role": "",
@@ -361,7 +380,7 @@
     "duplicate_key": "the fm shift|gohighlevel / funnel / marketing tech specialist|simplyhired"
   },
   {
-    "lead_id": "GHL-0020",
+    "lead_id": "GHL-0021",
     "company": "Gentask Virtual Assistance Services",
     "contact_name": "",
     "contact_role": "",
