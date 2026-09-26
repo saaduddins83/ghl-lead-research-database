@@ -19,9 +19,9 @@
     "location": "Unknown",
     "company_type": "Unknown",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-09-26",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
+    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified. Re-checked 2026-09-26: still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0003",
@@ -43,9 +43,9 @@
     "location": "Unknown",
     "company_type": "Direct client",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-09-26",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
+    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified. Re-checked 2026-09-26: still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0005",
@@ -105,7 +105,7 @@
     "first_found": "2026-09-19",
     "last_checked": "2026-09-24",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay."
   },
   {
     "company_id": "COMP-0010",
@@ -247,9 +247,9 @@
     "location": "Unknown (remote, expanding globally per own description)",
     "company_type": "Direct client",
     "first_found": "2026-09-24",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-09-26",
     "status": "UNKNOWN",
-    "notes": "Posted a GoHighLevel Automation Specialist role (GHL-0022) on its own Workable career page, originally ~July 30, 2026. Scope described as CRM-architect level rather than basic administration, with Zapier/n8n/AI components - verify seniority/skill fit before pursuing."
+    "notes": "Posted a GoHighLevel Automation Specialist role (GHL-0022) on its own Workable career page, originally ~July 30, 2026. Scope described as CRM-architect level rather than basic administration, with Zapier/n8n/AI components - verify seniority/skill fit before pursuing. Re-checked 2026-09-26: a second distinct requisition (GHL-0033, 'Automation Workflow Specialist (GHL, Zapier, n8n, AI) - Remote Contractor', job ID D264BCF75C) was found cross-posted on Workable under both a 'shae-group' and a 'humanintelligence' URL slug with the identical job ID and pay range ($1,000-1,500/month) as GHL-0022 - confirms Human Intelligence (possibly operating as/with 'Shae Group') is a recurring multi-requisition GHL employer, similar to BruntWork/Jobgether."
   },
   {
     "company_id": "COMP-0022",
@@ -298,5 +298,77 @@
     "last_checked": "2026-09-25",
     "status": "UNKNOWN",
     "notes": "VA marketplace connecting startups/agencies/enterprises with VAs from 50+ countries; posted GHL-0026 (GoHighLevel Expert, Part-Time) with minimal verifiable detail. Same recurring-source category as EverestX/Sphere Rocket VA/Gentask."
+  },
+  {
+    "company_id": "COMP-0026",
+    "company_name": "Scale Army Careers",
+    "website": "https://scalearmy.com",
+    "industry": "Global staffing for marketing & sales growth roles",
+    "location": "Global staffing platform (places LATAM/Africa/Eastern Europe candidates with U.S. clients)",
+    "company_type": "Staffing agency",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0027 (GoHighLevel Specialist, $1,200-1,500/mo) for a home-services lead-gen marketing client on Remotive. Geographic eligibility explicitly restricted to LATAM/Africa/Eastern Europe."
+  },
+  {
+    "company_id": "COMP-0027",
+    "company_name": "Unknown (individual poster, n8n Community forum)",
+    "website": "",
+    "industry": "Unknown (described only as a 'licensing and client management program')",
+    "location": "Unknown",
+    "company_type": "Direct client (individual/small business, unverified)",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "UNKNOWN",
+    "notes": "Posted a genuine public help-request thread (GHL-0028) on the n8n Community forum's Jobs subforum seeking an n8n + GoHighLevel integration specialist. Identity not disclosed beyond the forum post; needs verification directly on the thread."
+  },
+  {
+    "company_id": "COMP-0028",
+    "company_name": "Bizmoni Corp",
+    "website": "Unknown - Delhi, India per ZipRecruiter India cross-post",
+    "industry": "Unknown (early-stage/startup, per equity-based compensation offer)",
+    "location": "Delhi, India (hires remote worldwide)",
+    "company_type": "Direct client (early-stage startup)",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0029 (GoHighLevel (GHL) CRM Developer) with equity-only compensation until next funding round - a legitimacy/quality caution flag. Appears to be a recurring poster of rotating GoHighLevel requisitions across job boards (older 'Go High Level Developer' and 'GoHighLevel (GHL) CRM Expert' listings also found), same pattern as BruntWork/Gentask."
+  },
+  {
+    "company_id": "COMP-0029",
+    "company_name": "Evnek Technologies Pvt Ltd",
+    "website": "https://www.evnek.com",
+    "industry": "Generative AI / technology consulting",
+    "location": "Unknown (hires remote worldwide)",
+    "company_type": "Direct client (agency/consultancy)",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0030 (GoHighLevel CRM & AI Automation Specialist) on Remotive - CRM-workflow scope matches the user's skills; AI voice/chat agent component is adjacent to the documented profile."
+  },
+  {
+    "company_id": "COMP-0030",
+    "company_name": "Linkage Web Development",
+    "website": "Unknown - has an existing Glassdoor employer profile",
+    "industry": "Web development",
+    "location": "Angeles City, Philippines (per Jobstreet cross-post)",
+    "company_type": "Agency (direct employer)",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0031 (GoHighLevel Expert, Remote) at a low $4-5/hr rate for explicitly 'advanced' GHL work - a quality/pay caution flag despite a scope match to the user's skill set."
+  },
+  {
+    "company_id": "COMP-0031",
+    "company_name": "Globaltize",
+    "website": "https://globaltize.com",
+    "industry": "Remote staffing / VA placement platform",
+    "location": "Global staffing platform (places vetted remote workers with U.S. companies)",
+    "company_type": "Staffing/VA placement platform",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0032 (GoHighLevel & Automation Specialist, LinkedIn) and separately advertises hiring GHL expert VAs on its own site - same recurring-source category as EverestX/Sphere Rocket VA/Gentask/SUPERVA."
   }
 ]
