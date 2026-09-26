@@ -625,5 +625,24 @@
     "last_checked": "2026-09-26",
     "notes": "Distinct requisition (job ID D264BCF75C) from the same underlying employer already logged as GHL-0022/Human Intelligence (job ID E08961ABAC) - the identical job ID is cross-posted on Workable under both a 'shae-group' and a 'humanintelligence' URL slug, suggesting Shae Group and Human Intelligence share the same Workable account/are closely related entities (kept under the existing Human Intelligence company record, COMP-0021, rather than created as a separate company, pending clarification). Role emphasizes reliability engineering for automations built in GoHighLevel + Zapier/n8n: proper error paths, retries, monitoring layers, structured logs, and idempotent workflow design - a solid match to the user's GHL/Zapier/webhooks/automation-documentation skill set, though the monitoring/idempotency/logging framing is more senior/technical than the documented profile (flag for the user's own assessment, consistent with GHL-0022's own senior-scope caution). Compensation: USD $1,000-$1,500/month retainer plus a $500/month performance incentive, paid via Wise or bank transfer - same pay range as GHL-0022, reinforcing these are two distinct reqs from the same employer rather than unrelated companies. builtin.com and apply.workable.com are blocked to automated fetch in this environment - based on web-search indexing only. Verify directly before applying.",
     "duplicate_key": "human intelligence|automation workflow specialist (ghl, zapier, n8n, ai) - remote contractor|built in"
+  },
+  {
+    "lead_id": "GHL-0034",
+    "company": "Nexa Consultancy Inc.",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "Automation Developer (GoHighLevel, n8n, Make.com)",
+    "source": "n8n Community forum (also cross-posted on Wellfound)",
+    "source_url": "https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote, but explicitly restricted to candidates working from India (must overlap part of the day with Canadian Pacific Time business hours)",
+    "job_type": "Full-time",
+    "status": "WARM",
+    "date_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "notes": "Nexa Consultancy Inc. is a Surrey, British Columbia (Canada)-based small agency/consultancy that sets up dashboards, CRM, automation, and reporting for its own clients. Role: build and maintain automations in n8n and Make.com (lead intake, follow-up sequences, appointment booking, WhatsApp/email notifications, reporting) and own the company's GoHighLevel setup - pipelines, workflows, custom fields, calendars, forms, funnels, and integrations via REST APIs/webhooks/JSON/OAuth - a strong direct match to the user's core GHL/API/webhooks skill set (n8n/Make.com are adjacent to, not core to, the documented profile - flag for the user's own assessment). Requires 2-5 years hands-on automation/integration experience with demonstrable n8n/Make.com scenarios, plus working JavaScript or Python for custom code steps (outside the documented skill profile - flag). Salary INR 80,000-110,000/month (~INR 9.6-13.2 lakh/year). IMPORTANT geographic restriction: listing explicitly requires the candidate to be working from India - only relevant if the user is based there; flagged per the master instructions' rule not to assume eligibility for a geographically restricted opportunity. Posted approximately 1 week before this research session (fresh), corroborated by an independent cross-posting on Wellfound with matching company/role detail. community.n8n.io and wellfound.com are blocked to automated fetch in this environment (WebFetch reconfirmed EGRESS_BLOCKED against both domains and a neutral en.wikipedia.org control this session) - based on web-search indexing only. Verify directly before applying.",
+    "duplicate_key": "nexa consultancy inc.|automation developer (gohighlevel, n8n, make.com)|n8n community forum"
   }
 ]
