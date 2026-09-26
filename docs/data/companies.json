@@ -19,9 +19,9 @@
     "location": "Unknown",
     "company_type": "Unknown",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet."
+    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0003",
@@ -43,9 +43,9 @@
     "location": "Unknown",
     "company_type": "Direct client",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet."
+    "notes": "Posted GHL-0004 (GoHighLevel Expert for Full CRM, Funnel & Automation Setup) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified."
   },
   {
     "company_id": "COMP-0005",
@@ -57,7 +57,7 @@
     "first_found": "2026-09-19",
     "last_checked": "2026-09-25",
     "status": "ACTIVE",
-    "notes": "Posted GHL-0005 (GoHighLevel Expert for USA Clients, Remote) on LinkedIn. Re-checked 2026-09-25: confirmed as a recurring, multi-posting source of GHL placements (additional postings found on Workable, Remotive, and himalayas.app) - similar pattern to BruntWork/EverestX. Not independently verified beyond search snippets."
+    "notes": "Posted GHL-0005 (GoHighLevel Expert for USA Clients, Remote) on LinkedIn. Potential recurring source of GHL placements - not independently verified beyond search snippet. Re-checked 2026-09-25: confirmed as a recurring, multi-posting source of GHL placements (additional postings found on Workable, Remotive, and himalayas.app) - similar pattern to BruntWork/EverestX. Not independently verified beyond search snippets."
   },
   {
     "company_id": "COMP-0006",
@@ -103,9 +103,9 @@
     "location": "Remote (places into US/CA/UK/AU)",
     "company_type": "Staffing/placement platform",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-24",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay."
   },
   {
     "company_id": "COMP-0010",
@@ -163,7 +163,7 @@
     "location": "Aventura, FL",
     "company_type": "Direct client (established company)",
     "first_found": "2026-09-21",
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-25",
     "status": "ACTIVE",
     "notes": "Well-known Grant Cardone business coaching company; posted a GoHighLevel Specialist role (GHL-0015) to run its white-labeled GHL platform ('OMNI') for its coaches. Cross-posted on multiple job boards; company shown with 23 open roles as of a September 9, 2026 hiring snapshot, suggesting this and other roles remain active. Re-checked 2026-09-25: now shows 29 open positions and a new distinct LinkedIn job ID for the same role - continues to be an active, recurring employer."
   },
@@ -241,6 +241,30 @@
   },
   {
     "company_id": "COMP-0021",
+    "company_name": "Human Intelligence",
+    "website": "Unknown - not independently confirmed beyond the Workable listing",
+    "industry": "Unknown (company describes itself as building AI-first CRM/business systems across Marketing, Sales, Customer Success, Events, Partnerships, Recruitment, and Customer Education)",
+    "location": "Unknown (remote, expanding globally per own description)",
+    "company_type": "Direct client",
+    "first_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "status": "UNKNOWN",
+    "notes": "Posted a GoHighLevel Automation Specialist role (GHL-0022) on its own Workable career page, originally ~July 30, 2026. Scope described as CRM-architect level rather than basic administration, with Zapier/n8n/AI components - verify seniority/skill fit before pursuing."
+  },
+  {
+    "company_id": "COMP-0022",
+    "company_name": "Near (Hire with Near)",
+    "website": "Unknown",
+    "industry": "Remote staffing / recruiting platform",
+    "location": "Unknown",
+    "company_type": "Staffing agency",
+    "first_found": "2026-09-24",
+    "last_checked": "2026-09-24",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0023 (GoHighLevel Automation Specialist, Part-Time) on LinkedIn for an undisclosed client. Same recurring-staffing-platform category as Paired/Jobgether/BruntWork - not independently verified beyond search snippet."
+  },
+  {
+    "company_id": "COMP-0023",
     "company_name": "Inbound Lever",
     "website": "https://inboundlever.com",
     "industry": "Marketing / website-development agency (luxury home services, outdoor contractors, legal tech, niche SaaS)",
@@ -249,10 +273,10 @@
     "first_found": "2026-09-25",
     "last_checked": "2026-09-25",
     "status": "ACTIVE",
-    "notes": "Small US-based agency with a standing career-page listing for a GoHighLevel Specialist (GHL-0022) to own GHL setup/management/optimization for company and client accounts. Direct employer career page, not a marketplace/staffing platform."
+    "notes": "Small US-based agency with a standing career-page listing for a GoHighLevel Specialist (GHL-0024) to own GHL setup/management/optimization for company and client accounts. Direct employer career page, not a marketplace/staffing platform."
   },
   {
-    "company_id": "COMP-0022",
+    "company_id": "COMP-0024",
     "company_name": "IDEAHUB IT Solutions Provider Inc.",
     "website": "Unknown",
     "industry": "IT solutions / GoHighLevel agency services (inferred from listing)",
@@ -261,10 +285,10 @@
     "first_found": "2026-09-25",
     "last_checked": "2026-09-25",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0023 (GoHighLevel Expert - Remote, $10-12/hr) on Glassdoor. Has positive employee reviews on Indeed but the GHL-agency side of the business was not independently confirmed. No posting date found."
+    "notes": "Posted GHL-0025 (GoHighLevel Expert - Remote, $10-12/hr) on Glassdoor. Has positive employee reviews on Indeed but the GHL-agency side of the business was not independently confirmed. No posting date found."
   },
   {
-    "company_id": "COMP-0023",
+    "company_id": "COMP-0025",
     "company_name": "SUPERVA (VA staffing platform)",
     "website": "https://superva.io",
     "industry": "Virtual assistant staffing / job marketplace",
@@ -273,6 +297,6 @@
     "first_found": "2026-09-25",
     "last_checked": "2026-09-25",
     "status": "UNKNOWN",
-    "notes": "VA marketplace connecting startups/agencies/enterprises with VAs from 50+ countries; posted GHL-0024 (GoHighLevel Expert, Part-Time) with minimal verifiable detail. Same recurring-source category as EverestX/Sphere Rocket VA/Gentask."
+    "notes": "VA marketplace connecting startups/agencies/enterprises with VAs from 50+ countries; posted GHL-0026 (GoHighLevel Expert, Part-Time) with minimal verifiable detail. Same recurring-source category as EverestX/Sphere Rocket VA/Gentask."
   }
 ]
