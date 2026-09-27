@@ -19,9 +19,9 @@
     "location": "Unknown",
     "company_type": "Unknown",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-26",
+    "last_checked": "2026-09-27",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified. Re-checked 2026-09-26: still indexed, no evidence of closure; still unverified."
+    "notes": "Posted GHL-0002 (GoHighLevel Automation & Integration Specialist) on LinkedIn. Not independently verified beyond search snippet. Re-checked 2026-09-24: listing still indexed, no evidence of closure; still unverified. Re-checked 2026-09-26: still indexed, no evidence of closure; still unverified. Re-checked 2026-09-27: same result again."
   },
   {
     "company_id": "COMP-0003",
@@ -31,9 +31,9 @@
     "location": "Unknown",
     "company_type": "Agency (fulfillment client)",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-27",
     "status": "UNKNOWN",
-    "notes": "Client identity not disclosed in the Upwork listing title (GHL-0003). Needs verification directly on Upwork."
+    "notes": "Client identity not disclosed in the Upwork listing title (GHL-0003). Needs verification directly on Upwork. Re-checked 2026-09-27: actual posting date found to be June 26, 2026 (~3 months old) - flagged ACTIVE_UNCERTAIN, see GHL-0003 notes."
   },
   {
     "company_id": "COMP-0004",
@@ -67,9 +67,9 @@
     "location": "Unknown",
     "company_type": "Staffing agency",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-09-27",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet."
+    "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet. Re-checked 2026-09-27: identical role also found cross-posted on Remotive, confirming continued indexing; exact open/closed status still unconfirmed."
   },
   {
     "company_id": "COMP-0007",
@@ -79,9 +79,9 @@
     "location": "Global (BPO, APAC-heavy placements)",
     "company_type": "Staffing/BPO agency",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0007); recurring GHL-related hiring signal worth periodic re-checking. Re-checked 2026-09-21: own careers portal currently lists several concurrent GHL-related openings, confirming this is an ongoing recurring source."
+    "notes": "Recruits remote GoHighLevel Automation Specialists for its client roster (see GHL-0007); recurring GHL-related hiring signal worth periodic re-checking. Re-checked 2026-09-21: own careers portal currently lists several concurrent GHL-related openings, confirming this is an ongoing recurring source. Re-checked 2026-09-27: ZR_26842_JOB now shown restricted to Japan/Singapore/Ireland candidates - continued evidence of active req rotation."
   },
   {
     "company_id": "COMP-0008",
@@ -91,9 +91,9 @@
     "location": "Remote/EU-based platform; posting shown on UK LinkedIn",
     "company_type": "Recruiting/staffing platform",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0008). Re-checked 2026-09-21: also found on Jobgether's own Lever-hosted posting board; underlying employer appears to be Luxembourg-based."
+    "notes": "Posted a GoHighLevel CRM & Automation Administrator role for an undisclosed client (see GHL-0008). Re-checked 2026-09-21: also found on Jobgether's own Lever-hosted posting board; underlying employer appears to be Luxembourg-based. Re-checked 2026-09-27: confirmed as an increasingly prolific recurring source of distinct GHL requisitions across many named employers (Jumpfactor Marketing, DreamHire.io, Moxie, Outsourcey, IDSCCC)."
   },
   {
     "company_id": "COMP-0009",
@@ -103,9 +103,9 @@
     "location": "Remote (places into US/CA/UK/AU)",
     "company_type": "Staffing/placement platform",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay. Re-checked 2026-09-27: unchanged from prior recheck."
   },
   {
     "company_id": "COMP-0010",
@@ -370,5 +370,41 @@
     "last_checked": "2026-09-26",
     "status": "ACTIVE",
     "notes": "Posted GHL-0032 (GoHighLevel & Automation Specialist, LinkedIn) and separately advertises hiring GHL expert VAs on its own site - same recurring-source category as EverestX/Sphere Rocket VA/Gentask/SUPERVA."
+  },
+  {
+    "company_id": "COMP-0032",
+    "company_name": "Jumpfactor Marketing",
+    "website": "https://careers.jumpfactor.net",
+    "industry": "Digital marketing agency (focused on Managed Service Providers / MSPs)",
+    "location": "Canada",
+    "company_type": "Agency (direct employer)",
+    "first_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "status": "ACTIVE",
+    "notes": "Award-winning, 8-time Growth500 Fastest Growing Agency in Canada. Posted GHL-0034 (GoHighLevel (GHL) Automation Specialist, Canada full-remote, ~1 day old) on Jobgether and its own career page. Runs multiple concurrent GoHighLevel-related listings on careers.jumpfactor.net ('Go High Level Expert', 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - a recurring multi-listing GHL employer worth periodic monitoring, similar to BruntWork/Jobgether/The Plum Tree Group. A separate India-based, 0-1yr-experience GHL+n8n requisition from this employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company actively rotates/closes individual reqs."
+  },
+  {
+    "company_id": "COMP-0033",
+    "company_name": "Contractor Staffing Source",
+    "website": "Unknown",
+    "industry": "Staffing / recruiting (for contractor businesses)",
+    "location": "Unknown (hires Philippines-based remote workers per this listing)",
+    "company_type": "Staffing agency (internal hire, not client placement)",
+    "first_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0035 (GoHighLevel Automation & CRM Specialist, Remotive, ~6 days old, $10-15/hr, Philippines-restricted) as an internal role for its own GoHighLevel CRM optimization, not a client placement."
+  },
+  {
+    "company_id": "COMP-0034",
+    "company_name": "Focal Point",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown (remote-first)",
+    "company_type": "Direct client",
+    "first_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0036 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
   }
 ]

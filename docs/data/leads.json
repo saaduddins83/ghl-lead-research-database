@@ -33,8 +33,8 @@
     "job_type": "Unknown",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-26",
-    "notes": "Found via LinkedIn Jobs search snippet only - direct GHL automation/integration title match. Could not fetch the full posting or confirm posted date/current status: linkedin.com is blocked to automated fetch in this research environment. Needs manual verification before outreach. Re-checked 2026-09-24: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged (POTENTIAL), now 5 days past original discovery. Re-checked 2026-09-26: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged, now 7 days past original discovery.",
+    "last_checked": "2026-09-27",
+    "notes": "Found via LinkedIn Jobs search snippet only - direct GHL automation/integration title match. Could not fetch the full posting or confirm posted date/current status: linkedin.com is blocked to automated fetch in this research environment. Needs manual verification before outreach. Re-checked 2026-09-24: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged (POTENTIAL), now 5 days past original discovery. Re-checked 2026-09-26: listing still indexed by search engines with no evidence of closure/removal, but linkedin.com remains blocked to direct fetch so open/closed status still cannot be independently confirmed - status unchanged, now 7 days past original discovery. Re-checked 2026-09-27: same result again - still indexed, no closure evidence, linkedin.com still blocked to direct fetch - status unchanged, now 8 days past original discovery.",
     "duplicate_key": "hireboost|gohighlevel automation & integration specialist|linkedin"
   },
   {
@@ -52,8 +52,8 @@
     "job_type": "Freelance/Contract",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-19",
-    "notes": "Found via web search snippet indexing an Upwork listing. Title indicates a SaaS agency serving HVAC contractors needs GHL fulfillment/onboarding builds - strong fit for agency-fulfillment skill set. Could not fetch the full Upwork posting (upwork.com is blocked to automated fetch in this environment) to confirm budget, client identity, or currency. Needs manual verification on Upwork before outreach.",
+    "last_checked": "2026-09-27",
+    "notes": "Found via web search snippet indexing an Upwork listing. Title indicates a SaaS agency serving HVAC contractors needs GHL fulfillment/onboarding builds - strong fit for agency-fulfillment skill set. Could not fetch the full Upwork posting (upwork.com is blocked to automated fetch in this environment) to confirm budget, client identity, or currency. Needs manual verification on Upwork before outreach. Re-checked 2026-09-27: a search result surfaced an actual posting date of June 26, 2026 for this listing - approximately 3 months old at time of this recheck, considerably older than assumed at original discovery. ACTIVE_UNCERTAIN: this is an ongoing-style fulfillment/VA role rather than a one-off fixed-price gig, so it may still be accepting applicants, but 3 months without further confirmation is a meaningful staleness signal - flagged for the user's own judgment rather than reclassified to EXPIRED without direct confirmation of closure.",
     "duplicate_key": "unknown hvac saas agency (upwork client)|gohighlevel fulfillment va \u2013 hvac saas agency \u2013 onboarding builds|upwork"
   },
   {
@@ -109,8 +109,8 @@
     "job_type": "Unknown",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-19",
-    "notes": "Search snippet indicated the posting was made approximately 1 month before this research session (~mid-August 2026). Huzzle appears to be a recruiting platform. Could not fetch the full posting to confirm current status due to LinkedIn access restrictions. Needs manual verification.",
+    "last_checked": "2026-09-27",
+    "notes": "Search snippet indicated the posting was made approximately 1 month before this research session (~mid-August 2026). Huzzle appears to be a recruiting platform. Could not fetch the full posting to confirm current status due to LinkedIn access restrictions. Needs manual verification. Re-checked 2026-09-27: the identical role title ('GoHighLevel Automation Specialist @Huzzle') was also found cross-posted on Remotive (https://remotive.com/remote/jobs/marketing/gohighlevel-automation-specialist-4833791), describing the role as architecting and executing end-to-end automation workflows/triggers for lead nurturing and conversion - confirms this is a genuinely cross-posted, still-indexed opportunity, though exact current open/closed status remains unconfirmed since both linkedin.com and remotive.com are blocked to direct fetch in this environment.",
     "duplicate_key": "huzzle|gohighlevel (ghl) marketing automation specialist|linkedin"
   },
   {
@@ -128,8 +128,8 @@
     "job_type": "contract",
     "status": "WARM",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-21",
-    "notes": "BruntWork is an established remote-staffing/BPO firm recruiting a GoHighLevel Automation Specialist for its client roster. Matches user's core GHL workflow/automation skills directly. linkedin.com is blocked by this environment's network egress proxy, so the live posting could not be fetched directly; details are based on web-search indexing of the title/URL only. Verify current open status and exact requirements on LinkedIn before applying. Re-checked 2026-09-21: BruntWork's own careers portal (bruntworkcareers.co) currently lists several concurrent GoHighLevel-related openings (e.g. ZR_26155 Senior GoHighLevel CRM & Automation Specialist, ZR_26842 GoHighLevel Specialist, ZR_20366 GoHighLevel Expert) - confirms BruntWork is a recurring, currently-active source of GHL roles, not a one-off. Original listing status unchanged (still WARM pending direct verification of this specific posting).",
+    "last_checked": "2026-09-27",
+    "notes": "BruntWork is an established remote-staffing/BPO firm recruiting a GoHighLevel Automation Specialist for its client roster. Matches user's core GHL workflow/automation skills directly. linkedin.com is blocked by this environment's network egress proxy, so the live posting could not be fetched directly; details are based on web-search indexing of the title/URL only. Verify current open status and exact requirements on LinkedIn before applying. Re-checked 2026-09-21: BruntWork's own careers portal (bruntworkcareers.co) currently lists several concurrent GoHighLevel-related openings (e.g. ZR_26155 Senior GoHighLevel CRM & Automation Specialist, ZR_26842 GoHighLevel Specialist, ZR_20366 GoHighLevel Expert) - confirms BruntWork is a recurring, currently-active source of GHL roles, not a one-off. Original listing status unchanged (still WARM pending direct verification of this specific posting). Re-checked 2026-09-27: ZR_26842_JOB (GoHighLevel Specialist, part-time) is now shown restricted to candidates in Japan, Singapore, and Ireland - continued evidence BruntWork keeps rotating/refreshing concurrent GHL requisitions with shifting eligibility; still no direct confirmation of this specific original listing's own open/closed status.",
     "duplicate_key": "bruntwork|gohighlevel automation specialist|linkedin"
   },
   {
@@ -147,8 +147,8 @@
     "job_type": "unknown",
     "status": "WARM",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-21",
-    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly \u2014 based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck.",
+    "last_checked": "2026-09-27",
+    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly \u2014 based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck. Re-checked 2026-09-27: still listed on the same Lever posting (jobs.lever.co/jobgether/e8618279...); Jobgether is confirmed as an increasingly recurring source of distinct GHL requisitions from many different named employers (e.g. Jumpfactor Marketing/GHL-0034, plus DreamHire.io, Moxie, Outsourcey, IDSCCC found this session but not yet individually verified) - status unchanged pending direct verification of this specific posting's own current state.",
     "duplicate_key": "jobgether|gohighlevel crm & automation administrator|linkedin"
   },
   {
@@ -166,8 +166,8 @@
     "job_type": "contract/placement",
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
-    "last_checked": "2026-09-24",
-    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing. Re-checked 2026-09-24: EverestX's own site separately advertises client-facing billing rates of $10-16/hr for GoHighLevel specialist work (a different figure than the specialist pay range above, which appears to be specialist take-home compensation) - noted for clarity, does not resolve the legitimacy/terms caution.",
+    "last_checked": "2026-09-27",
+    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing. Re-checked 2026-09-24: EverestX's own site separately advertises client-facing billing rates of $10-16/hr for GoHighLevel specialist work (a different figure than the specialist pay range above, which appears to be specialist take-home compensation) - noted for clarity, does not resolve the legitimacy/terms caution. Re-checked 2026-09-27: site content and pay ranges unchanged from the prior recheck - still an active, ongoing talent-network listing, not a single dated opening.",
     "duplicate_key": "everestx|gohighlevel specialist (talent network placement)|company website"
   },
   {
@@ -625,5 +625,62 @@
     "last_checked": "2026-09-26",
     "notes": "Distinct requisition (job ID D264BCF75C) from the same underlying employer already logged as GHL-0022/Human Intelligence (job ID E08961ABAC) - the identical job ID is cross-posted on Workable under both a 'shae-group' and a 'humanintelligence' URL slug, suggesting Shae Group and Human Intelligence share the same Workable account/are closely related entities (kept under the existing Human Intelligence company record, COMP-0021, rather than created as a separate company, pending clarification). Role emphasizes reliability engineering for automations built in GoHighLevel + Zapier/n8n: proper error paths, retries, monitoring layers, structured logs, and idempotent workflow design - a solid match to the user's GHL/Zapier/webhooks/automation-documentation skill set, though the monitoring/idempotency/logging framing is more senior/technical than the documented profile (flag for the user's own assessment, consistent with GHL-0022's own senior-scope caution). Compensation: USD $1,000-$1,500/month retainer plus a $500/month performance incentive, paid via Wise or bank transfer - same pay range as GHL-0022, reinforcing these are two distinct reqs from the same employer rather than unrelated companies. builtin.com and apply.workable.com are blocked to automated fetch in this environment - based on web-search indexing only. Verify directly before applying.",
     "duplicate_key": "human intelligence|automation workflow specialist (ghl, zapier, n8n, ai) - remote contractor|built in"
+  },
+  {
+    "lead_id": "GHL-0034",
+    "company": "Jumpfactor Marketing",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "GoHighLevel (GHL) Automation Specialist",
+    "source": "Jobgether (also on Jumpfactor's own career page, careers.jumpfactor.net)",
+    "source_url": "https://jobgether.com/offer/69b2a3f124d79271ee04291e-gohighlevel-ghl-automation-specialist",
+    "company_website": "https://careers.jumpfactor.net",
+    "contact_email": "",
+    "location": "Full Remote from Canada",
+    "job_type": "Full-time (independent contractor, 40 hrs/week, 9:00am-5:30pm EST)",
+    "status": "HOT",
+    "date_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "notes": "Jumpfactor is an award-winning, 8-time Growth500 Fastest Growing Agency in Canada, a digital marketing agency focused on Managed Service Providers (MSPs). Role: build, manage, and optimize automations connecting GoHighLevel and n8n, covering lead capture, follow-up, retention, and reporting, plus documentation/internal enablement - a strong direct match to the user's GHL/automation-documentation/SOP skill set. Per Jobgether, posted approximately 1 day before this research session (one of the freshest leads found to date) and independently confirmed live on the company's own career page (careers.jumpfactor.net), a stronger legitimacy signal than an undisclosed-employer listing. Jumpfactor is running multiple concurrent GoHighLevel-related listings on its own career page (also 'Go High Level Expert' and 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - see COMP-0032; a separate India-based 0-1yr-experience GHL+n8n requisition from this same employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company rotates/closes individual reqs while others (including this Canada-remote one) remain open. No salary specified in available listings. careers.jumpfactor.net and jobgether.com were not directly fetchable in this environment (WebFetch blocked) - based on web-search indexing only. Verify current status directly before applying.",
+    "duplicate_key": "jumpfactor marketing|gohighlevel (ghl) automation specialist|jobgether"
+  },
+  {
+    "lead_id": "GHL-0035",
+    "company": "Contractor Staffing Source",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "GoHighLevel Automation & CRM Specialist",
+    "source": "Remotive",
+    "source_url": "https://remotive.com/remote/jobs/software-development/gohighlevel-automation-crm-specialist-4096915",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Philippines",
+    "job_type": "Unknown",
+    "status": "WARM",
+    "date_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "notes": "Internal role at Contractor Staffing Source itself (not a client placement). Role: import/organize large lead lists into GoHighLevel, build and refine workflows/automations/campaigns, review and simplify existing systems, eliminate inefficiencies, segment leads by priority/source/engagement, create email/SMS/voicemail follow-up sequences, build pipelines, and set up call-task/follow-up systems for the Sales Manager - explicitly an optimization role, not just setup - a strong direct match to the user's GHL workflows/pipelines/CRM-cleanup/lead-nurturing skill set. Pay $10-$15/hr. Per Remotive, posted approximately 6 days before this research session. Location restricted to Philippines per the listing - only relevant if the user has eligibility there; flagged per the master instructions' geographic-restriction rule rather than excluded outright. remotive.com is blocked to automated fetch in this environment - based on web-search indexing only. Verify directly before applying.",
+    "duplicate_key": "contractor staffing source|gohighlevel automation & crm specialist|remotive"
+  },
+  {
+    "lead_id": "GHL-0036",
+    "company": "Focal Point",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct client - CRM migration contract",
+    "job_title": "CRM Migration & Automation Specialist (HubSpot to GoHighLevel)",
+    "source": "Remotive",
+    "source_url": "https://remotive.com/remote/jobs/all-others/crm-migration-automation-specialist-5685937",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote",
+    "job_type": "Contract (6-month engagement, possible extension)",
+    "status": "WARM",
+    "date_found": "2026-09-27",
+    "last_checked": "2026-09-27",
+    "notes": "Direct employer seeking a contractor to support migrating and rebuilding their CRM from HubSpot to GoHighLevel: rebuilding CRM workflows, pipeline automations, forms, fields, and triggers/system logic in GHL - a strong direct match to the user's GHL workflows/pipelines/forms/CRM-migration skill set. 6-month contract engagement with possible extension. Per Remotive, posted approximately 1 month before this research session (~late August 2026) - within the outer freshness window but not the freshest; no evidence of closure found. No salary specified. remotive.com is blocked to automated fetch in this environment - based on web-search indexing only. Verify current status directly before applying.",
+    "duplicate_key": "focal point|crm migration & automation specialist (hubspot to gohighlevel)|remotive"
   }
 ]
