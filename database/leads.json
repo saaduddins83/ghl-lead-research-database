@@ -43,7 +43,7 @@
     "contact_name": "Unknown",
     "contact_role": "Unknown",
     "opportunity_type": "Agency fulfillment - GHL onboarding builds",
-    "job_title": "GoHighLevel Fulfillment VA \u2013 HVAC SaaS Agency \u2013 Onboarding Builds",
+    "job_title": "GoHighLevel Fulfillment VA – HVAC SaaS Agency – Onboarding Builds",
     "source": "Upwork",
     "source_url": "https://upwork.com/freelance-jobs/apply/GoHighLevel-Fulfillment-HVAC-SaaS-Agency-Onboarding-Builds_~022069818388369876458",
     "company_website": "Unknown",
@@ -54,7 +54,7 @@
     "date_found": "2026-09-19",
     "last_checked": "2026-09-27",
     "notes": "Found via web search snippet indexing an Upwork listing. Title indicates a SaaS agency serving HVAC contractors needs GHL fulfillment/onboarding builds - strong fit for agency-fulfillment skill set. Could not fetch the full Upwork posting (upwork.com is blocked to automated fetch in this environment) to confirm budget, client identity, or currency. Needs manual verification on Upwork before outreach. Re-checked 2026-09-27: a search result surfaced an actual posting date of June 26, 2026 for this listing - approximately 3 months old at time of this recheck, considerably older than assumed at original discovery. ACTIVE_UNCERTAIN: this is an ongoing-style fulfillment/VA role rather than a one-off fixed-price gig, so it may still be accepting applicants, but 3 months without further confirmation is a meaningful staleness signal - flagged for the user's own judgment rather than reclassified to EXPIRED without direct confirmation of closure.",
-    "duplicate_key": "unknown hvac saas agency (upwork client)|gohighlevel fulfillment va \u2013 hvac saas agency \u2013 onboarding builds|upwork"
+    "duplicate_key": "unknown hvac saas agency (upwork client)|gohighlevel fulfillment va – hvac saas agency – onboarding builds|upwork"
   },
   {
     "lead_id": "GHL-0004",
@@ -148,7 +148,7 @@
     "status": "WARM",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-27",
-    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly \u2014 based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck. Re-checked 2026-09-27: still listed on the same Lever posting (jobs.lever.co/jobgether/e8618279...); Jobgether is confirmed as an increasingly recurring source of distinct GHL requisitions from many different named employers (e.g. Jumpfactor Marketing/GHL-0034, plus DreamHire.io, Moxie, Outsourcey, IDSCCC found this session but not yet individually verified) - status unchanged pending direct verification of this specific posting's own current state.",
+    "notes": "Jobgether is a recruiting platform posting on behalf of an undisclosed employer for a GoHighLevel CRM & Automation Administrator role, matching user's CRM administration and workflow skills. linkedin.com is blocked by this environment's network egress proxy, so the live posting, exact employer, and posting date could not be verified directly — based on web-search indexing only. Verify before applying. Re-checked 2026-09-21: same role also found on Jobgether's own Lever-hosted posting (jobs.lever.co/jobgether) with added detail - employer is Luxembourg-based; role covers GHL pipelines/Smart Lists/tags/segmentation, funnels/landing pages/automation workflows/drip campaigns, integrations (Jotform, GHL, WordPress, payment systems), plus calendar/appointment and client-comms admin support. Client identity still not disclosed by Jobgether. Still active/listed as of this recheck. Re-checked 2026-09-27: still listed on the same Lever posting (jobs.lever.co/jobgether/e8618279...); Jobgether is confirmed as an increasingly recurring source of distinct GHL requisitions from many different named employers (e.g. Jumpfactor Marketing/GHL-0034, plus DreamHire.io, Moxie, Outsourcey, IDSCCC found this session but not yet individually verified) - status unchanged pending direct verification of this specific posting's own current state.",
     "duplicate_key": "jobgether|gohighlevel crm & automation administrator|linkedin"
   },
   {
@@ -167,12 +167,12 @@
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-27",
-    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU \u2014 not a single verified employer opening. Quoted pay per its own site ($600\u2013$1,200/month full-time, $300\u2013$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing. Re-checked 2026-09-24: EverestX's own site separately advertises client-facing billing rates of $10-16/hr for GoHighLevel specialist work (a different figure than the specialist pay range above, which appears to be specialist take-home compensation) - noted for clarity, does not resolve the legitimacy/terms caution. Re-checked 2026-09-27: site content and pay ranges unchanged from the prior recheck - still an active, ongoing talent-network listing, not a single dated opening.",
+    "notes": "EverestX is a talent-placement platform recruiting GoHighLevel Specialists into an 'invite-only' network and placing them with agency clients in the US/CA/UK/AU — not a single verified employer opening. Quoted pay per its own site ($600–$1,200/month full-time, $300–$600/month part-time) is low relative to typical US/UK/AU GHL specialist rates, which warrants caution about legitimacy/terms before pursuing. No specific client company or public contact identified. Treat as a lead source to investigate further, not an application-ready listing. Re-checked 2026-09-24: EverestX's own site separately advertises client-facing billing rates of $10-16/hr for GoHighLevel specialist work (a different figure than the specialist pay range above, which appears to be specialist take-home compensation) - noted for clarity, does not resolve the legitimacy/terms caution. Re-checked 2026-09-27: site content and pay ranges unchanged from the prior recheck - still an active, ongoing talent-network listing, not a single dated opening.",
     "duplicate_key": "everestx|gohighlevel specialist (talent network placement)|company website"
   },
   {
     "lead_id": "GHL-0010",
-    "company": "Unknown (Upwork client \u2014 identity undisclosed until application)",
+    "company": "Unknown (Upwork client — identity undisclosed until application)",
     "contact_name": "",
     "contact_role": "",
     "opportunity_type": "freelance project",
@@ -186,7 +186,7 @@
     "status": "POTENTIAL",
     "date_found": "2026-09-19",
     "last_checked": "2026-09-19",
-    "notes": "Upwork listing for a GoHighLevel Expert / GHL Implementation Specialist, contract-to-hire, stated engagement length 'more than 6 months.' Per the cached description, the client requires personal completion of at least 25 full GoHighLevel sub-account buildouts \u2014 likely above the experience level documented in the user's current skill profile, so fit needs an honest self-assessment before applying. Client identity is withheld by Upwork until application. www.upwork.com is blocked by this environment's network egress proxy, so exact posting date and current open/closed status are unconfirmed \u2014 verify directly on Upwork before applying.",
+    "notes": "Upwork listing for a GoHighLevel Expert / GHL Implementation Specialist, contract-to-hire, stated engagement length 'more than 6 months.' Per the cached description, the client requires personal completion of at least 25 full GoHighLevel sub-account buildouts — likely above the experience level documented in the user's current skill profile, so fit needs an honest self-assessment before applying. Client identity is withheld by Upwork until application. www.upwork.com is blocked by this environment's network egress proxy, so exact posting date and current open/closed status are unconfirmed — verify directly on Upwork before applying.",
     "duplicate_key": "unknown upwork client|gohighlevel expert / ghl implementation specialist|upwork"
   },
   {
@@ -309,7 +309,7 @@
     "contact_name": "",
     "contact_role": "",
     "opportunity_type": "job",
-    "job_title": "GoHighLevel Specialist \u2013 Part-Time, On-Site",
+    "job_title": "GoHighLevel Specialist – Part-Time, On-Site",
     "source": "Indeed",
     "source_url": "https://to.indeed.com/aa6gym8w6zf4",
     "company_website": "Unknown",
@@ -320,7 +320,7 @@
     "date_found": "2026-09-21",
     "last_checked": "2026-09-21",
     "notes": "Fully verified via Indeed's job-details API (full description retrieved, not just a snippet). NYC-based cleaning-services business needs a hands-on GHL specialist to build/manage/improve CRM and automation systems: workflows, pipelines, opportunities, forms/surveys/calendars, SMS/email follow-up sequences, third-party integrations, and webhook/trigger troubleshooting - a strong direct match to the user's core GHL skill set. Pay $30-$40/hr. Posted September 8, 2026 (13 days old at time of research - within the freshness window). IMPORTANT: listing explicitly states 'This is an on-site position in New York City and is not remote' - only relevant if the user is able to work in person in NYC; flagged here rather than excluded so the user can make that call themselves.",
-    "duplicate_key": "couture clean new york|gohighlevel specialist \u2013 part-time, on-site|indeed"
+    "duplicate_key": "couture clean new york|gohighlevel specialist – part-time, on-site|indeed"
   },
   {
     "lead_id": "GHL-0018",
@@ -628,6 +628,25 @@
   },
   {
     "lead_id": "GHL-0034",
+    "company": "Nexa Consultancy Inc.",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "job",
+    "job_title": "Automation Developer (GoHighLevel, n8n, Make.com)",
+    "source": "n8n Community forum (also cross-posted on Wellfound)",
+    "source_url": "https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote, but explicitly restricted to candidates working from India (must overlap part of the day with Canadian Pacific Time business hours)",
+    "job_type": "Full-time",
+    "status": "WARM",
+    "date_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "notes": "Nexa Consultancy Inc. is a Surrey, British Columbia (Canada)-based small agency/consultancy that sets up dashboards, CRM, automation, and reporting for its own clients. Role: build and maintain automations in n8n and Make.com (lead intake, follow-up sequences, appointment booking, WhatsApp/email notifications, reporting) and own the company's GoHighLevel setup - pipelines, workflows, custom fields, calendars, forms, funnels, and integrations via REST APIs/webhooks/JSON/OAuth - a strong direct match to the user's core GHL/API/webhooks skill set (n8n/Make.com are adjacent to, not core to, the documented profile - flag for the user's own assessment). Requires 2-5 years hands-on automation/integration experience with demonstrable n8n/Make.com scenarios, plus working JavaScript or Python for custom code steps (outside the documented skill profile - flag). Salary INR 80,000-110,000/month (~INR 9.6-13.2 lakh/year). IMPORTANT geographic restriction: listing explicitly requires the candidate to be working from India - only relevant if the user is based there; flagged per the master instructions' rule not to assume eligibility for a geographically restricted opportunity. Posted approximately 1 week before this research session (fresh), corroborated by an independent cross-posting on Wellfound with matching company/role detail. community.n8n.io and wellfound.com are blocked to automated fetch in this environment (WebFetch reconfirmed EGRESS_BLOCKED against both domains and a neutral en.wikipedia.org control this session) - based on web-search indexing only. Verify directly before applying.",
+    "duplicate_key": "nexa consultancy inc.|automation developer (gohighlevel, n8n, make.com)|n8n community forum"
+  },
+  {
+    "lead_id": "GHL-0035",
     "company": "Jumpfactor Marketing",
     "contact_name": "",
     "contact_role": "",
@@ -642,11 +661,11 @@
     "status": "HOT",
     "date_found": "2026-09-27",
     "last_checked": "2026-09-27",
-    "notes": "Jumpfactor is an award-winning, 8-time Growth500 Fastest Growing Agency in Canada, a digital marketing agency focused on Managed Service Providers (MSPs). Role: build, manage, and optimize automations connecting GoHighLevel and n8n, covering lead capture, follow-up, retention, and reporting, plus documentation/internal enablement - a strong direct match to the user's GHL/automation-documentation/SOP skill set. Per Jobgether, posted approximately 1 day before this research session (one of the freshest leads found to date) and independently confirmed live on the company's own career page (careers.jumpfactor.net), a stronger legitimacy signal than an undisclosed-employer listing. Jumpfactor is running multiple concurrent GoHighLevel-related listings on its own career page (also 'Go High Level Expert' and 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - see COMP-0032; a separate India-based 0-1yr-experience GHL+n8n requisition from this same employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company rotates/closes individual reqs while others (including this Canada-remote one) remain open. No salary specified in available listings. careers.jumpfactor.net and jobgether.com were not directly fetchable in this environment (WebFetch blocked) - based on web-search indexing only. Verify current status directly before applying.",
+    "notes": "Jumpfactor is an award-winning, 8-time Growth500 Fastest Growing Agency in Canada, a digital marketing agency focused on Managed Service Providers (MSPs). Role: build, manage, and optimize automations connecting GoHighLevel and n8n, covering lead capture, follow-up, retention, and reporting, plus documentation/internal enablement - a strong direct match to the user's GHL/automation-documentation/SOP skill set. Per Jobgether, posted approximately 1 day before this research session (one of the freshest leads found to date) and independently confirmed live on the company's own career page (careers.jumpfactor.net), a stronger legitimacy signal than an undisclosed-employer listing. Jumpfactor is running multiple concurrent GoHighLevel-related listings on its own career page (also 'Go High Level Expert' and 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - see COMP-0033; a separate India-based 0-1yr-experience GHL+n8n requisition from this same employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company rotates/closes individual reqs while others (including this Canada-remote one) remain open. No salary specified in available listings. careers.jumpfactor.net and jobgether.com were not directly fetchable in this environment (WebFetch blocked) - based on web-search indexing only. Verify current status directly before applying.",
     "duplicate_key": "jumpfactor marketing|gohighlevel (ghl) automation specialist|jobgether"
   },
   {
-    "lead_id": "GHL-0035",
+    "lead_id": "GHL-0036",
     "company": "Contractor Staffing Source",
     "contact_name": "",
     "contact_role": "",
@@ -665,7 +684,7 @@
     "duplicate_key": "contractor staffing source|gohighlevel automation & crm specialist|remotive"
   },
   {
-    "lead_id": "GHL-0036",
+    "lead_id": "GHL-0037",
     "company": "Focal Point",
     "contact_name": "",
     "contact_role": "",

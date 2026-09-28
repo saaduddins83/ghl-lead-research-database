@@ -105,7 +105,7 @@
     "first_found": "2026-09-19",
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates \u2014 vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay. Re-checked 2026-09-27: unchanged from prior recheck."
+    "notes": "Recruits GoHighLevel Specialists into an invite-only talent network for agency clients (see GHL-0009). Quoted pay is low relative to market rates — vet legitimacy and terms before pursuing. Re-checked 2026-09-24: company site also lists client-facing billing rates of $10-16/hr, a separate figure from specialist pay. Re-checked 2026-09-27: unchanged from prior recheck."
   },
   {
     "company_id": "COMP-0010",
@@ -373,6 +373,18 @@
   },
   {
     "company_id": "COMP-0032",
+    "company_name": "Nexa Consultancy Inc.",
+    "website": "Unknown",
+    "industry": "Business services / automation & CRM consultancy",
+    "location": "Surrey, British Columbia, Canada (hires remote, this role restricted to India-based candidates)",
+    "company_type": "Direct client (small agency/consultancy)",
+    "first_found": "2026-09-26",
+    "last_checked": "2026-09-26",
+    "status": "ACTIVE",
+    "notes": "Small Canada-based consultancy that sets up dashboards, CRM, automation, and reporting for its clients; posted a fresh (~1 week old) Automation Developer role (GHL-0034) combining n8n/Make.com automation ownership with full GoHighLevel setup responsibility. Role explicitly restricted to candidates working from India."
+  },
+  {
+    "company_id": "COMP-0033",
     "company_name": "Jumpfactor Marketing",
     "website": "https://careers.jumpfactor.net",
     "industry": "Digital marketing agency (focused on Managed Service Providers / MSPs)",
@@ -381,10 +393,10 @@
     "first_found": "2026-09-27",
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Award-winning, 8-time Growth500 Fastest Growing Agency in Canada. Posted GHL-0034 (GoHighLevel (GHL) Automation Specialist, Canada full-remote, ~1 day old) on Jobgether and its own career page. Runs multiple concurrent GoHighLevel-related listings on careers.jumpfactor.net ('Go High Level Expert', 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - a recurring multi-listing GHL employer worth periodic monitoring, similar to BruntWork/Jobgether/The Plum Tree Group. A separate India-based, 0-1yr-experience GHL+n8n requisition from this employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company actively rotates/closes individual reqs."
+    "notes": "Award-winning, 8-time Growth500 Fastest Growing Agency in Canada. Posted GHL-0035 (GoHighLevel (GHL) Automation Specialist, Canada full-remote, ~1 day old) on Jobgether and its own career page. Runs multiple concurrent GoHighLevel-related listings on careers.jumpfactor.net ('Go High Level Expert', 'Automation & Integrations Specialist (GHL + HubSpot + n8n)') - a recurring multi-listing GHL employer worth periodic monitoring, similar to BruntWork/Jobgether/The Plum Tree Group. A separate India-based, 0-1yr-experience GHL+n8n requisition from this employer was found already marked 'Position Closed' on a third-party aggregator, confirming the company actively rotates/closes individual reqs."
   },
   {
-    "company_id": "COMP-0033",
+    "company_id": "COMP-0034",
     "company_name": "Contractor Staffing Source",
     "website": "Unknown",
     "industry": "Staffing / recruiting (for contractor businesses)",
@@ -393,10 +405,10 @@
     "first_found": "2026-09-27",
     "last_checked": "2026-09-27",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0035 (GoHighLevel Automation & CRM Specialist, Remotive, ~6 days old, $10-15/hr, Philippines-restricted) as an internal role for its own GoHighLevel CRM optimization, not a client placement."
+    "notes": "Posted GHL-0036 (GoHighLevel Automation & CRM Specialist, Remotive, ~6 days old, $10-15/hr, Philippines-restricted) as an internal role for its own GoHighLevel CRM optimization, not a client placement."
   },
   {
-    "company_id": "COMP-0034",
+    "company_id": "COMP-0035",
     "company_name": "Focal Point",
     "website": "Unknown",
     "industry": "Unknown",
@@ -405,6 +417,6 @@
     "first_found": "2026-09-27",
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
-    "notes": "Posted GHL-0036 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
+    "notes": "Posted GHL-0037 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
   }
 ]
