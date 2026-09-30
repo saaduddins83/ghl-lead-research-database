@@ -701,5 +701,43 @@
     "last_checked": "2026-09-27",
     "notes": "Direct employer seeking a contractor to support migrating and rebuilding their CRM from HubSpot to GoHighLevel: rebuilding CRM workflows, pipeline automations, forms, fields, and triggers/system logic in GHL - a strong direct match to the user's GHL workflows/pipelines/forms/CRM-migration skill set. 6-month contract engagement with possible extension. Per Remotive, posted approximately 1 month before this research session (~late August 2026) - within the outer freshness window but not the freshest; no evidence of closure found. No salary specified. remotive.com is blocked to automated fetch in this environment - based on web-search indexing only. Verify current status directly before applying.",
     "duplicate_key": "focal point|crm migration & automation specialist (hubspot to gohighlevel)|remotive"
+  },
+  {
+    "lead_id": "GHL-0038",
+    "company": "Virtual Colleague Philippines",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Staffing/direct - part-time GHL specialist",
+    "job_title": "GHL Specialist",
+    "source": "Remotive",
+    "source_url": "https://remotive.com/remote/jobs/all-others/ghl-specialist-5960821",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (role tied to a Tasmania, Australia business; applicant location restrictions unverified)",
+    "job_type": "Part-time (starting ~10 hrs/week)",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "notes": "Web-search snippet (Remotive) indicated posted ~today (2026-09-30). Hands-on GHL role: websites, funnels, forms/surveys/calendars, pipelines, workflows, email/SMS automation, payments/checkout, domains/integrations, troubleshooting - strong skill match. Pay unspecified. ACTIVE_UNCERTAIN: remotive.com and cazvid.com (mirror) blocked to fetch, so open status and location eligibility not verified at source. Verify before applying.",
+    "duplicate_key": "virtual colleague philippines|ghl specialist|remotive"
+  },
+  {
+    "lead_id": "GHL-0039",
+    "company": "Huzzle",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Staffing/direct - senior GHL/technical ops role",
+    "job_title": "Senior GoHighLevel Specialist / Technical Operations Consultant",
+    "source": "Remotive (also Huzzle Workable page, DailyRemote)",
+    "source_url": "https://remotive.com/remote/jobs/all-others/senior-gohighlevel-specialist-4620010",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (worldwide per snippet)",
+    "job_type": "Full-time",
+    "status": "POTENTIAL",
+    "date_found": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "notes": "Search snippet indicated posted ~2 days before 2026-09-30. Builds GHL pipelines/funnels/automations, Zapier/Make/webhook/API integrations. Stated requirements: 3+ yrs hands-on GHL AND 3+ yrs media buying/technical media ops - the media-buying requirement is not in the user's profile, so fit is partial. Separate from GHL-0006 (different, earlier LinkedIn posting). Original Workable page (apply.workable.com/huzzle/jobs/view/82389C8A1D) blocked to fetch - ACTIVE_UNCERTAIN.",
+    "duplicate_key": "huzzle|senior gohighlevel specialist / technical operations consultant|remotive (also huzzle workable page, dailyremote)"
   }
 ]
