@@ -418,5 +418,41 @@
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
     "notes": "Posted GHL-0037 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
+  },
+  {
+    "company_id": "COMP-0036",
+    "company_name": "Richman Elite Financial & Realty Services (REFRS)",
+    "website": "Unknown",
+    "industry": "Financial & realty services",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0038 (Virtual Assistant / GoHighLevel Operations Coordinator, Indeed)."
+  },
+  {
+    "company_id": "COMP-0037",
+    "company_name": "GVO Partners",
+    "website": "Unknown",
+    "industry": "Medical spa / healthcare group",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0039 (GoHighLevel CRM & Automation Specialist - US Remote, Working Nomads)."
+  },
+  {
+    "company_id": "COMP-0038",
+    "company_name": "Remote Raven",
+    "website": "Unknown",
+    "industry": "VA staffing",
+    "location": "Unknown",
+    "company_type": "Staffing / VA agency",
+    "first_found": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0040 (Go HighLevel Specialist, Workable)."
   }
 ]
