@@ -418,5 +418,29 @@
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
     "notes": "Posted GHL-0037 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
+  },
+  {
+    "company_id": "COMP-0036",
+    "company_name": "New Law Business Model",
+    "website": "https://newlawbusinessmodel.com",
+    "industry": "Legal-industry membership, education and systems provider (Personal Family Lawyer)",
+    "location": "Boulder, CO (remote workforce)",
+    "company_type": "Direct employer",
+    "first_found": "2026-10-01",
+    "last_checked": "2026-10-01",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0038 (Solutions Engineer - Customer Success, Indeed, Sep 29 2026). Runs a GoHighLevel + HubSpot + Asana environment for 800+ law-firm members."
+  },
+  {
+    "company_id": "COMP-0037",
+    "company_name": "Unknown (Upwork client - contractor business)",
+    "website": "",
+    "industry": "Contractor/home-services business (per listing title)",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-10-01",
+    "last_checked": "2026-10-01",
+    "status": "UNKNOWN",
+    "notes": "Client behind GHL-0039 on Upwork; identity not disclosed in search snippet."
   }
 ]

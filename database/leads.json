@@ -701,5 +701,43 @@
     "last_checked": "2026-09-27",
     "notes": "Direct employer seeking a contractor to support migrating and rebuilding their CRM from HubSpot to GoHighLevel: rebuilding CRM workflows, pipeline automations, forms, fields, and triggers/system logic in GHL - a strong direct match to the user's GHL workflows/pipelines/forms/CRM-migration skill set. 6-month contract engagement with possible extension. Per Remotive, posted approximately 1 month before this research session (~late August 2026) - within the outer freshness window but not the freshest; no evidence of closure found. No salary specified. remotive.com is blocked to automated fetch in this environment - based on web-search indexing only. Verify current status directly before applying.",
     "duplicate_key": "focal point|crm migration & automation specialist (hubspot to gohighlevel)|remotive"
+  },
+  {
+    "lead_id": "GHL-0038",
+    "company": "New Law Business Model",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - GHL/HubSpot systems administration and troubleshooting",
+    "job_title": "Solutions Engineer - Customer Success",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aa7dcrlsgknl",
+    "company_website": "https://newlawbusinessmodel.com",
+    "contact_email": "",
+    "location": "Remote (listing shows Boulder, CO; 100% remote, requires 4+ hours overlap with Pacific Time; US-based employer, W2 - eligibility outside the US not stated)",
+    "job_type": "Full-time (W2, 40 hrs/week, $40.87-$45.67/hr)",
+    "status": "WARM",
+    "date_found": "2026-10-01",
+    "last_checked": "2026-10-01",
+    "notes": "ACTIVE_VERIFIED on Indeed's job-details API: posted Sep 29, 2026 (2 days old), full description returned, no closure indicated. Administers and troubleshoots GoHighLevel and HubSpot across member accounts (workflows, pipelines, snapshots, calendars, forms, permissions), investigates APIs/webhooks/field mappings/DNS/SMS, writes documentation - strong match to the user's GHL, webhooks/API and SOP skills. Gaps to check before applying: wants hands-on HubSpot experience (not in the user's profile), is a senior-level support/engineering role, and uses a W2 employee model (not freelance). Apply via the Indeed listing. The posting's only email is an ADA-accommodation contact, not an application contact, so it was not recorded as a lead contact. Other NLBM roles not checked.",
+    "duplicate_key": "new law business model|solutions engineer - customer success|indeed"
+  },
+  {
+    "lead_id": "GHL-0039",
+    "company": "Unknown (Upwork client - contractor business)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct client - contractor CRM, AI employee and automation build",
+    "job_title": "GoHighLevel (GHL) Expert for Contractor CRM, AI Employee & Automation",
+    "source": "Upwork",
+    "source_url": "https://www.upwork.com/freelance-jobs/apply/GoHighLevel-GHL-Expert-for-Contractor-CRM-Employee-Automation_~022103168945722418061",
+    "company_website": "",
+    "contact_email": "",
+    "location": "Unknown",
+    "job_type": "Freelance (fixed-price, ongoing project, expert level)",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-01",
+    "last_checked": "2026-10-01",
+    "notes": "ACTIVE_UNCERTAIN. A web-search result described this Upwork listing as 'posted 2 days ago' (fixed-price, expert level, ongoing), requiring GHL CRM, pipelines, workflows, AI employees, lead management, calendars, forms, SMS/email automation and third-party integrations - a strong skill match. upwork.com is blocked to direct fetch here, so the posting date, open status and budget could not be confirmed on the original page. Earlier Upwork snippets in this database often proved stale, so check on Upwork that it still accepts proposals before applying.",
+    "duplicate_key": "unknown (upwork client - contractor business)|gohighlevel (ghl) expert for contractor crm, ai employee & automation|upwork"
   }
 ]
