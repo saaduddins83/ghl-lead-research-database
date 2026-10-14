@@ -67,9 +67,9 @@
     "location": "Unknown",
     "company_type": "Staffing agency",
     "first_found": "2026-09-19",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-10-14",
     "status": "UNKNOWN",
-    "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet. Re-checked 2026-09-27: identical role also found cross-posted on Remotive, confirming continued indexing; exact open/closed status still unconfirmed."
+    "notes": "Posted GHL-0006 (GoHighLevel Marketing Automation Specialist) on LinkedIn, found ~1 month old at time of research. Not independently verified beyond search snippet. Re-checked 2026-09-27: identical role also found cross-posted on Remotive, confirming continued indexing; exact open/closed status still unconfirmed. Re-checked 2026-10-14: a second, distinct Huzzle posting (Senior GoHighLevel Specialist, GHL-0039) found on Remotive; Huzzle also has dated Workable GHL postings from Apr-Jul 2026. Open/closed status of GHL-0006 still unconfirmed."
   },
   {
     "company_id": "COMP-0007",
@@ -418,5 +418,17 @@
     "last_checked": "2026-09-27",
     "status": "ACTIVE",
     "notes": "Posted GHL-0037 (CRM Migration & Automation Specialist, Remotive, ~1 month old, 6-month contract) to migrate/rebuild its CRM from HubSpot to GoHighLevel - workflows, pipeline automations, forms, fields, triggers."
+  },
+  {
+    "company_id": "COMP-0036",
+    "company_name": "Virtual Colleague Philippines",
+    "website": "Unknown",
+    "industry": "VA / outsourcing",
+    "location": "Manila, Philippines (per Built In); client in Tasmania, Australia",
+    "company_type": "Staffing agency",
+    "first_found": "2026-10-14",
+    "last_checked": "2026-10-14",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0038 (GHL Specialist, Remotive, part-time 10 hrs/wk). Open status unverified."
   }
 ]
