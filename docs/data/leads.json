@@ -739,5 +739,43 @@
     "last_checked": "2026-10-14",
     "notes": "ACTIVE_UNCERTAIN. Distinct posting from GHL-0006 (different title and URL) by the same company. Search snippet: owns technical builds, automations and AI-agent work across client launches and internal systems; shown as 'posted 2 days ago' relative to an unknown index snapshot, so real date/open status is unverified. Huzzle's Workable pages for related GHL roles show dated postings of 2026-04-16, 2026-06-02 and 2026-07-29, so Huzzle reposts this role type repeatedly and this listing may be old. Senior-level; check experience requirements against the user's actual profile. remotive.com not fetchable from this environment - verify directly.",
     "duplicate_key": "huzzle|senior gohighlevel specialist (technical operations consultant)|remotive"
+  },
+  {
+    "lead_id": "GHL-0040",
+    "company": "Stone House Retirement Income Planners (Stone House Investment Management)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - marketing ops / CRM & automation (W-2 or 1099 contractor)",
+    "job_title": "Marketing Operations Coordinator",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aasnkxk9pcb4",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (must live in the United States)",
+    "job_type": "Full-time; open to W-2 employee OR 1099 independent contractor ($25-$40/hr 1099, $40-60k W-2)",
+    "status": "WARM",
+    "date_found": "2026-10-14",
+    "last_checked": "2026-10-14",
+    "notes": "ACTIVE_VERIFIED via Indeed job-details (full description read): posted 2026-10-06; applications close 2026-10-19 (5 days after this check); planned start by 2027-01-04. Duties: build/launch email campaigns and follow-up flows, segment lists, troubleshoot connections between forms, calendars, CRM and email, keep CRM data clean, report on results. 'HighLevel experience' is listed as nice-to-have. Matches user's CRM cleanup, email automation, forms/calendars and integration-troubleshooting skills. Caveats: US residents only; asks for 3-5+ years in digital marketing/marketing ops; process includes a short test project; also wants social scheduling and Asana. Apply via Indeed listing with resume + short cover letter describing a campaign/system built.",
+    "duplicate_key": "stone house retirement income planners (stone house investment management)|marketing operations coordinator|indeed"
+  },
+  {
+    "lead_id": "GHL-0041",
+    "company": "AUC Property Sourcing",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct client - 3-6 month contract, systems/automation (GHL is part of stack)",
+    "job_title": "AI & Systems Architect / Developer",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aafdgrtrp2rq",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (UK business; agreed availability for UK team collaboration)",
+    "job_type": "Contract, 3-6 months, possible extension; start November; rate to be agreed (listed £30,900-£144,000/yr)",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-14",
+    "last_checked": "2026-10-14",
+    "notes": "ACTIVE_VERIFIED as to listing existing/recent: Indeed job-details read in full, posted 2026-10-10, start date November; no closing date stated. Project-based. GHL is a required skill (pipelines, workflows, handovers, reporting; assessing GHL's role in the architecture) alongside Google Sheets/Workspace, APIs/webhooks, Make or n8n. POTENTIAL because it is a heavy architect/developer role: it also requires strong SQL/database design, Python and/or JS/TS, Claude/AI agent development and deploying hosted apps - beyond the user's profile (basic PHP/MySQL). Only worth pursuing if the user wants to bid on the GHL/automation/integration portion. Apply with CV, 2-3 projects owned end to end, availability and rate.",
+    "duplicate_key": "auc property sourcing|ai & systems architect / developer|indeed"
   }
 ]

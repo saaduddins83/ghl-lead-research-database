@@ -430,5 +430,29 @@
     "last_checked": "2026-10-14",
     "status": "ACTIVE",
     "notes": "Posted GHL-0038 (GHL Specialist, Remotive, part-time 10 hrs/wk). Open status unverified."
+  },
+  {
+    "company_id": "COMP-0037",
+    "company_name": "Stone House Retirement Income Planners",
+    "website": "Unknown",
+    "industry": "Wealth management / financial services",
+    "location": "Northeastern Pennsylvania, USA (role remote, US only)",
+    "company_type": "Direct client",
+    "first_found": "2026-10-14",
+    "last_checked": "2026-10-14",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0040 (Marketing Operations Coordinator, Indeed, closes 2026-10-19; W-2 or 1099)."
+  },
+  {
+    "company_id": "COMP-0038",
+    "company_name": "AUC Property Sourcing",
+    "website": "Unknown",
+    "industry": "UK property investment sourcing",
+    "location": "UK",
+    "company_type": "Direct client",
+    "first_found": "2026-10-14",
+    "last_checked": "2026-10-14",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0041 (AI & Systems Architect / Developer, Indeed, 3-6 month contract, posted 2026-10-10). GHL, Make, Google Workspace, Slack in their stack."
   }
 ]

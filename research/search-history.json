@@ -411,5 +411,28 @@
     "duplicates_skipped": 0,
     "updated_leads": 1,
     "notes": "Environment: WebFetch fails with DNS ENOTFOUND for remotive.com and upwork.com, so no listing could be opened at its original source; the two new leads are ACTIVE_UNCERTAIN (POTENTIAL) and relative dates like 'posted today' are snapshot-relative, not proof. Indeed US remote sweep returned GHL-named roles but both reviewed in full were rejected: Pest Badger 'GoHighLevel CRM & Lead Operations Manager' (Sep 30 2026) is primarily a sales/closing role (outbound calls, closing, $55-60k + commission) with GHL only as the CRM, poor fit to the user's profile; 'Client Success Manager - Dance Studio Clients' (Oct 1) is coaching/account management needing SMMA experience, GHL only preferred. Indeed GB/CA sweeps returned nothing. Other snippet-only candidates not saved: Scale Army/GHL-0027 already tracked; 20four7VA GHL Systems Auditor (Philippines-only, likely not eligible); GrowBeyond (Philippines-only, March 2026); Lago (~2 months old); Adaptive Teams (April 2025, stale); Upwork 'Full-Time GoHighLevel Tech' (~3 weeks old, $6-13/hr), Upwork 'GHL SaaS White Label Developer' (~3 weeks old), OnlineJobs.ph listings (updated Feb-Jul 2026), Freelancer.com end-to-end sales workflow (5 days left at unknown snapshot) - all unverifiable/stale. Agency white-label search found only vendors (Seahawk Media, GHL Scale Up), no hiring evidence. STALE WARNING: all 37 earlier leads were last checked 2026-09-19..27 (17-25 days ago) and could not be re-verified this run; open/closed status of the LinkedIn/Remotive/Glassdoor leads, especially GHL-0001 (Indeed, posted Sep 16) and GHL-0014/0020/0035 (HOT), should be checked manually before use. Gaps for next session: Make/n8n community forums filtered to last 2 weeks, Facebook groups, Jobgether listings flagged in SEARCH-0011 (DreamHire.io, IDSCCC, Outsourcey, plus Jobgether fitness-center GHL/n8n role found this run), Huzzle Workable pages."
+  },
+  {
+    "research_id": "SEARCH-0013",
+    "date": "2026-10-14",
+    "search_area": "Follow-up to SEARCH-0012 at the user's request: Indeed first (broader keyword set, then contract/project-based focus), with full job-details reads on every plausible hit.",
+    "keywords": [
+      "GoHighLevel contract (Indeed US remote)",
+      "GoHighLevel freelance project (Indeed US remote)",
+      "CRM automation contractor (Indeed US remote)",
+      "GoHighLevel (Indeed AU remote)",
+      "GoHighLevel (Indeed CA remote)",
+      "Zapier webhook integration CRM (Indeed US remote)",
+      "marketing automation specialist workflows (Indeed US remote)",
+      "GHL (Indeed GB remote)"
+    ],
+    "sources": [
+      "Indeed (MCP search + job-details tools, US/AU/CA/GB)"
+    ],
+    "results_found": 53,
+    "new_leads": 2,
+    "duplicates_skipped": 0,
+    "updated_leads": 0,
+    "notes": "Indeed is the only source this run and, unlike other boards, job-details could be read in full, so these are verified against the original listing. Added: GHL-0040 Stone House (WARM; closes 2026-10-19) and GHL-0041 AUC Property Sourcing (POTENTIAL; stretch fit). Reviewed in full and rejected: Revenue Operations Analyst (Lepre Enterprises) - analytics role requiring 4 yrs RevOps, GHL only 'valuable'; Sarah Kraning Art Email + Squarespace Specialist - copywriting-led email/website role, no GHL, poor fit; HubSpot & NetSuite Integration Specialist (JUkaso) - requires 10 yrs HubSpot/NetSuite, outside profile. Rejected from titles (sales/SDR/closer/appointment setter, ads, HubSpot-admin on-site, etc.): the bulk of the ~53 results. 'GoHighLevel freelance project' (US) and GHL/Zapier-style queries in CA returned no results; AU returned one non-matching role. Previously rejected in SEARCH-0012: Pest Badger, Dance Studio CSM. Contract/project-based filtering on Indeed yields mostly sales contracts; true GHL project work is concentrated on Upwork/Freelancer/OnlineJobs.ph, which cannot be opened from this environment."
   }
 ]
