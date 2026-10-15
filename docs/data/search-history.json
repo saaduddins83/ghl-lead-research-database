@@ -482,5 +482,34 @@
     "duplicates_skipped": 4,
     "updated_leads": 0,
     "notes": "Indeed PK city searches returned no new fitting GHL role: Bitzsol (GHL-0042), Biztekapps (GHL-0045) and MKTH (GHL-0044) re-surfaced under new job IDs and were skipped as duplicates (Biztekapps appeared 3 times). Read in full and rejected: Toptech.team RevOps/AI Revenue Automation Engineer (n8n+HubSpot+Python, 3-6 yrs); Dashboardbay Lead Generation & CRM Operations Specialist (paid ads/lead gen centered, 3+ yrs). Other Indeed PK results were sales/SDR/marketing/AI-developer roles. Non-Indeed (snippet only, fetch blocked by DNS failure for rozee.pk and iwork4sindh.com): added GHL-0047 and GHL-0048. Seen but NOT saved because details unverifiable: Rozee NSOL BPO GHL Expert, Rawalpindi (deadline 2026-09-29 already passed - likely expired); Rozee 'GHL Specialist' Rawalpindi listings 1878526/1880327 (one possibly Naseeb Enterprise, posted ~2026-09-24; which ID is which not confirmed); Mustakbil GoHighLevel Client Setup & Automation Specialist (PKR 160-180k, night shift 7PM-2AM, undated), Mustakbil GHL Funnel Specialist Lahore (part-time PKR 15-40k, 2+ yrs), Vogn Digital GHL Expert Karachi (on-site, Rs50-100k); Level9virtual (US-only), Scale Army (LATAM/Africa/E. Europe only, already GHL-0027), Fasttrack (Philippines-only), Paired and Bizmoni (already tracked)."
+  },
+  {
+    "research_id": "SEARCH-0016",
+    "date": "2026-10-15",
+    "search_area": "User asked for opportunities OUTSIDE Pakistan, project-based or freelance, excluding Upwork and Fiverr. Indeed first (US, GB, AE, CA, AU by country name), then Freelancer.com, Workana, Hubstaff Talent, OnlineJobs.ph, Make Community, Workable, LinkedIn-style agency posts, Jobgether/WWR/Wellfound via web search.",
+    "keywords": [
+      "GoHighLevel (Indeed US/GB/AE/CA/AU)",
+      "freelancer.com GoHighLevel workflow automation",
+      "onlinejobs.ph GoHighLevel specialist freelance contract",
+      "GoHighLevel agency freelance GHL builder subcontractor",
+      "wellfound/jobgether/WWR GoHighLevel contract worldwide",
+      "hubstaff talent/workana/guru GoHighLevel",
+      "Workana GoHighLevel Make.com automation integration expert",
+      "Credit Repair Cloud GoHighLevel Marketing Ops Specialist",
+      "Pavago GoHighLevel Marketing Operations Specialist",
+      "Make Community hiring GHL"
+    ],
+    "sources": [
+      "Indeed (US, GB, AE, CA, AU)",
+      "Freelancer.com, Workana, Hubstaff Talent, OnlineJobs.ph, Freelancehunt (web search only)",
+      "Make.com Community",
+      "Workable / Pavago",
+      "jobboardly (Credit Repair Cloud)"
+    ],
+    "results_found": 70,
+    "new_leads": 3,
+    "duplicates_skipped": 2,
+    "updated_leads": 0,
+    "notes": "Indeed overseas results (US/UK/UAE/CA/AU) were read in full for the plausible GHL ones and ALL are on-site or hybrid in-country roles, so unusable for a Pakistan-based applicant: T7X (Irvine CA, hybrid, 3+ yrs GHL, $55-67k), Rose City Pain Relief CRM & Marketing Automation Lead (Tustin CA, in person, contract $95-115k), Brickell Gold Group CRM Specialist (Woodland Hills hybrid, Pipedrive/SQL/JS), Glow Up Studios CRM Specialist (Manchester, in person, freelance £28k, SQL/WordPress/n8n). Re-surfaced duplicates skipped: Pest Badger (rejected earlier), AUC Property (GHL-0041), Lepre RevOps (rejected). No other Indeed overseas remote GHL contract/project roles exist at this time. Non-Indeed: added GHL-0049 Make Community agency (Jul 24), GHL-0050 Pavago, GHL-0051 Credit Repair Cloud - all snippet-only/ACTIVE_UNCERTAIN because workana.com, onlinejobs.ph, hubstafftalent.net, community.make.com, apply.workable.com and jobboardly are not reachable (DNS) from this environment. Seen but NOT saved: Workana 'GoHighLevel, GHL and Make.com Automation Integration Expert Needed' (posted 2026-03-16, status 'Evaluating bids' - likely closed, https://www.workana.com/en/job/gohighlevel-ghl-and-make-com-automation-integration-expert-needed); Freelancer.com 'advanced GHL workflow integration' (n8n/Voiceflow/OpenAI, 174 bids, ~16 days old - saturated and beyond profile, https://www.freelancer.de/projects/api/advanced-ghl-workflow-integration); Freelancehunt 'GoHighLevel Specialist - Niche Template Setup' (USD 100, one-day task, https://freelancehunt.com/en/project/gohighlevel-specialist-niche-template-setup/1602111.html); Hubstaff Talent 'Go Highlevel Workflow Manager' fixed price with 15% lead commission, 3-5 yrs, undated (https://hubstafftalent.net/jobs/go-highlevel-workflow-manager); OnlineJobs.ph listings 1657549 GoHighLevel Platform Specialist, 1634073 Go High Level VA Expert, 1468520 Web Developer (GoHighLevel Specialist, contract $500/35 hrs) - details/dates unverified; Human Intelligence contractor (already GHL-0022/0033; prefers Philippines/SEA/E. Europe). Upwork/Fiverr results ignored per user instruction."
   }
 ]
