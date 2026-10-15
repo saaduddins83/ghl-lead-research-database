@@ -634,5 +634,53 @@
     "last_checked": "2026-10-15",
     "status": "ACTIVE",
     "notes": "Posted GHL-0057 (Automation Specialist, Indeed, 2026-10-07); also Funnel Specialist listing 2026-09-24 (not saved)."
+  },
+  {
+    "company_id": "COMP-0054",
+    "company_name": "Unknown (Rozee.pk employer)",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Pakistan",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Found via web-search snippet 2026-10-15 (see matching GHL lead)."
+  },
+  {
+    "company_id": "COMP-0055",
+    "company_name": "Unknown digital marketing agency (Rozee.pk)",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Pakistan",
+    "company_type": "Digital marketing agency",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Found via web-search snippet 2026-10-15 (see matching GHL lead)."
+  },
+  {
+    "company_id": "COMP-0056",
+    "company_name": "Advisor Marketing Mastery",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Islamabad, Pakistan",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Found via web-search snippet 2026-10-15 (see matching GHL lead)."
+  },
+  {
+    "company_id": "COMP-0057",
+    "company_name": "Sparc Digital Solutions",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Rawalpindi, Pakistan",
+    "company_type": "Digital agency",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Found via web-search snippet 2026-10-15 (see matching GHL lead)."
   }
 ]

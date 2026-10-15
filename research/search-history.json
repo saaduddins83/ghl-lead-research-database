@@ -549,5 +549,29 @@
     "duplicates_skipped": 6,
     "updated_leads": 0,
     "notes": "Indeed ZA ('Home Based') surfaced the strongest new lead: Skyray Ventures (GHL-0056, HOT, two postings Oct 7 and Oct 11 combined). Added GHL-0057 Circle of Greatness. Duplicates skipped: DCX Pest Control PH (GHL-0052), RemediationX (GHL-0055), Marketing Done Right (GHL-0054), SUPERVA (GHL-0053), Windcrest (GHL-0043), Classboxes (GHL-0046), Pavago GHL Marketing Operations Specialist (Johannesburg, Indeed, posted 2026-09-23; related to GHL-0050), AIM NOREMAC (rejected earlier). Read in full and rejected: Linked Helpers Insurance VA (needs US insurance-industry experience, calls, Facebook ads, Php20,000, Pacific Time); Circle of Greatness Funnel Specialist (funnel copy/CRO, 3+ yrs). Seen, not opened: Caliber6 Senior Project Manager GHL & CRM Implementations (ZA home-based, Oct 5 - project management, to check manually), Payless Kitchen Cabinets 'GHL - Email Campaign Coordinator' (Cape Town, local hire), GetCSM Credit Repair Specialist (credit repair, not GHL-centric), NXT LVL Mobile Detailing Part-Time Tech Specialist GHL & Webflow (Aug 21, old), REVSTONE GoHighLevel Admin Manila (Aug 31) and Empire GHL Automations Specialist Manila (Aug 4) - old, TYMBA CRM & Automation Specialist (Kuala Lumpur, Sep 18, on-site), 1988 Senior Marketing & AI Automation Manager (Lagos, Aug 18, on-site). NZ, SG, SA returned nothing relevant."
+  },
+  {
+    "research_id": "SEARCH-0019",
+    "date": "2026-10-15",
+    "search_area": "User reported to.indeed.com links not opening and asked for working links plus more GHL work. Looked for direct/alternate URLs for saved Indeed leads and searched Pakistani boards (Rozee, Mustakbil), Sparc Digital, Himalayas, Remote4Africa.",
+    "keywords": [
+      "Skyray Ventures Go High Level Expert",
+      "Bitzsol Digital Junior GHL Specialist",
+      "Marketing Done Right Lifecycle Marketing Automation CRM Specialist",
+      "DCX Pest Control GoHighLevel Specialist",
+      "Sparc Digital Solutions Go High Level",
+      "himalayas GoHighLevel Pakistan",
+      "rozee go high level crm manager 1896189",
+      "prosmarketplace GoHighLevel expert"
+    ],
+    "sources": [
+      "Web search",
+      "Rozee.pk, Mustakbil, pk.indeed.com company pages (snippets only)"
+    ],
+    "results_found": 40,
+    "new_leads": 4,
+    "duplicates_skipped": 1,
+    "updated_leads": 12,
+    "notes": "to.indeed.com short links are the only URL the Indeed tool returns; curl to them is blocked here (403 proxy), so they could not be tested. Added alternate links to 11 leads: only Marketing Done Right (GHL-0054) has a verified direct job page (ecommerceguide.com mirror); the others get Indeed search/company URLs (indeed.com / pk.indeed.com / ph.indeed.com ?q=title) that were not individually verified, and the Skyray Ventures, DCX, Bitzsol, Windcrest etc. postings did NOT appear in web search, so they may be visible only on Indeed itself. GHL-0047 (Rozee Multan) marked EXPIRED: deadline 2026-09-03 passed. New snippet-only leads: GHL-0058 Rozee remote GHL expert PKR 100k, GHL-0059 Rozee GHL agency expert (ID 1896189), GHL-0060 Advisor Marketing Mastery (Mustakbil), GHL-0061 Sparc Digital Solutions. Seen, not saved: Kinetic Marketing Co (Melbourne agency) via OnlineJobs.ph 1609779, updated 2026-07-01, needs Loom + AEST hours; ProsMarketplace GHL expert $3000/month listings (https://prosmarketplace.com/job/job-detail/gohighlevel-expert, unverifiable, case studies required); Remote4Africa GoHighLevel Specialist $3.6-4.8k/yr (https://remote4africa.com/jobs); Remote Latinos GHL role (US-only); 321 the Agency Orlando CRM Specialist (on-site, Indeed); Himalayas returned no Pakistan GHL listing."
   }
 ]

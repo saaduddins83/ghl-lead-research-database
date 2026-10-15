@@ -794,7 +794,7 @@
     "status": "HOT",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED via Indeed job-details (full text read): posted 2026-10-08, 7 days old, no deadline stated. Pakistan-based and open to the user's location. Duties map closely to the user's profile: sub-account setup, custom fields/tags, funnels/websites, workflows, pipelines, calendars/reminders, forms/surveys, email+SMS campaigns, Zapier/Make/webhooks, contact cleanup, snapshots, documentation. Requires 6 months-1 year hands-on GHL, fluent English, BS CS preferred (not strictly required); nice-to-have: US hours, A2P 10DLC, Conversation/Voice AI. Junior-level pay and on-site. Apply by emailing CV + portfolio to the public application address with subject 'Junior GHL Specialist'. Company name taken from the Indeed search result (job-details showed none).",
+    "notes": "ACTIVE_VERIFIED via Indeed job-details (full text read): posted 2026-10-08, 7 days old, no deadline stated. Pakistan-based and open to the user's location. Duties map closely to the user's profile: sub-account setup, custom fields/tags, funnels/websites, workflows, pipelines, calendars/reminders, forms/surveys, email+SMS campaigns, Zapier/Make/webhooks, contact cleanup, snapshots, documentation. Requires 6 months-1 year hands-on GHL, fluent English, BS CS preferred (not strictly required); nice-to-have: US hours, A2P 10DLC, Conversation/Voice AI. Junior-level pay and on-site. Apply by emailing CV + portfolio to the public application address with subject 'Junior GHL Specialist'. Company name taken from the Indeed search result (job-details showed none). ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://pk.indeed.com/jobs?q=Junior+GHL+Specialist&l=Rawalpindi (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "bitzsol digital|junior ghl specialist|indeed"
   },
   {
@@ -813,7 +813,7 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as an existing recent listing via Indeed job-details (full text read): posted 2026-10-06, no deadline. Company shown as Windcrest Pediatric Dentistry on Indeed, description names Lumeo Marketing (multi-venture healthcare/marketing/tech organization). Owns GHL across multiple brands: accounts, pipelines, calendars, automations, funnels, email/SMS campaigns, tagging, reporting dashboards, Zapier/Stripe/Google Workspace/Slack integrations, staff training, troubleshooting. Needs 2+ years hands-on GHL, API/webhook familiarity; basic HTML/CSS preferred. Apply by sending resume, portfolio and short note on GHL experience (no email address shown in the text).",
+    "notes": "ACTIVE_VERIFIED as an existing recent listing via Indeed job-details (full text read): posted 2026-10-06, no deadline. Company shown as Windcrest Pediatric Dentistry on Indeed, description names Lumeo Marketing (multi-venture healthcare/marketing/tech organization). Owns GHL across multiple brands: accounts, pipelines, calendars, automations, funnels, email/SMS campaigns, tagging, reporting dashboards, Zapier/Stripe/Google Workspace/Slack integrations, staff training, troubleshooting. Needs 2+ years hands-on GHL, API/webhook familiarity; basic HTML/CSS preferred. Apply by sending resume, portfolio and short note on GHL experience (no email address shown in the text). ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://www.indeed.com/jobs?q=GoHighLevel+Software+Specialist&l=Remote (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "windcrest pediatric dentistry / lumeo marketing|gohighlevel software specialist|indeed"
   },
   {
@@ -832,7 +832,7 @@
     "status": "POTENTIAL",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_UNCERTAIN: Indeed job-details read in full; posted 2026-09-18 (about 4 weeks old at check), no deadline - may be filled. Requires hands-on n8n AND GHL, APIs/webhooks, 1 year GHL+n8n experience, Bachelor's required, Karachi required. n8n is adjacent to (not the same as) the user's Zapier/webhooks skills. Application questions: current salary, expected salary, joining time.",
+    "notes": "ACTIVE_UNCERTAIN: Indeed job-details read in full; posted 2026-09-18 (about 4 weeks old at check), no deadline - may be filled. Requires hands-on n8n AND GHL, APIs/webhooks, 1 year GHL+n8n experience, Bachelor's required, Karachi required. n8n is adjacent to (not the same as) the user's Zapier/webhooks skills. Application questions: current salary, expected salary, joining time. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://pk.indeed.com/jobs?q=GHL+n8n+Automation+Engineer&l=Karachi (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "mkth solutions|ghl & n8n automation engineer|indeed"
   },
   {
@@ -851,7 +851,7 @@
     "status": "POTENTIAL",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_UNCERTAIN: Indeed job-details read in full; posted 2026-09-15 (about 1 month old at check), no deadline - may be filled. Very strong skill match (workflows, funnels, pipelines, calendars, forms, surveys, SMS/email, API/webhooks/Zapier/Make, dashboards, documentation) but asks for an advanced expert with 3+ years GHL, possible practical assessment, mandatory night shift, on-site in Lahore.",
+    "notes": "ACTIVE_UNCERTAIN: Indeed job-details read in full; posted 2026-09-15 (about 1 month old at check), no deadline - may be filled. Very strong skill match (workflows, funnels, pipelines, calendars, forms, surveys, SMS/email, API/webhooks/Zapier/Make, dashboards, documentation) but asks for an advanced expert with 3+ years GHL, possible practical assessment, mandatory night shift, on-site in Lahore. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://pk.indeed.com/cmp/Biztekapps/jobs (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "biztekapps|gohighlevel (ghl) crm expert|indeed"
   },
   {
@@ -870,7 +870,7 @@
     "status": "POTENTIAL",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_UNCERTAIN as to fit, listing recent: Indeed job-details read in full, posted 2026-10-06. Half the role is GHL (retention/win-back/rebooking flows over email, SMS, WhatsApp with branching and error handling, AI features + n8n, compliance/consent) but the other half is conversion-rate optimization, A/B testing, retargeting design and weekly KPI reporting, which are outside the user's profile. Candidates must build a live retention flow in GHL during the interview. Low pay.",
+    "notes": "ACTIVE_UNCERTAIN as to fit, listing recent: Indeed job-details read in full, posted 2026-10-06. Half the role is GHL (retention/win-back/rebooking flows over email, SMS, WhatsApp with branching and error handling, AI features + n8n, compliance/consent) but the other half is conversion-rate optimization, A/B testing, retargeting design and weekly KPI reporting, which are outside the user's profile. Candidates must build a live retention flow in GHL during the interview. Low pay. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ph.indeed.com/jobs?q=CRO+Retention+GHL+Specialist (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "classboxes technologies|cro retention & ghl specialist|indeed"
   },
   {
@@ -886,10 +886,10 @@
     "contact_email": "",
     "location": "Multan, Pakistan (on-site/remote not confirmed)",
     "job_type": "Unknown",
-    "status": "POTENTIAL",
+    "status": "EXPIRED",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_UNCERTAIN: found via web-search snippet only; rozee.pk cannot be fetched from this environment (DNS failure), so posting date, deadline and employer name are unverified. Snippet: minimum 2 years hands-on GoHighLevel, familiarity with Zapier, Make, webhooks and API integrations - matches the user's skills. Check the page directly for the date and deadline.",
+    "notes": "ACTIVE_UNCERTAIN: found via web-search snippet only; rozee.pk cannot be fetched from this environment (DNS failure), so posting date, deadline and employer name are unverified. Snippet: minimum 2 years hands-on GoHighLevel, familiarity with Zapier, Make, webhooks and API integrations - matches the user's skills. Check the page directly for the date and deadline. 2026-10-15: web-search snippet for this Rozee listing shows an application deadline of 2026-09-03, which has passed - marked EXPIRED.",
     "duplicate_key": "unknown (rozee.pk employer, multan)|gohighlevel (ghl) crm & automation specialist|rozee.pk"
   },
   {
@@ -984,7 +984,7 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-09, no deadline. Builds and manages GHL sub-accounts, pipelines, workflows, triggers, calendars, forms, surveys, funnels/websites, email/SMS follow-ups, integrations, documentation and troubleshooting across multiple brands - close match to the user's profile. Asks applicants to present examples of previous GHL builds. Time zone to be confirmed. No application contact shown in the text; apply through the Indeed listing.",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-09, no deadline. Builds and manages GHL sub-accounts, pipelines, workflows, triggers, calendars, forms, surveys, funnels/websites, email/SMS follow-ups, integrations, documentation and troubleshooting across multiple brands - close match to the user's profile. Asks applicants to present examples of previous GHL builds. Time zone to be confirmed. No application contact shown in the text; apply through the Indeed listing. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ph.indeed.com/jobs?q=GoHighLevel+Specialist+CRM+Automation (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "dcx pest control ph|gohighlevel (ghl) specialist – crm & automation|indeed"
   },
   {
@@ -1003,7 +1003,7 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-12, no deadline. Duties: audit/organize/optimize the client's GHL account, build pipelines, workflows, automations and integrations, build landing/sales/checkout pages and funnels, launch courses/coaching/memberships, payment gateways, email sequences, onboarding workflows, testing and documentation. Requires 2+ years hands-on GHL and 4-5 years building funnels/campaigns, and prior launches of digital products - experience bar is above a typical entry profile. 8AM CST means a late-evening shift from Pakistan. SUPERVA is also behind GHL-0026 (different, earlier part-time listing); company attribution here comes from the search result card only.",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-12, no deadline. Duties: audit/organize/optimize the client's GHL account, build pipelines, workflows, automations and integrations, build landing/sales/checkout pages and funnels, launch courses/coaching/memberships, payment gateways, email sequences, onboarding workflows, testing and documentation. Requires 2+ years hands-on GHL and 4-5 years building funnels/campaigns, and prior launches of digital products - experience bar is above a typical entry profile. 8AM CST means a late-evening shift from Pakistan. SUPERVA is also behind GHL-0026 (different, earlier part-time listing); company attribution here comes from the search result card only. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ph.indeed.com/jobs?q=GHL+Specialist (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "superva (per indeed result card; employer name not shown in listing text)|gohighlevel funnel & digital product launch specialist (listed as 'ghl specialist')|indeed"
   },
   {
@@ -1022,7 +1022,7 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-09-29 (about 2 weeks old at check), no deadline. US digital-marketing agency; role builds and QA's GHL workflows (email/SMS sequences, triggers, forms, tags, custom fields, pipeline stages, lead routing, calendars), reactivation campaigns, segmentation, reporting on booked appointments, list hygiene/consent, SOPs. Also schedules the company's social media content. Needs advanced hands-on GHL and campaigns you personally built. Apply via the Google Apps Script form link in the listing (see the Indeed page; link not copied here).",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-09-29 (about 2 weeks old at check), no deadline. US digital-marketing agency; role builds and QA's GHL workflows (email/SMS sequences, triggers, forms, tags, custom fields, pipeline stages, lead routing, calendars), reactivation campaigns, segmentation, reporting on booked appointments, list hygiene/consent, SOPs. Also schedules the company's social media content. Needs advanced hands-on GHL and campaigns you personally built. Apply via the Google Apps Script form link in the listing (see the Indeed page; link not copied here). ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ecommerceguide.com/jobs/specialist-lifecycle-marketing-automation-and-crm-at-marketing-done-right-595a9eb7/ (direct job page, found via web search).",
     "duplicate_key": "marketing done right|specialist, lifecycle marketing automation & crm (gohighlevel)|indeed"
   },
   {
@@ -1041,7 +1041,7 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-08, no deadline. Duties: manage leads/contacts/pipelines, email and SMS campaigns with automated follow-ups, recurring sequences and workflows, monitor leads and appointments, keep CRM data accurate. Requires GHL and CRM automation experience; entry-level with relevant CRM experience accepted. Lower-level VA-style role; pay unknown, so ask before investing time.",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-08, no deadline. Duties: manage leads/contacts/pipelines, email and SMS campaigns with automated follow-ups, recurring sequences and workflows, monitor leads and appointments, keep CRM data accurate. Requires GHL and CRM automation experience; entry-level with relevant CRM experience accepted. Lower-level VA-style role; pay unknown, so ask before investing time. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ph.indeed.com/jobs?q=CRM+Specialist+Go+High+Level (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "remediationx|crm specialist (go high level) / crm virtual assistant|indeed"
   },
   {
@@ -1060,7 +1060,7 @@
     "status": "HOT",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read of both postings): posted 2026-10-11, and an earlier duplicate posting of the same role (https://to.indeed.com/aalkcg74cldx) dated 2026-10-07 - treated as one opportunity. Holding company building websites, funnels, CRM flows and automations in GHL for US contractors and home-services businesses: pipelines/workflows/automations, Google review request systems, missed-call text-back, SMS/email follow-up, appointment booking, reusable snapshots, integrations and client support. Needs 2+ years hands-on GHL, a portfolio of live local-business sites/automations, familiarity with A2P 10DLC and Zapier or Make. Very close match to the user's skill profile. US business hours means a night shift from Pakistan. Public application emails given in the listings: sofia@skyrayventures.com (newer posting) and hafsa@skyrayventures.com (older posting). Applicants also answer three screening questions on Indeed. Nothing sent.",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read of both postings): posted 2026-10-11, and an earlier duplicate posting of the same role (https://to.indeed.com/aalkcg74cldx) dated 2026-10-07 - treated as one opportunity. Holding company building websites, funnels, CRM flows and automations in GHL for US contractors and home-services businesses: pipelines/workflows/automations, Google review request systems, missed-call text-back, SMS/email follow-up, appointment booking, reusable snapshots, integrations and client support. Needs 2+ years hands-on GHL, a portfolio of live local-business sites/automations, familiarity with A2P 10DLC and Zapier or Make. Very close match to the user's skill profile. US business hours means a night shift from Pakistan. Public application emails given in the listings: sofia@skyrayventures.com (newer posting) and hafsa@skyrayventures.com (older posting). Applicants also answer three screening questions on Indeed. Nothing sent. ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://www.indeed.com/jobs?q=Go+High+Level+Expert+Skyray+Ventures (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "skyray ventures|go high level expert - remote (also posted as 'ghl expert (remote)')|indeed"
   },
   {
@@ -1079,7 +1079,83 @@
     "status": "WARM",
     "date_found": "2026-10-15",
     "last_checked": "2026-10-15",
-    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-07, no deadline. Role: AI chatbots in HighLevel and CloseBot.ai, integrations and automations in HighLevel/ClickFunnels/Zapier, tagging and segmentation, tracking setup with Hyros and ClickMagick, KPI dashboards and reports. Matches the user's GHL, Zapier, tagging and reporting skills; Hyros/ClickMagick/CloseBot/ClickFunnels are not in the profile. EST hours = night shift from Pakistan. Same company also has a separate Funnel Specialist listing (posted 2026-09-24; needs 3+ years funnel/CRO work and copywriting - not saved as it is outside the profile).",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-07, no deadline. Role: AI chatbots in HighLevel and CloseBot.ai, integrations and automations in HighLevel/ClickFunnels/Zapier, tagging and segmentation, tracking setup with Hyros and ClickMagick, KPI dashboards and reports. Matches the user's GHL, Zapier, tagging and reporting skills; Hyros/ClickMagick/CloseBot/ClickFunnels are not in the profile. EST hours = night shift from Pakistan. Same company also has a separate Funnel Specialist listing (posted 2026-09-24; needs 3+ years funnel/CRO work and copywriting - not saved as it is outside the profile). ALTERNATE LINK (added 2026-10-15 because to.indeed.com short links did not open for the user): https://ph.indeed.com/jobs?q=Automation+Specialist+Circle+of+Greatness (Indeed search/company page - search the job title there; not individually verified).",
     "duplicate_key": "circle of greatness|automation specialist (automation & tracking specialist)|indeed"
+  },
+  {
+    "lead_id": "GHL-0058",
+    "company": "Unknown (Rozee.pk employer)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - remote GHL expert (Pakistan)",
+    "job_title": "GoHighLevel Expert (remote, PKR 100,000/month)",
+    "source": "Rozee.pk",
+    "source_url": "https://www.rozee.pk/EN/gohighlevel-expert-jobs-1883726",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (Pakistan-based board)",
+    "job_type": "Full-time; fixed PKR 100,000/month per snippet",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: web-search snippet only (rozee.pk not fetchable from this environment). Snippet: full-time remote GoHighLevel expert, fixed PKR 100,000 per month, at least 1 year of GHL experience. Posting date and deadline unknown; listing ID 1883726 is newer than the Sep-24-era Rozee GHL listings (1878526, 1880327), suggesting a recent post. Open the page to confirm deadline and employer.",
+    "duplicate_key": "unknown (rozee.pk employer)|gohighlevel expert (remote, pkr 100,000/month)|rozee.pk"
+  },
+  {
+    "lead_id": "GHL-0059",
+    "company": "Unknown digital marketing agency (Rozee.pk)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct agency employer - GHL expert, main technical contact for clients",
+    "job_title": "Go High Level CRM Manager / GoHighLevel Expert",
+    "source": "Rozee.pk",
+    "source_url": "https://www.rozee.pk/go-high-level-crm-manager-jobs-1896189",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Unknown (Pakistan board)",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: web-search snippet only. Digital marketing agency seeks a highly skilled GHL expert to build and run CRM systems, funnels, automations and client accounts and act as the main technical contact for clients. Listing ID 1896189 is the highest Rozee GHL ID seen, so likely the most recent posting. Pay, location and deadline not visible - open the page.",
+    "duplicate_key": "unknown digital marketing agency (rozee.pk)|go high level crm manager / gohighlevel expert|rozee.pk"
+  },
+  {
+    "lead_id": "GHL-0060",
+    "company": "Advisor Marketing Mastery",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - GHL client setup & automation (Islamabad, remote per snippet)",
+    "job_title": "GoHighLevel Client Setup & Automation Specialist",
+    "source": "Mustakbil",
+    "source_url": "https://www.mustakbil.com/jobs/job/1431825",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Islamabad, Pakistan; remote per search snippet",
+    "job_type": "Full-time; PKR 160,000-180,000/month; shift 7PM-2AM PKT Mon-Fri",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: web-search snippet only (mustakbil.com not fetchable). Snippet: strong GHL operator for full client account setups, automations, integrations, onboarding, A2P registration and phone number approval; 'not a beginner role'. Posting date unknown. Highest pay seen for a Pakistan-eligible GHL role.",
+    "duplicate_key": "advisor marketing mastery|gohighlevel client setup & automation specialist|mustakbil"
+  },
+  {
+    "lead_id": "GHL-0061",
+    "company": "Sparc Digital Solutions",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct agency employer - GHL / AI automation",
+    "job_title": "Go High Level - AI Automation Specialist",
+    "source": "Indeed Pakistan (company page)",
+    "source_url": "https://pk.indeed.com/cmp/Sparc-Digital-Solutions/about",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Rawalpindi, Pakistan",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: found only as a job title on the company's Indeed Pakistan page via web search; no description, salary or date seen (the same company also lists a 'WordPress Developer (GHL Expertise)' role in Rawalpindi). Open the company page on pk.indeed.com and look at its current job list.",
+    "duplicate_key": "sparc digital solutions|go high level - ai automation specialist|indeed pakistan (company page)"
   }
 ]
