@@ -455,5 +455,32 @@
     "duplicates_skipped": 0,
     "updated_leads": 0,
     "notes": "KEY FINDING: Indeed PK with location='Pakistan' returns many GHL roles (location 'remote' returned nothing). Use country_code=PK + location=Pakistan (and city names) in future runs. User is based in Pakistan: from now on prefer roles open to Pakistan, flag country restrictions. Added GHL-0042 Bitzsol (HOT), GHL-0043 Windcrest/Lumeo (WARM), GHL-0044 MKTH, GHL-0045 Biztekapps, GHL-0046 Classboxes (POTENTIAL). Rejected after reading: Dr Masood 'GHL Expert' (actually a social-media/design/Figma/CapCut role, GHL only incidental), Wellness Club/Build7C Tech Setup (Meta pixel/Systeme.io/Razorpay, needs Hindi), Fission Tech Outreach & Sales Automation (LinkedIn outreach/lead gen, GHL only 'familiarity'). Not opened (title mismatch): Impleko/Teknologics Lead Generation Specialist, Yuni Rides marketing/AI, Breeze Travel AI chatbot developer, Pak Forex Digital Marketing & Operations Manager, Owen Media India performance marketing, Amaira Surgical, Biorev. Retroactive note: GHL-0040 Stone House requires US residency and is therefore not eligible for a Pakistan-based user. Gap: Indeed PK city-specific searches (Islamabad, Lahore, Karachi, remote-from-Pakistan wording), Rozee.pk and LinkedIn Pakistan are not yet covered."
+  },
+  {
+    "research_id": "SEARCH-0015",
+    "date": "2026-10-15",
+    "search_area": "User asked for more GHL specialist/expert roles, Indeed first but other sources allowed. Pakistan city-level Indeed searches (Islamabad, Lahore, Karachi, Pakistan CRM/Zapier) then Pakistani job boards and global remote via web search.",
+    "keywords": [
+      "GHL (Indeed PK Islamabad)",
+      "GoHighLevel (Indeed PK Lahore)",
+      "GoHighLevel (Indeed PK Karachi)",
+      "CRM automation Zapier (Indeed PK)",
+      "GoHighLevel specialist job Pakistan remote hiring",
+      "rozee.pk GoHighLevel GHL specialist",
+      "mustakbil GoHighLevel Client Setup & Automation Specialist Islamabad",
+      "GoHighLevel expert needed worldwide remote contract"
+    ],
+    "sources": [
+      "Indeed PK (MCP)",
+      "Rozee.pk (web search only)",
+      "iwork4sindh.com (web search only)",
+      "Mustakbil (web search only)",
+      "Remotive/Jobgether/Employment Hero (web search only)"
+    ],
+    "results_found": 60,
+    "new_leads": 2,
+    "duplicates_skipped": 4,
+    "updated_leads": 0,
+    "notes": "Indeed PK city searches returned no new fitting GHL role: Bitzsol (GHL-0042), Biztekapps (GHL-0045) and MKTH (GHL-0044) re-surfaced under new job IDs and were skipped as duplicates (Biztekapps appeared 3 times). Read in full and rejected: Toptech.team RevOps/AI Revenue Automation Engineer (n8n+HubSpot+Python, 3-6 yrs); Dashboardbay Lead Generation & CRM Operations Specialist (paid ads/lead gen centered, 3+ yrs). Other Indeed PK results were sales/SDR/marketing/AI-developer roles. Non-Indeed (snippet only, fetch blocked by DNS failure for rozee.pk and iwork4sindh.com): added GHL-0047 and GHL-0048. Seen but NOT saved because details unverifiable: Rozee NSOL BPO GHL Expert, Rawalpindi (deadline 2026-09-29 already passed - likely expired); Rozee 'GHL Specialist' Rawalpindi listings 1878526/1880327 (one possibly Naseeb Enterprise, posted ~2026-09-24; which ID is which not confirmed); Mustakbil GoHighLevel Client Setup & Automation Specialist (PKR 160-180k, night shift 7PM-2AM, undated), Mustakbil GHL Funnel Specialist Lahore (part-time PKR 15-40k, 2+ yrs), Vogn Digital GHL Expert Karachi (on-site, Rs50-100k); Level9virtual (US-only), Scale Army (LATAM/Africa/E. Europe only, already GHL-0027), Fasttrack (Philippines-only), Paired and Bizmoni (already tracked)."
   }
 ]

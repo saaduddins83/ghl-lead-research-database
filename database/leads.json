@@ -872,5 +872,43 @@
     "last_checked": "2026-10-15",
     "notes": "ACTIVE_UNCERTAIN as to fit, listing recent: Indeed job-details read in full, posted 2026-10-06. Half the role is GHL (retention/win-back/rebooking flows over email, SMS, WhatsApp with branching and error handling, AI features + n8n, compliance/consent) but the other half is conversion-rate optimization, A/B testing, retargeting design and weekly KPI reporting, which are outside the user's profile. Candidates must build a live retention flow in GHL during the interview. Low pay.",
     "duplicate_key": "classboxes technologies|cro retention & ghl specialist|indeed"
+  },
+  {
+    "lead_id": "GHL-0047",
+    "company": "Unknown (Rozee.pk employer, Multan)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - GHL CRM automation specialist",
+    "job_title": "GoHighLevel (GHL) CRM & Automation Specialist",
+    "source": "Rozee.pk",
+    "source_url": "https://www.rozee.pk/gohighlevel-ghl-crm-automation-specialist-multan-jobs-1871505",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Multan, Pakistan (on-site/remote not confirmed)",
+    "job_type": "Unknown",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: found via web-search snippet only; rozee.pk cannot be fetched from this environment (DNS failure), so posting date, deadline and employer name are unverified. Snippet: minimum 2 years hands-on GoHighLevel, familiarity with Zapier, Make, webhooks and API integrations - matches the user's skills. Check the page directly for the date and deadline.",
+    "duplicate_key": "unknown (rozee.pk employer, multan)|gohighlevel (ghl) crm & automation specialist|rozee.pk"
+  },
+  {
+    "lead_id": "GHL-0048",
+    "company": "Unknown (iwork4sindh.com employer)",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - remote GHL expert",
+    "job_title": "GoHighLevel Expert",
+    "source": "iwork4sindh.com (Sindh Government job portal)",
+    "source_url": "https://iwork4sindh.com/job/gohighlevel-expert",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Remote (open to Pakistan per snippet)",
+    "job_type": "Remote; about USD 500-600/month per snippet",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_UNCERTAIN: web-search snippet only; iwork4sindh.com cannot be fetched from this environment, so posting date, employer and open status are unverified. Snippet: prior hands-on GHL experience, managing funnels, automations, CRM, pipelines, calendars and campaigns. Related listings on the same portal (not saved): AI Automation Specialist GoHighLevel AI Integrations, Marketing Manager GoHighLevel Expert (remote, PKR 35,000), GoHighLevel Email Marketing Specialist, We're Hiring GHL Expert.",
+    "duplicate_key": "unknown (iwork4sindh.com employer)|gohighlevel expert|iwork4sindh.com (sindh government job portal)"
   }
 ]

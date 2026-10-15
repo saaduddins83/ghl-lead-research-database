@@ -514,5 +514,29 @@
     "last_checked": "2026-10-15",
     "status": "ACTIVE",
     "notes": "Posted GHL-0046 (CRO Retention & GHL Specialist, Indeed, 2026-10-06)."
+  },
+  {
+    "company_id": "COMP-0044",
+    "company_name": "Unknown (Rozee.pk employer, Multan)",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Multan, Pakistan",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0047 (GHL CRM & Automation Specialist, Rozee.pk)."
+  },
+  {
+    "company_id": "COMP-0045",
+    "company_name": "Unknown (iwork4sindh.com employer)",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Pakistan (remote)",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "UNKNOWN",
+    "notes": "Posted GHL-0048 (GoHighLevel Expert, iwork4sindh.com)."
   }
 ]
