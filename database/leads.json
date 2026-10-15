@@ -1043,5 +1043,43 @@
     "last_checked": "2026-10-15",
     "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-08, no deadline. Duties: manage leads/contacts/pipelines, email and SMS campaigns with automated follow-ups, recurring sequences and workflows, monitor leads and appointments, keep CRM data accurate. Requires GHL and CRM automation experience; entry-level with relevant CRM experience accepted. Lower-level VA-style role; pay unknown, so ask before investing time.",
     "duplicate_key": "remediationx|crm specialist (go high level) / crm virtual assistant|indeed"
+  },
+  {
+    "lead_id": "GHL-0056",
+    "company": "Skyray Ventures",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct employer - GHL builder for US contractors/local businesses",
+    "job_title": "Go High Level Expert - Remote (also posted as 'GHL Expert (REMOTE)')",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aamrqvyyldw7",
+    "company_website": "Unknown",
+    "contact_email": "sofia@skyrayventures.com",
+    "location": "Remote ('Home Based' on Indeed South Africa search); no country restriction stated; US business hours",
+    "job_type": "Part-time; pay not listed",
+    "status": "HOT",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read of both postings): posted 2026-10-11, and an earlier duplicate posting of the same role (https://to.indeed.com/aalkcg74cldx) dated 2026-10-07 - treated as one opportunity. Holding company building websites, funnels, CRM flows and automations in GHL for US contractors and home-services businesses: pipelines/workflows/automations, Google review request systems, missed-call text-back, SMS/email follow-up, appointment booking, reusable snapshots, integrations and client support. Needs 2+ years hands-on GHL, a portfolio of live local-business sites/automations, familiarity with A2P 10DLC and Zapier or Make. Very close match to the user's skill profile. US business hours means a night shift from Pakistan. Public application emails given in the listings: sofia@skyrayventures.com (newer posting) and hafsa@skyrayventures.com (older posting). Applicants also answer three screening questions on Indeed. Nothing sent.",
+    "duplicate_key": "skyray ventures|go high level expert - remote (also posted as 'ghl expert (remote)')|indeed"
+  },
+  {
+    "lead_id": "GHL-0057",
+    "company": "Circle of Greatness",
+    "contact_name": "",
+    "contact_role": "",
+    "opportunity_type": "Direct agency employer - automation & tracking specialist",
+    "job_title": "Automation Specialist (Automation & Tracking Specialist)",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aan9ry6c984v",
+    "company_website": "Unknown",
+    "contact_email": "",
+    "location": "Work from home; must be available during EST working hours; country restriction not stated",
+    "job_type": "Full-time; pay not listed",
+    "status": "WARM",
+    "date_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "notes": "ACTIVE_VERIFIED as a recent listing via Indeed job-details (full text read): posted 2026-10-07, no deadline. Role: AI chatbots in HighLevel and CloseBot.ai, integrations and automations in HighLevel/ClickFunnels/Zapier, tagging and segmentation, tracking setup with Hyros and ClickMagick, KPI dashboards and reports. Matches the user's GHL, Zapier, tagging and reporting skills; Hyros/ClickMagick/CloseBot/ClickFunnels are not in the profile. EST hours = night shift from Pakistan. Same company also has a separate Funnel Specialist listing (posted 2026-09-24; needs 3+ years funnel/CRO work and copywriting - not saved as it is outside the profile).",
+    "duplicate_key": "circle of greatness|automation specialist (automation & tracking specialist)|indeed"
   }
 ]

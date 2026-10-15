@@ -610,5 +610,29 @@
     "last_checked": "2026-10-15",
     "status": "ACTIVE",
     "notes": "Posted GHL-0055 (CRM Specialist Go High Level, Indeed, 2026-10-08)."
+  },
+  {
+    "company_id": "COMP-0052",
+    "company_name": "Skyray Ventures",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown",
+    "company_type": "Holding company (marketing/AI)",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0056 (Go High Level Expert, Indeed, 2026-10-07 and 2026-10-11 postings)."
+  },
+  {
+    "company_id": "COMP-0053",
+    "company_name": "Circle of Greatness",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown",
+    "company_type": "Agency / education company",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0057 (Automation Specialist, Indeed, 2026-10-07); also Funnel Specialist listing 2026-09-24 (not saved)."
   }
 ]
