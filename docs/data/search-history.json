@@ -511,5 +511,24 @@
     "duplicates_skipped": 2,
     "updated_leads": 0,
     "notes": "Indeed overseas results (US/UK/UAE/CA/AU) were read in full for the plausible GHL ones and ALL are on-site or hybrid in-country roles, so unusable for a Pakistan-based applicant: T7X (Irvine CA, hybrid, 3+ yrs GHL, $55-67k), Rose City Pain Relief CRM & Marketing Automation Lead (Tustin CA, in person, contract $95-115k), Brickell Gold Group CRM Specialist (Woodland Hills hybrid, Pipedrive/SQL/JS), Glow Up Studios CRM Specialist (Manchester, in person, freelance £28k, SQL/WordPress/n8n). Re-surfaced duplicates skipped: Pest Badger (rejected earlier), AUC Property (GHL-0041), Lepre RevOps (rejected). No other Indeed overseas remote GHL contract/project roles exist at this time. Non-Indeed: added GHL-0049 Make Community agency (Jul 24), GHL-0050 Pavago, GHL-0051 Credit Repair Cloud - all snippet-only/ACTIVE_UNCERTAIN because workana.com, onlinejobs.ph, hubstafftalent.net, community.make.com, apply.workable.com and jobboardly are not reachable (DNS) from this environment. Seen but NOT saved: Workana 'GoHighLevel, GHL and Make.com Automation Integration Expert Needed' (posted 2026-03-16, status 'Evaluating bids' - likely closed, https://www.workana.com/en/job/gohighlevel-ghl-and-make-com-automation-integration-expert-needed); Freelancer.com 'advanced GHL workflow integration' (n8n/Voiceflow/OpenAI, 174 bids, ~16 days old - saturated and beyond profile, https://www.freelancer.de/projects/api/advanced-ghl-workflow-integration); Freelancehunt 'GoHighLevel Specialist - Niche Template Setup' (USD 100, one-day task, https://freelancehunt.com/en/project/gohighlevel-specialist-niche-template-setup/1602111.html); Hubstaff Talent 'Go Highlevel Workflow Manager' fixed price with 15% lead commission, 3-5 yrs, undated (https://hubstafftalent.net/jobs/go-highlevel-workflow-manager); OnlineJobs.ph listings 1657549 GoHighLevel Platform Specialist, 1634073 Go High Level VA Expert, 1468520 Web Developer (GoHighLevel Specialist, contract $500/35 hrs) - details/dates unverified; Human Intelligence contractor (already GHL-0022/0033; prefers Philippines/SEA/E. Europe). Upwork/Fiverr results ignored per user instruction."
+  },
+  {
+    "research_id": "SEARCH-0017",
+    "date": "2026-10-15",
+    "search_area": "User asked to keep looking (outside Pakistan, freelance/project preferred, no Upwork/Fiverr). Indeed by country name for IE, SG, IN, PH, SA; then web search on Himalayas/RemoteRocketship/Wellfound/Reddit-style requests.",
+    "keywords": [
+      "GoHighLevel (Indeed IE / SG / IN / PH / SA)",
+      "himalayas remoterocketship wellfound GoHighLevel remote contractor worldwide",
+      "reddit looking for GoHighLevel / need a GHL expert freelancer"
+    ],
+    "sources": [
+      "Indeed IE, SG, IN, PH, SA (MCP)",
+      "Remotive/Workable/Upwork results via web search (Upwork ignored)"
+    ],
+    "results_found": 40,
+    "new_leads": 4,
+    "duplicates_skipped": 3,
+    "updated_leads": 1,
+    "notes": "KEY FINDING: Indeed with country_code=PH and location='Philippines' returns many remote 'Work from Home' GHL roles; IN also returns some. IE returned 3 non-GHL roles, SG and SA returned nothing. Duplicates skipped: Windcrest (GHL-0043) and Classboxes (GHL-0046) re-surfaced under new IDs; Wellness Club/Build7C rejected earlier. Added GHL-0052 DCX Pest Control PH, GHL-0053 SUPERVA funnel/digital product launch specialist, GHL-0054 Marketing Done Right, GHL-0055 RemediationX - all read in full via job-details. Rejected after reading: AIM NOREMAC 'AI Agent Engineer - GoHighLevel + n8n' (UK company, USD 2,000-3,000/mo, but requires live AI agents, prompt engineering and strong n8n; applications via custom Loom; start 2026-10-19 - beyond profile). Rejected from title (not GHL-centric or too old): Pintox GHL Expert/Success Manager (Aug 14, Indian, unread), IOCOD IT (Kerala, June), Owen Media India (paid ads), First Choice Haircutters Mohali (CRO/retention, on-site India), Offshore 24/7 Senior Paid Media (ads), Global Hola (March), Remote Raven Virtual Ops Coordinator (not opened), VA Desk (April). Web search found no Reddit threads; Himalayas/RemoteRocketship/Wellfound returned nothing. Seen but not saved (snippet only, Remotive): Paired worldwide full-time GHL expert (already GHL-0005), Addmore Services LLC 'GoHighLevel Administrator' worldwide (~3 weeks old, https://remotive.com/remote/jobs/all-others/gohighlevel-administrator-5136524), Doneverse GHL VA (2 months old). Many PH/IN-listed roles pay in PHP/INR and may prefer local applicants - eligibility for Pakistan is not stated in any of them."
   }
 ]

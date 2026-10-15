@@ -295,9 +295,9 @@
     "location": "Unknown (global VA marketplace)",
     "company_type": "Staffing/VA placement platform",
     "first_found": "2026-09-25",
-    "last_checked": "2026-09-25",
+    "last_checked": "2026-10-15",
     "status": "UNKNOWN",
-    "notes": "VA marketplace connecting startups/agencies/enterprises with VAs from 50+ countries; posted GHL-0026 (GoHighLevel Expert, Part-Time) with minimal verifiable detail. Same recurring-source category as EverestX/Sphere Rocket VA/Gentask."
+    "notes": "VA marketplace connecting startups/agencies/enterprises with VAs from 50+ countries; posted GHL-0026 (GoHighLevel Expert, Part-Time) with minimal verifiable detail. Same recurring-source category as EverestX/Sphere Rocket VA/Gentask. 2026-10-15: Indeed (PH) shows another SUPERVA-attributed GHL listing (GHL-0053, GoHighLevel Funnel & Digital Product Launch Specialist, posted 2026-10-12)."
   },
   {
     "company_id": "COMP-0026",
@@ -574,5 +574,41 @@
     "last_checked": "2026-10-15",
     "status": "UNKNOWN",
     "notes": "Posted GHL-0051 (GHL Marketing Ops Specialist, 6-month contract)."
+  },
+  {
+    "company_id": "COMP-0049",
+    "company_name": "DCX Pest Control PH",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Philippines (per name)",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0052 (GHL Specialist, Indeed, 2026-10-09)."
+  },
+  {
+    "company_id": "COMP-0050",
+    "company_name": "Marketing Done Right",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "US",
+    "company_type": "Digital marketing agency (US)",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0054 (Lifecycle Marketing Automation & CRM Specialist, Indeed, 2026-09-29)."
+  },
+  {
+    "company_id": "COMP-0051",
+    "company_name": "RemediationX",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0055 (CRM Specialist Go High Level, Indeed, 2026-10-08)."
   }
 ]
