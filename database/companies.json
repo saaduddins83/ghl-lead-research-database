@@ -454,5 +454,65 @@
     "last_checked": "2026-10-14",
     "status": "ACTIVE",
     "notes": "Posted GHL-0041 (AI & Systems Architect / Developer, Indeed, 3-6 month contract, posted 2026-10-10). GHL, Make, Google Workspace, Slack in their stack."
+  },
+  {
+    "company_id": "COMP-0039",
+    "company_name": "Bitzsol Digital",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Rawalpindi, Pakistan",
+    "company_type": "Direct agency",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0042 (Junior GHL Specialist, Indeed, 2026-10-08)."
+  },
+  {
+    "company_id": "COMP-0040",
+    "company_name": "Windcrest Pediatric Dentistry / Lumeo Marketing",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown (listing: Remote India)",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0043 (GoHighLevel Software Specialist, Indeed, 2026-10-06)."
+  },
+  {
+    "company_id": "COMP-0041",
+    "company_name": "MKTH Solutions",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Karachi, Pakistan",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0044 (GHL & n8n Automation Engineer, Indeed, 2026-09-18)."
+  },
+  {
+    "company_id": "COMP-0042",
+    "company_name": "Biztekapps",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Lahore, Pakistan",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0045 (GHL CRM Expert, Indeed, 2026-09-15)."
+  },
+  {
+    "company_id": "COMP-0043",
+    "company_name": "Classboxes Technologies",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown",
+    "company_type": "Direct client",
+    "first_found": "2026-10-15",
+    "last_checked": "2026-10-15",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0046 (CRO Retention & GHL Specialist, Indeed, 2026-10-06)."
   }
 ]

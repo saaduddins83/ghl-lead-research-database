@@ -434,5 +434,26 @@
     "duplicates_skipped": 0,
     "updated_leads": 0,
     "notes": "Indeed is the only source this run and, unlike other boards, job-details could be read in full, so these are verified against the original listing. Added: GHL-0040 Stone House (WARM; closes 2026-10-19) and GHL-0041 AUC Property Sourcing (POTENTIAL; stretch fit). Reviewed in full and rejected: Revenue Operations Analyst (Lepre Enterprises) - analytics role requiring 4 yrs RevOps, GHL only 'valuable'; Sarah Kraning Art Email + Squarespace Specialist - copywriting-led email/website role, no GHL, poor fit; HubSpot & NetSuite Integration Specialist (JUkaso) - requires 10 yrs HubSpot/NetSuite, outside profile. Rejected from titles (sales/SDR/closer/appointment setter, ads, HubSpot-admin on-site, etc.): the bulk of the ~53 results. 'GoHighLevel freelance project' (US) and GHL/Zapier-style queries in CA returned no results; AU returned one non-matching role. Previously rejected in SEARCH-0012: Pest Badger, Dance Studio CSM. Contract/project-based filtering on Indeed yields mostly sales contracts; true GHL project work is concentrated on Upwork/Freelancer/OnlineJobs.ph, which cannot be opened from this environment."
+  },
+  {
+    "research_id": "SEARCH-0014",
+    "date": "2026-10-15",
+    "search_area": "User asked for direct 'GoHighLevel Specialist / Expert' roles (SEARCH-0013 hits were off-target) and revealed they are in Pakistan. Searched Indeed with Pakistan, India, US and generic-title queries and read full job details for every plausible hit.",
+    "keywords": [
+      "GoHighLevel specialist (Indeed PK remote)",
+      "GoHighLevel expert (Indeed US remote)",
+      "GHL specialist (Indeed US remote)",
+      "GoHighLevel (Indeed PK, location Pakistan)",
+      "GoHighLevel specialist (Indeed IN remote)",
+      "High Level CRM specialist (Indeed US remote)"
+    ],
+    "sources": [
+      "Indeed (MCP search + job-details, PK/IN/US)"
+    ],
+    "results_found": 46,
+    "new_leads": 5,
+    "duplicates_skipped": 0,
+    "updated_leads": 0,
+    "notes": "KEY FINDING: Indeed PK with location='Pakistan' returns many GHL roles (location 'remote' returned nothing). Use country_code=PK + location=Pakistan (and city names) in future runs. User is based in Pakistan: from now on prefer roles open to Pakistan, flag country restrictions. Added GHL-0042 Bitzsol (HOT), GHL-0043 Windcrest/Lumeo (WARM), GHL-0044 MKTH, GHL-0045 Biztekapps, GHL-0046 Classboxes (POTENTIAL). Rejected after reading: Dr Masood 'GHL Expert' (actually a social-media/design/Figma/CapCut role, GHL only incidental), Wellness Club/Build7C Tech Setup (Meta pixel/Systeme.io/Razorpay, needs Hindi), Fission Tech Outreach & Sales Automation (LinkedIn outreach/lead gen, GHL only 'familiarity'). Not opened (title mismatch): Impleko/Teknologics Lead Generation Specialist, Yuni Rides marketing/AI, Breeze Travel AI chatbot developer, Pak Forex Digital Marketing & Operations Manager, Owen Media India performance marketing, Amaira Surgical, Biorev. Retroactive note: GHL-0040 Stone House requires US residency and is therefore not eligible for a Pakistan-based user. Gap: Indeed PK city-specific searches (Islamabad, Lahore, Karachi, remote-from-Pakistan wording), Rozee.pk and LinkedIn Pakistan are not yet covered."
   }
 ]
