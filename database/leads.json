@@ -777,5 +777,43 @@
     "last_checked": "2026-10-18",
     "notes": "UK property investment business (stack includes GoHighLevel, Make, Google Sheets/Workspace, Slack) seeking a contractor to redesign systems, integrate tools via APIs/webhooks, improve GHL pipelines/workflows and reporting, and build a central database. Posted Oct 10, 2026 (Indeed API, full description read 2026-10-18; ACTIVE_UNCERTAIN: original page not independently opened). Partial match only: GHL pipelines/workflows, Make/webhooks/APIs, Google Sheets, documentation fit; essential skills also list Python/JS/TS, strong SQL/database design, Claude/AI agents, hosted app deployment, which exceed the user's stated profile (basic PHP, PHP/MySQL dashboards). Rate to be agreed (listed range GBP 30,900-144,000/yr is an Indeed estimate). Apply by CV plus 2-3 projects showing system design and implementation.",
     "duplicate_key": "auc property sourcing|ai & systems architect / developer (business process optimisation & automation)|indeed"
+  },
+  {
+    "lead_id": "GHL-0042",
+    "company": "RemediationX",
+    "contact_name": "Unknown",
+    "contact_role": "Unknown",
+    "opportunity_type": "Direct employer - part-time GHL CRM virtual assistant",
+    "job_title": "CRM Specialist (Go High Level)",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aakd2mgwpkjq",
+    "company_website": "Unknown",
+    "contact_email": "Unknown",
+    "location": "Remote (work from home; country not stated)",
+    "job_type": "Part-time, flexible schedule, pay not stated",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-18",
+    "last_checked": "2026-10-18",
+    "notes": "Posted Oct 8, 2026 (Indeed API, full description read 2026-10-18; ACTIVE_UNCERTAIN: original page not independently opened). Requires GoHighLevel experience and CRM management/automation: manage leads, contacts and pipelines, build email/SMS campaigns with automated follow-ups, recurring sequences and workflows, monitor leads and appointments. Matches the user's GHL pipelines, workflows, email/SMS skills; entry-level with relevant CRM experience is accepted. Pay not stated, company details unknown, so confirm rate and legitimacy before applying.",
+    "duplicate_key": "remediationx|crm specialist (go high level)|indeed"
+  },
+  {
+    "lead_id": "GHL-0043",
+    "company": "Circle of Greatness",
+    "contact_name": "Unknown",
+    "contact_role": "Unknown",
+    "opportunity_type": "Direct employer - full-time automation and tracking role",
+    "job_title": "Automation Specialist",
+    "source": "Indeed",
+    "source_url": "https://to.indeed.com/aadmcmzgtjlx",
+    "company_website": "Unknown",
+    "contact_email": "Unknown",
+    "location": "Remote (work from home); must be available during EST working hours",
+    "job_type": "Full-time, pay not stated",
+    "status": "POTENTIAL",
+    "date_found": "2026-10-18",
+    "last_checked": "2026-10-18",
+    "notes": "Posted Oct 7, 2026 (Indeed API, full description read 2026-10-18; ACTIVE_UNCERTAIN: original page not independently opened). Owns funnel and internal automations in HighLevel, ClickFunnels and Zapier, AI chatbots (HighLevel, CloseBot.ai), tagging/segmentation, tracking setup (Hyros, ClickMagick) and KPI dashboards. Good match on HighLevel, Zapier, tagging, reporting; Hyros/ClickMagick tracking and ClickFunnels are not in the user's listed profile. Agency experience is a plus. Pay not stated.",
+    "duplicate_key": "circle of greatness|automation specialist|indeed"
   }
 ]

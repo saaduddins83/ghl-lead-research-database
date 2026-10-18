@@ -466,5 +466,29 @@
     "last_checked": "2026-10-18",
     "status": "ACTIVE",
     "notes": "Posted GHL-0041 (AI & Systems Architect / Developer (Business Process Optimisation & Automation)) via Indeed."
+  },
+  {
+    "company_id": "COMP-0040",
+    "company_name": "RemediationX",
+    "website": "Unknown",
+    "industry": "Unknown",
+    "location": "Unknown (remote)",
+    "company_type": "Direct employer",
+    "first_found": "2026-10-18",
+    "last_checked": "2026-10-18",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0042 (CRM Specialist (Go High Level)) via Indeed."
+  },
+  {
+    "company_id": "COMP-0041",
+    "company_name": "Circle of Greatness",
+    "website": "Unknown",
+    "industry": "Funnel/coaching marketing (inferred from role only)",
+    "location": "Unknown (EST hours)",
+    "company_type": "Direct employer",
+    "first_found": "2026-10-18",
+    "last_checked": "2026-10-18",
+    "status": "ACTIVE",
+    "notes": "Posted GHL-0043 (Automation Specialist) via Indeed."
   }
 ]

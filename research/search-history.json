@@ -408,5 +408,27 @@
     "duplicates_skipped": 0,
     "updated_leads": 4,
     "notes": "New: GHL-0038..0041 (all POTENTIAL, ACTIVE_UNCERTAIN since original pages could not be opened). Rejected as irrelevant: Zen Lingo Lab (on-camera demo host), Lepre RevOps Analyst, Noble Gold marketing roles, HubSpot-only roles. Skipped as stale: Pintox (Aug 14), Owen Media India (Sep 21, ads-focused), Virtustant (closed Oct 5). No agency subcontract postings found; search returned only vendors selling white-label GHL services. Reddit search returned no threads. Upwork listings surfaced via search (Full-Time GoHighLevel Tech, GoHighLevel Expert Needed) were undated and unverifiable, so not saved. Updated GHL-0006, 0014, 0020, 0035 last_checked. No leads marked EXPIRED (no closure evidence)."
+  },
+  {
+    "research_id": "SEARCH-0013",
+    "date": "2026-10-18",
+    "search_area": "User-requested follow-up: part-time and full-time GHL expert openings. Read database first (41 leads, 39 companies, SEARCH-0001-0012).",
+    "keywords": [
+      "GoHighLevel expert (Indeed US, parttime)",
+      "GoHighLevel expert (Indeed US, fulltime)",
+      "GHL specialist (Indeed US)",
+      "High Level CRM automation (Indeed PH)",
+      "GoHighLevel (Indeed PK, GB contract)",
+      "GoHighLevel expert needed part-time OR full-time remote"
+    ],
+    "sources": [
+      "Indeed (search + job-details tools, US/PH/PK/GB)",
+      "General web search (extended)"
+    ],
+    "results_found": 10,
+    "new_leads": 2,
+    "duplicates_skipped": 2,
+    "updated_leads": 0,
+    "notes": "New: GHL-0042 (RemediationX, part-time), GHL-0043 (Circle of Greatness, full-time), both POTENTIAL/ACTIVE_UNCERTAIN. Duplicates skipped: Zen Lingo Lab (rejected earlier as on-camera demo role), AUC Property AI & Systems Architect (GHL-0041; Indeed returned another URL). Rejected: Teambuild Consultancy (Monday.com/Houzz, no GHL, Philippines UK hours), Rush Ltd (generic ops role, no GHL), AUC Deal Progression Admin, HubSpot-only, ads and sales roles. Seen but not saved, undated or unverifiable: Fasttrack Business Holdings GoHighLevel Expert/Funnel Builder (Employment Hero, AUD 1,300-1,550/month), EverestX placements (already GHL-0009), Himalayas/Paired/Linkage listings (existing). PK and a few other Indeed queries returned nothing."
   }
 ]
