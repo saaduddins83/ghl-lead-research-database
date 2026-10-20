@@ -455,5 +455,33 @@
     "duplicates_skipped": 0,
     "updated_leads": 0,
     "notes": "No new leads saved. Every candidate was found only through search snippets: direct WebFetch fails (DNS error) for onlinejobs.ph, upwork.com, jobgether.com, builtin.com, careers.jumpfactor.net, employmenthero.com, so active status could not be verified (UNVERIFIABLE). Most candidates were dated Mar-Jul 2026 or undated (e.g. onlinejobs.ph 1676086, 1634503, 1634162, 1605281, 1609779; Remote Raven jobgether 6a4cc732...; Built In GoHighLevel Developer (PH) 3842381; Datafin IT Recruitment via Remotive 5254160; Kinetic Marketing Co, Melbourne; Upwork GoHighLevel Expert for CRM Setup ~022072717702935833011). Several Upwork postings are $5-$10 trial tasks. Listed to the user as unverified pointers only. Jumpfactor second posting (Automation Integrations Specialist GHL/HubSpot/n8n) still unverified."
+  },
+  {
+    "research_id": "SEARCH-0015",
+    "date": "2026-10-20",
+    "search_area": "User reported the listings from SEARCH-0014 were closed; asked for others. Read database first (43 leads, 41 companies). Broadened Indeed keywords beyond \"GoHighLevel\" plus a freshness-focused web sweep.",
+    "keywords": [
+      "marketing automation specialist",
+      "CRM manager workflow automation",
+      "funnel builder CRM automation",
+      "Zapier automation specialist CRM",
+      "virtual assistant GoHighLevel",
+      "CRM automation GoHighLevel HubSpot (CA)",
+      "CRM automation specialist (AU)",
+      "GoHighLevel (IE, DE)",
+      "GoHighLevel specialist posted 1-3 days ago",
+      "GHL automation specialist dailyremote/remoteok/workingnomads/jooble",
+      "problem-based: looking for someone to build GoHighLevel workflows lead follow-up",
+      "HighLevel certified admin / GHL expert agency overflow"
+    ],
+    "sources": [
+      "Indeed (search + job-details tools, US/CA/AU/IE/DE)",
+      "General web search (standard and extended)"
+    ],
+    "results_found": 40,
+    "new_leads": 0,
+    "duplicates_skipped": 3,
+    "updated_leads": 0,
+    "notes": "No new leads saved. Indeed: IE/DE/CA/AU returned nothing or irrelevant. Read in detail and rejected: Frontier Psychiatry Systems Integration & Automation Specialist (Oct 19, remote, $65-75k; needs HIPAA, REST/webhooks, JS/Python, Keragon/Zapier/Make, no GHL), Luxe Consulting Agency Client Success Manager (Sep 19, client-success role, GHL only listed as a tool), BAD Marketing Funnel Builder (GHL/ClickFunnels, posted Jun 16, stale), CONMED and other on-site/ads/sales roles. Duplicates skipped: Pest Badger (GHL-0040), Zen Lingo Lab (rejected earlier), AUC Property (GHL-0041). Web search index returns mostly Mar-Jul 2026 or undated postings and WebFetch cannot reach job sites, so freshness cannot be verified outside Indeed. Upwork/onlinejobs.ph results not saved (unverifiable)."
   }
 ]
