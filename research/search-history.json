@@ -430,5 +430,30 @@
     "duplicates_skipped": 2,
     "updated_leads": 0,
     "notes": "New: GHL-0042 (RemediationX, part-time), GHL-0043 (Circle of Greatness, full-time), both POTENTIAL/ACTIVE_UNCERTAIN. Duplicates skipped: Zen Lingo Lab (rejected earlier as on-camera demo role), AUC Property AI & Systems Architect (GHL-0041; Indeed returned another URL). Rejected: Teambuild Consultancy (Monday.com/Houzz, no GHL, Philippines UK hours), Rush Ltd (generic ops role, no GHL), AUC Deal Progression Admin, HubSpot-only, ads and sales roles. Seen but not saved, undated or unverifiable: Fasttrack Business Holdings GoHighLevel Expert/Funnel Builder (Employment Hero, AUD 1,300-1,550/month), EverestX placements (already GHL-0009), Himalayas/Paired/Linkage listings (existing). PK and a few other Indeed queries returned nothing."
+  },
+  {
+    "research_id": "SEARCH-0014",
+    "date": "2026-10-20",
+    "search_area": "User-requested \"find more leads\" round, prioritising sources with full public URLs (user cannot open Indeed short links). Read database first (43 leads, 41 companies, SEARCH-0001-0013).",
+    "keywords": [
+      "site:linkedin.com/jobs GoHighLevel specialist remote",
+      "himalayas.app jobs GoHighLevel remote",
+      "onlinejobs.ph GoHighLevel specialist full-time part-time",
+      "weworkremotely GoHighLevel OR GHL automation specialist",
+      "upwork.com freelance-jobs GoHighLevel workflow automation CRM setup",
+      "GoHighLevel \"now hiring\" agency careers page",
+      "CRM automation specialist HighLevel (Indeed US parttime)",
+      "GoHighLevel workflow builder (Indeed US contract)"
+    ],
+    "sources": [
+      "General web search (LinkedIn filter returned no LinkedIn jobs)",
+      "onlinejobs.ph, Upwork, Jobgether, Built In, Remotive, Workable, Himalayas (search index only)",
+      "Indeed (search tool; both US queries returned no results)"
+    ],
+    "results_found": 25,
+    "new_leads": 0,
+    "duplicates_skipped": 0,
+    "updated_leads": 0,
+    "notes": "No new leads saved. Every candidate was found only through search snippets: direct WebFetch fails (DNS error) for onlinejobs.ph, upwork.com, jobgether.com, builtin.com, careers.jumpfactor.net, employmenthero.com, so active status could not be verified (UNVERIFIABLE). Most candidates were dated Mar-Jul 2026 or undated (e.g. onlinejobs.ph 1676086, 1634503, 1634162, 1605281, 1609779; Remote Raven jobgether 6a4cc732...; Built In GoHighLevel Developer (PH) 3842381; Datafin IT Recruitment via Remotive 5254160; Kinetic Marketing Co, Melbourne; Upwork GoHighLevel Expert for CRM Setup ~022072717702935833011). Several Upwork postings are $5-$10 trial tasks. Listed to the user as unverified pointers only. Jumpfactor second posting (Automation Integrations Specialist GHL/HubSpot/n8n) still unverified."
   }
 ]
